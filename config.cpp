@@ -666,11 +666,10 @@ class cfgVehicles
   class CUP_O_RUS_Patrol_bag_Green;
   // class OAF_Fixed_Wing_Crew;
   // class OAF_Fixed_Wing_Crew_pack;
-  class OAF_Helicopter_Crew;
-  class OAF_Rifleman;
-  class OAF_Rifleman_pack;
-  class OAF_Rifleman_AT;
-  class OAF_Rifleman_AT_pack;
+  // class OAF_Rifleman;
+  // class OAF_Rifleman_pack;
+  // class OAF_Rifleman_AT;
+  // class OAF_Rifleman_AT_pack;
   class OAF_Section_Leader;
   class OAF_Section_Leader_pack;
   // class OAF_Vehicle_Crew;
@@ -951,6 +950,9 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Binocular","CUP_H_SPH4_grey","V_CarrierRigKBT_01_light_Coyote_F","G_Balaclava_light_blk_F","Aegis_NVG_IVAS_01_blk_F"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Binocular","CUP_H_SPH4_grey","V_CarrierRigKBT_01_light_Coyote_F","G_Balaclava_light_blk_F","Aegis_NVG_IVAS_01_blk_F"};
     backpack="";
+    showNVGCommander = 1;
+    showNVGDriver = 1;
+    showNVGGunner = 1;
   };
 
   class OAF_Core_Autorifleman: B_A_Soldier_AR_F
