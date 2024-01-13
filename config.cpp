@@ -3,7 +3,7 @@ class cfgPatches
   class OAF_Core_Oasean_Armed_Forces
   {
     units[]={"OAF_Core_Crewman","OAF_Core_Autorifleman","OAF_Core_Pilot","OAF_Core_Helicopter_Crew","OAF_Core_Rifleman","OAF_Core_Rifleman_AT","OAF_Core_Section_Leader","OAF_Core_Motorized_Rifleman","OAF_Core_Paramedic","OAF_Core_Combat_Engineer","OAF_Core_Demo_Specialist","OAF_Core_Grenadier","OAF_Core_Shock_Trooper","OAF_Core_AS_Operator","OAF_Core_Machine_Gunner","OAF_Core_Marksman","OAF_Core_Sharpshooter","OAF_Core_Missile_Specialist","OAF_Core_AA_Trooper","OAF_Core_Ammo_Bearer","OAF_Core_CBRN_Specialist","OAF_Core_Military_Scientist","OAF_Core_AA","OAF_Core_MGS","OAF_Core_MRAP","OAF_Core_MRAP_LFSV","OAF_Core_MRAP_LAAV","OAF_Core_MRAP_LATV","OAF_Core_MRAP_LRRV","OAF_Core_LSV","OAF_Core_LSV_MG","OAF_Core_LSV_AT","OAF_Core_HEMTT","OAF_Core_HEMTT_Container","OAF_Core_HEMTT_Flatbed","OAF_Core_HEMTT_Medevac","OAF_Core_HEMTT_Transport","OAF_Core_HEMTT_Transport_Covered","OAF_Core_MRAP_N","OAF_Core_MRAP_N_HMG","OAF_Core_MRAP_N_GMG","OAF_Core_UH_80_Ghost_Hawk","OAF_Core_RAH_66","OAF_Core_F_35","OAF_Core_Typhoon_Repair","OAF_Core_Typhoon_Fuel","OAF_Core_Typhoon_Ammo","OAF_Core_UV_85_Transport_Armed","OAF_Core_UV_85_Armed","OAF_Core_UV_85_Transport_Unarmed","OAF_Core_AMV_Mortar","OAF_Core_NH90_Armed","OAF_Core_NH90","OAF_Core_Merlin","OAF_Core_Seahawk","OAF_Core_UH_80_Ghost_Hawk_Medevac","OAF_Core_LAV_C","OAF_Core_AMV_Medevac","OAF_Core_AMV","OAF_Core_AEV_Nemmera","OAF_Core_AEV_Marid","OAF_Core_Pandur","OAF_Core_Rooikat","OAF_Core_Stomper","OAF_Core_Stomper_Medevac","OAF_Core_MPQ_105_Radar","OAF_Core_MIM_45_SAM","OAF_Core_UCAV_Sentinel","OAF_Core_Mk244","OAF_Core_Mk230","OAF_Core_AP_5","OAF_Core_AL_6","OAF_Core_AL_6_Med","OAF_Core_Raven","OAF_Core_Chinook","OAF_Core_T_2OF4_Dragon_II","OAF_Core_LAV","OAF_Core_Cougar_MRAV","OAF_Core_UV_85_Armed_Heavy","OAF_Core_F_15EX","OAF_Core_F_15SE","OAF_Core_Knighthawk","OAF_Core_Seahawk_FFV","OAF_Core_EC_635","OAF_Core_C_300_Cargo","OAF_Core_Offroad_Comms","OAF_Core_Stomper_HMG","OAF_Core_F_23_Thermobaric","OAF_Core_F_23_Anti_Vehicle","OAF_Core_F_23_Air_Superiority","OAF_Core_PLACEHOLDER","OAF_Core_Titus_Transport","OAF_Core_Titus_Armed","APOLLO_Guard","APOLLO_Field_Tech","APOLLO_Demolitions","APOLLO_Van_Transport","APOLLO_Van_Cargo","APOLLO_Van_Services","OAF_Core_Raven_Heavy","OAF_Core_Raven_Heavy_AT", "OAF_Core_AP_5", "OAF_Core_AP_5_light","OAF_Core_LFSV_Turret", "OAF_Core_LAAV_Turret", "OAF_Core_LATV_Turret", "OAF_Core_LRRV_Turret"};
-    weapons[]={"OAF_Core_CUP_arifle_Mk16_CQC_AFG_woodland_Aegis_acc_pointer_compact_red","OAF_Core_RH_fn57","OAF_Core_CUP_arifle_Mk20_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_OAF_CUP_smg_MP7_CUP_muzzle_snds_MP7CUP_acc_LLM_blackSkeetIR_TWS_pip_CUP_acc_LLM_blackSkeetIR_TWS_pip","OAF_Core_OAF_RH_fn57_RH_sfn57","OAF_Core_CUP_arifle_Mk16_CQC_black_suppressor_l_lxWSCUP_acc_LLM_blackSkeetIR_TWS_pip","OAF_Core_OAF_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS_CUP_acc_LLM_blackCUP_optic_AC11704_Black","OAF_Core_OAF_launch_MRAWS_black_F_CUP_acc_LLM_black_CUP_acc_LLM_black","OAF_Core_OAF_RH_fn57","OAF_Core_CUP_arifle_Mk17_STD_EGLM_woodland_CUP_muzzle_mfsup_SCAR_HCUP_acc_LLM_odSkeetIR_TWS_pip","OAF_Core_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_blackCUP_optic_AC11704_Black","OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_RH_fn57_g_RH_M6X","OAF_Core_CUP_arifle_Mk17_STD_EGLM_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_sgun_aa40_lxWS_muzzle_snds_12Gauge_lxWSAegis_acc_pointer_DMoptic_LRCO_blk_Fbipod_01_F_blk","OAF_Core_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_MMG_01_black_F_ACE_muzzle_mzls_93mmgCUP_acc_LLM_blackSkeetIR_TWS_pipCUP_bipod_VLTOR_Modpod_black","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_CUP_arifle_Mk20_woodland_CUP_acc_LLM_odSkeetIR_TWS_pip","OAF_Core_srifle_DMR_02_F_muzzle_snds_338_blackCUP_acc_LLM_blackSkeetIR_TWS_pipbipod_01_F_blk","OAF_Core_RH_fn57_RH_X2","OAF_Core_launch_Titan_short_blk_F_CUP_acc_LLM_black","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_muzzle_mfsup_SCAR_HCUP_acc_LLM_odSkeetIR_TWS","OAF_Core_CUP_arifle_Mk16_CQC_AFG_black_CUP_acc_LLM01_LAegis_optic_ROS_SMG","OAF_Core_RH_fn57_RH_M6X","launch_MRAWS_black_F","OAF_Core_srifle_DMR_02_F_Optic", "APOLLO_ACR_M","APOLLO_CUP_arifle_G36C_VFG_Carry_CUP_optic_G36Optics15x_3D","APOLLO_CUP_arifle_XM8_Compact"};
+    weapons[]={"OAF_Core_arifle_U9A3","OAF_Core_hgun_P5A1","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_smg_P7A7","OAF_Core_hgun_P5A1S","OAF_Core_arifle_U9A3S","OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_hgun_P5A1_1","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_CUP_arifle_SABR_1","OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","OAF_Core_CUP_arifle_SABR_GL","OAF_Core_sgun_S11","OAF_Core_arifle_SABR_Standard","OAF_Core_MMG_01_black_F","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_arifle_SABR_LR","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","OAF_Core_launch_Titan_short_blk_F","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_CUP_arifle_SABR_C_1","OAF_Core_CUP_arifle_U9A3_ROS","OAF_Core_hgun_P5A1_RH_M6X","launch_MRAWS_black_F","OAF_Core_srifle_SR33_Optic", "APOLLO_arifle_ACR_M","APOLLO_CUP_arifle_G36C","APOLLO_CUP_arifle_XM8_Compact"};
     requiredVersion=0.1;
     requiredAddons[]={"ace_medical_treatment","ace_hearing","ace_captives","A3_Weapons_F_Enoch","A3_Weapons_F","A3_Weapons_F_Enoch_Items","A3_Aegis_Weapons_F_Aegis","CUP_Weapons_SCAR","A3_Aegis_Characters_F_Aegis_Vests","CUP_Creatures_Military_USArmy","ace_attach","CUP_Creatures_Military_Germany","USP_Gear_IHPS","A3_Characters_F","ace_huntir","A3_Drones_F_Weapons_F_Gamma_Items","ace_flashlights","A3_Aegis_Characters_F_Aegis","ace_logistics_uavbattery","ace_logistics_wirecutter","A3_Weapons_F_Items","ace_kestrel4500","ace_trenches","ace_explosives","ace_chemlights","Weapons_1_F_lxWS_Shotguns_AA40","dzn_MG_Tripod_Core","CuratorOnly_Characters_F_BLUFOR","A3_Weapons_F_Mark_LongRangeRifles_DMR_02","A3_Atlas_Characters_F_Atlas_Uniforms"};
   };
@@ -90,7 +90,7 @@ class cfgWeapons
   
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-  class APOLLO_ACR_M: CUP_arifle_ACR_DMR_blk_556
+  class APOLLO_arifle_ACR_M: CUP_arifle_ACR_DMR_blk_556
   {
     displayName="ACR-M 5.56 mm";
     scope=1;
@@ -104,7 +104,7 @@ class cfgWeapons
     };
   };
 
-  class APOLLO_CUP_arifle_G36C_VFG_Carry_CUP_optic_G36Optics15x_3D: CUP_arifle_G36C_VFG_Carry
+  class APOLLO_CUP_arifle_G36C: CUP_arifle_G36C_VFG_Carry
   {
     displayName="G36C 5.56 mm";
     scope=1;
@@ -127,7 +127,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_Mk16_CQC_AFG_woodland_Aegis_acc_pointer_compact_red: CUP_arifle_Mk16_CQC_AFG_woodland
+  class OAF_Core_arifle_U9A3: CUP_arifle_Mk16_CQC_AFG_woodland
   {
     displayName="U9A3 PDC 5.56 mm";
     scope=1;
@@ -141,7 +141,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_RH_fn57: RH_fn57
+  class OAF_Core_hgun_P5A1: RH_fn57
   {
     displayName="P5A1 5.7 mm";
     scope=1;
@@ -150,7 +150,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_Mk20_woodland_CUP_acc_LLM_odAegis_optic_ROS: CUP_arifle_Mk20_woodland
+  class OAF_Core_CUP_arifle_SABR_IAW: CUP_arifle_Mk20_woodland
   {
     displayName="SABR-IAW 7.62 mm";
     scope=1;
@@ -169,7 +169,7 @@ class cfgWeapons
 		};
   };
 
-  class OAF_Core_OAF_CUP_smg_MP7_CUP_muzzle_snds_MP7CUP_acc_LLM_blackSkeetIR_TWS_pip_CUP_acc_LLM_blackSkeetIR_TWS_pip: CUP_smg_MP7
+  class OAF_Core_smg_P7A7: CUP_smg_MP7
   {
     displayName="P7A7-SK 4.6mm";
     scope=1;
@@ -188,7 +188,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_OAF_RH_fn57_RH_sfn57: RH_fn57
+  class OAF_Core_hgun_P5A1S: RH_fn57
   {
     displayName="P5A1-S 5.7mm";
     scope=1;
@@ -202,7 +202,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_Mk16_CQC_black_suppressor_l_lxWSCUP_acc_LLM_blackSkeetIR_TWS_pip: CUP_arifle_Mk16_CQC_black
+  class OAF_Core_arifle_U9A3S: CUP_arifle_Mk16_CQC_black
   {
     displayName="U9A3-S PDC 5.56 mm";
     scope=1;
@@ -228,7 +228,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_OAF_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS_CUP_acc_LLM_blackCUP_optic_AC11704_Black: CUP_arifle_Mk17_STD_woodland
+  class OAF_Core_arifle_SABR: CUP_arifle_Mk17_STD_woodland
   {
     displayName="SABR 7.62mm";
     scope=1;
@@ -247,7 +247,7 @@ class cfgWeapons
 		};
 	};
 
-  class OAF_Core_OAF_launch_MRAWS_black_F_CUP_acc_LLM_black_CUP_acc_LLM_black: launch_MRAWS_black_F
+  class OAF_Core_launch_MRAWS: launch_MRAWS_black_F
   {
     displayName="MRAWS Mk5 84 mm";
     scope=1;
@@ -261,7 +261,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_OAF_RH_fn57: RH_fn57
+  class OAF_Core_hgun_P5A1_1: RH_fn57
   {
     displayName="P5A1 5.7 mm";
     scope=1;
@@ -270,7 +270,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_Mk17_STD_EGLM_woodland_CUP_muzzle_mfsup_SCAR_HCUP_acc_LLM_odSkeetIR_TWS_pip: CUP_arifle_Mk17_STD_EGLM_woodland
+  class OAF_Core_CUP_arifle_SABR_GL_SL: CUP_arifle_Mk17_STD_EGLM_woodland
   {
     displayName="SABR-GL 7.62 mm";
     scope=1;
@@ -295,7 +295,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_blackCUP_optic_AC11704_Black: CUP_arifle_Mk17_STD_woodland
+  class OAF_Core_CUP_arifle_SABR_1: CUP_arifle_Mk17_STD_woodland
   {
     displayName="SABR 7.62mm";
     scope=1;
@@ -314,7 +314,7 @@ class cfgWeapons
 		};
   };
 
-  class OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS: CUP_arifle_Mk17_CQC_AFG_woodland
+  class OAF_Core_CUP_arifle_SABR_C: CUP_arifle_Mk17_CQC_AFG_woodland
   {
     displayName="SABR-C 7.62 mm";
     scope=1;
@@ -334,7 +334,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_RH_fn57_g_RH_M6X: RH_fn57_g
+  class OAF_Core_hgun_P5A1_g_RH_M6X: RH_fn57_g
   {
     displayName="P5A1 5.7 mm";
     scope=1;
@@ -348,7 +348,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_Mk17_STD_EGLM_woodland_CUP_acc_LLM_odAegis_optic_ROS: CUP_arifle_Mk17_STD_EGLM_woodland
+  class OAF_Core_CUP_arifle_SABR_GL: CUP_arifle_Mk17_STD_EGLM_woodland
   {
     displayName="SABR-GL 7.62 mm";
     scope=1;
@@ -368,7 +368,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_sgun_aa40_lxWS_muzzle_snds_12Gauge_lxWSAegis_acc_pointer_DMoptic_LRCO_blk_Fbipod_01_F_blk: sgun_aa40_lxWS
+  class OAF_Core_sgun_S11: sgun_aa40_lxWS
   {
     displayName="S11AB-S Breach 12g";
     scope=1;
@@ -393,7 +393,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS: CUP_arifle_Mk17_STD_woodland
+  class OAF_Core_arifle_SABR_Standard: CUP_arifle_Mk17_STD_woodland
   {
     displayName="SABR 7.62mm";
     descriptionShort="Standard Advanced Battle Rifle of the Oasean Armed Forces. 2039 Pattern."
@@ -414,7 +414,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_MMG_01_black_F_ACE_muzzle_mzls_93mmgCUP_acc_LLM_blackSkeetIR_TWS_pipCUP_bipod_VLTOR_Modpod_black: MMG_01_black_F
+  class OAF_Core_MMG_01_black_F: MMG_01_black_F
   {
     displayName="IMG-93 Gharial 9.3 mm";
     scope=1;
@@ -452,7 +452,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_Mk20_woodland_CUP_acc_LLM_odSkeetIR_TWS_pip: CUP_arifle_Mk20_woodland
+  class OAF_Core_arifle_SABR_LR: CUP_arifle_Mk20_woodland
   {
     displayName="SABR-LR 7.62 mm";
     scope=1;
@@ -472,7 +472,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_srifle_DMR_02_F_muzzle_snds_338_blackCUP_acc_LLM_blackSkeetIR_TWS_pipbipod_01_F_blk: srifle_DMR_02_F
+  class OAF_Core_srifle_SR33: srifle_DMR_02_F
   {
     displayName="SR-33 .338";
     scope=1;
@@ -501,7 +501,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_srifle_DMR_02_F_Optic: srifle_DMR_02_F
+  class OAF_Core_srifle_SR33_Optic: srifle_DMR_02_F
   {
     displayName="SR-33 .338";
     scope=1;
@@ -530,7 +530,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_RH_fn57_RH_X2: RH_fn57
+  class OAF_Core_hgun_P5A1_RH_X2: RH_fn57
   {
     displayName="P5A1 5.7 mm";
     scope=1;
@@ -544,7 +544,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_launch_Titan_short_blk_F_CUP_acc_LLM_black: launch_Titan_short_blk_F
+  class OAF_Core_launch_Titan_short_blk_F: launch_Titan_short_blk_F
   {
     displayName="Titan MPRL Compact (Black)";
     scope=1;
@@ -572,7 +572,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_muzzle_mfsup_SCAR_HCUP_acc_LLM_odSkeetIR_TWS: CUP_arifle_Mk17_CQC_AFG_woodland
+  class OAF_Core_CUP_arifle_SABR_C_1: CUP_arifle_Mk17_CQC_AFG_woodland
   {
     displayName="SABR-C 7.62 mm";
     scope=1;
@@ -597,7 +597,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_Mk16_CQC_AFG_black_CUP_acc_LLM01_LAegis_optic_ROS_SMG: CUP_arifle_Mk16_CQC_AFG_black
+  class OAF_Core_CUP_arifle_U9A3_ROS: CUP_arifle_Mk16_CQC_AFG_black
   {
     displayName="U9A3 PDC 5.56 mm";
     scope=1;
@@ -617,7 +617,7 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_RH_fn57_RH_M6X: RH_fn57
+  class OAF_Core_hgun_P5A1_RH_M6X: RH_fn57
   {
     displayName="P5A1 5.7 mm";
     scope=1;
@@ -942,8 +942,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Crewman";
     uniformClass="USP_G3C_MCT";
-    weapons[]={"Binocular","OAF_Core_CUP_arifle_Mk16_CQC_AFG_woodland_Aegis_acc_pointer_compact_red","OAF_Core_RH_fn57","Put","Throw"};
-    respawnWeapons[]={"Binocular","OAF_Core_CUP_arifle_Mk16_CQC_AFG_woodland_Aegis_acc_pointer_compact_red","OAF_Core_RH_fn57","Put","Throw"};
+    weapons[]={"Binocular","OAF_Core_arifle_U9A3","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"Binocular","OAF_Core_arifle_U9A3","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_personalAidKit","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_EarPlugs","ACE_CableTie","O_NVGoggles_grn_F","ACE_personalAidKit","ACE_epinephrine","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_fieldDressing","ACE_morphine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet"};
     respawnItems[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_personalAidKit","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_EarPlugs","ACE_CableTie","O_NVGoggles_grn_F","ACE_personalAidKit","ACE_epinephrine","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_fieldDressing","ACE_morphine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet"};
     magazines[]={"RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive"};
@@ -959,8 +959,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Autorifleman";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"Rangefinder","OAF_Core_CUP_arifle_Mk20_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_RH_fn57","Put","Throw"};
-    respawnWeapons[]={"Rangefinder","OAF_Core_CUP_arifle_Mk20_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_RH_fn57","Put","Throw"};
+    weapons[]={"Rangefinder","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"Rangefinder","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR"};
@@ -976,8 +976,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Pilot";
     uniformClass="U_B_PilotCoveralls";
-    weapons[]={"OAF_Core_OAF_CUP_smg_MP7_CUP_muzzle_snds_MP7CUP_acc_LLM_blackSkeetIR_TWS_pip_CUP_acc_LLM_blackSkeetIR_TWS_pip","OAF_Core_OAF_RH_fn57_RH_sfn57","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_OAF_CUP_smg_MP7_CUP_muzzle_snds_MP7CUP_acc_LLM_blackSkeetIR_TWS_pip_CUP_acc_LLM_blackSkeetIR_TWS_pip","OAF_Core_OAF_RH_fn57_RH_sfn57","Put","Throw"};
+    weapons[]={"OAF_Core_smg_P7A7","OAF_Core_hgun_P5A1S","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_smg_P7A7","OAF_Core_hgun_P5A1S","Put","Throw"};
     items[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250"};
     respawnItems[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250"};
     magazines[]={"RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","ACE_Chemlight_HiBlue","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_HiGreen","ACE_Chemlight_HiRed","ACE_Chemlight_HiRed","ACE_HandFlare_Red","HandGrenade","HandGrenade","MiniGrenade","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN"};
@@ -993,8 +993,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Helicopter Crew";
     uniformClass="USP_PCU_G3C_OR_MCT";
-    weapons[]={"OAF_Core_CUP_arifle_Mk16_CQC_black_suppressor_l_lxWSCUP_acc_LLM_blackSkeetIR_TWS_pip","OAF_Core_RH_fn57","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_CUP_arifle_Mk16_CQC_black_suppressor_l_lxWSCUP_acc_LLM_blackSkeetIR_TWS_pip","OAF_Core_RH_fn57","Put","Throw"};
+    weapons[]={"OAF_Core_arifle_U9A3S","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_arifle_U9A3S","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250"};
     respawnItems[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250"};
     magazines[]={"RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","ACE_Chemlight_HiBlue","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_HiGreen","ACE_Chemlight_HiRed","ACE_Chemlight_HiRed","ACE_HandFlare_Red","HandGrenade","HandGrenade","MiniGrenade","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag"};
@@ -1010,8 +1010,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Rifleman";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_OAF_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS_CUP_acc_LLM_blackCUP_optic_AC11704_Black","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_OAF_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS_CUP_acc_LLM_blackCUP_optic_AC11704_Black","Put","Throw"};
+    weapons[]={"OAF_Core_arifle_SABR","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_arifle_SABR","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_EarPlugs"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR"};
@@ -1027,8 +1027,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Rifleman (AT)";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_OAF_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS_CUP_acc_LLM_blackCUP_optic_AC11704_Black","OAF_Core_OAF_launch_MRAWS_black_F_CUP_acc_LLM_black_CUP_acc_LLM_black","OAF_Core_OAF_RH_fn57","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_OAF_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS_CUP_acc_LLM_blackCUP_optic_AC11704_Black","OAF_Core_OAF_launch_MRAWS_black_F_CUP_acc_LLM_black_CUP_acc_LLM_black","OAF_Core_OAF_RH_fn57","Put","Throw"};
+    weapons[]={"OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_hgun_P5A1_1","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_hgun_P5A1_1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_EarPlugs"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","MRAWS_HEAT_F","MRAWS_HEAT_F","MRAWS_HEAT_F","MRAWS_HEAT_F","MRAWS_HE_F"};
@@ -1044,8 +1044,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Section Leader";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_Mk17_STD_EGLM_woodland_CUP_muzzle_mfsup_SCAR_HCUP_acc_LLM_odSkeetIR_TWS_pip","OAF_Core_OAF_RH_fn57","Put","Throw"};
-    respawnWeapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_Mk17_STD_EGLM_woodland_CUP_muzzle_mfsup_SCAR_HCUP_acc_LLM_odSkeetIR_TWS_pip","OAF_Core_OAF_RH_fn57","Put","Throw"};
+    weapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_hgun_P5A1_1","Put","Throw"};
+    respawnWeapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_hgun_P5A1_1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_HuntIR_monitor","ACE_HuntIR_monitor"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_HuntIR_monitor","ACE_HuntIR_monitor"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_1Rnd_HEDP_M203","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","ACE_HuntIR_M203","ACE_HuntIR_M203","ACE_HuntIR_M203","ACE_HuntIR_M203"};
@@ -1061,8 +1061,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Motorized Rifleman";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_blackCUP_optic_AC11704_Black","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS","Put","Throw"};
+    weapons[]={"OAF_Core_CUP_arifle_SABR_1","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_CUP_arifle_SABR_C","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR"};
@@ -1078,8 +1078,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Paramedic";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_RH_fn57","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_RH_fn57","Put","Throw"};
+    weapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_salineIV_250","ACE_salineIV_250","ACE_salineIV_500","ACE_salineIV","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_surgicalKit","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_personalAidKit","ACE_plasmaIV_250","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_Flashlight_XL50","ACE_IR_Strobe_Item","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_EarPlugs","ACE_bodyBag_white","ACE_bodyBag_white","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_salineIV_250","ACE_salineIV_250","ACE_salineIV_500","ACE_salineIV","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_surgicalKit","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_personalAidKit","ACE_plasmaIV_250","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_Flashlight_XL50","ACE_IR_Strobe_Item","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_EarPlugs","ACE_bodyBag_white","ACE_bodyBag_white","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","ACE_M84","SmokeShell","SmokeShell","SmokeShell"};
@@ -1095,8 +1095,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Combat Engineer";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_RH_fn57_g_RH_M6X","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_RH_fn57_g_RH_M6X","Put","Throw"};
+    weapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_UAVBattery","ACE_wirecutter","ToolKit","MineDetector","ACE_Kestrel4500","ACE_IR_Strobe_Item","ACE_HuntIR_monitor","ACE_Flashlight_MX991","ACE_EntrenchingTool","ACE_EarPlugs","ACE_DefusalKit","ACE_Chemlight_Shield","ACE_Chemlight_Shield","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_UAVBattery","ACE_wirecutter","ToolKit","MineDetector","ACE_Kestrel4500","ACE_IR_Strobe_Item","ACE_HuntIR_monitor","ACE_Flashlight_MX991","ACE_EntrenchingTool","ACE_EarPlugs","ACE_DefusalKit","ACE_Chemlight_Shield","ACE_Chemlight_Shield","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","DemoCharge_Remote_Mag","SLAMDirectionalMine_Wire_Mag"};
@@ -1112,8 +1112,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Demo Specialist";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_RH_fn57_g_RH_M6X","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_RH_fn57_g_RH_M6X","Put","Throw"};
+    weapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_DefusalKit","ACE_EarPlugs","MineDetector"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_DefusalKit","ACE_EarPlugs","MineDetector"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","SatchelCharge_Remote_Mag","DemoCharge_Remote_Mag","DemoCharge_Remote_Mag","DemoCharge_Remote_Mag","APERSBoundingMine_Range_Mag","APERSBoundingMine_Range_Mag","SLAMDirectionalMine_Wire_Mag","APERSTripMine_Wire_Mag","ClaymoreDirectionalMine_Remote_Mag"};
@@ -1129,8 +1129,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Grenadier";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_CUP_arifle_Mk17_STD_EGLM_woodland_CUP_acc_LLM_odAegis_optic_ROS","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_CUP_arifle_Mk17_STD_EGLM_woodland_CUP_acc_LLM_odAegis_optic_ROS","Put","Throw"};
+    weapons[]={"OAF_Core_CUP_arifle_SABR_GL","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_CUP_arifle_SABR_GL","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","HandGrenade","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","ACE_HuntIR_M203","ACE_HuntIR_M203","ACE_40mm_Flare_ir","ACE_40mm_Flare_white","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","HandGrenade","HandGrenade"};
@@ -1146,8 +1146,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Shock Trooper";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_sgun_aa40_lxWS_muzzle_snds_12Gauge_lxWSAegis_acc_pointer_DMoptic_LRCO_blk_Fbipod_01_F_blk","OAF_Core_RH_fn57","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_sgun_aa40_lxWS_muzzle_snds_12Gauge_lxWSAegis_acc_pointer_DMoptic_LRCO_blk_Fbipod_01_F_blk","OAF_Core_RH_fn57","Put","Throw"};
+    weapons[]={"OAF_Core_sgun_S11","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_sgun_S11","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item"};
     magazines[]={"CUP_HandGrenade_M67","ACE_Chemlight_HiBlue","20Rnd_12Gauge_AA40_HE_lxWS","20Rnd_12Gauge_AA40_HE_lxWS","20Rnd_12Gauge_AA40_HE_lxWS","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","8Rnd_12Gauge_AA40_Smoke_lxWS","20Rnd_12Gauge_AA40_HE_lxWS","20Rnd_12Gauge_AA40_HE_lxWS","8Rnd_12Gauge_AA40_Slug_lxWS"};
@@ -1163,8 +1163,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Operator (Autonomous Systems)";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_RH_fn57","Put","Throw"};
-    respawnWeapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_RH_fn57","Put","Throw"};
+    weapons[]={"Laserdesignator_04","OAF_Core_arifle_SABR_Standard","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"Laserdesignator_04","OAF_Core_arifle_SABR_Standard","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_HuntIR_monitor","ACE_UAVBattery","ACE_UAVBattery"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_HuntIR_monitor","ACE_UAVBattery","ACE_UAVBattery"};
     magazines[]={"CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","Laserbatteries"};
@@ -1180,8 +1180,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Machine Gunner";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"Rangefinder","OAF_Core_MMG_01_black_F_ACE_muzzle_mzls_93mmgCUP_acc_LLM_blackSkeetIR_TWS_pipCUP_bipod_VLTOR_Modpod_black","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_RH_fn57","Put","Throw"};
-    respawnWeapons[]={"Rangefinder","OAF_Core_MMG_01_black_F_ACE_muzzle_mzls_93mmgCUP_acc_LLM_blackSkeetIR_TWS_pipCUP_bipod_VLTOR_Modpod_black","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_RH_fn57","Put","Throw"};
+    weapons[]={"Rangefinder","OAF_Core_MMG_01_black_F","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"Rangefinder","OAF_Core_MMG_01_black_F","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red"};
@@ -1197,8 +1197,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Marksman";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_Mk20_woodland_CUP_acc_LLM_odSkeetIR_TWS_pip","OAF_Core_RH_fn57","Put","Throw"};
-    respawnWeapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_Mk20_woodland_CUP_acc_LLM_odSkeetIR_TWS_pip","OAF_Core_RH_fn57","Put","Throw"};
+    weapons[]={"Laserdesignator_04","OAF_Core_arifle_SABR_LR","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"Laserdesignator_04","OAF_Core_arifle_SABR_LR","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_TE1_White_Tracer_762x51_SCAR_bkl","CUP_30Rnd_762x51_1_B_SCAR"};
@@ -1214,8 +1214,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Sharpshooter";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"Laserdesignator_04","OAF_Core_srifle_DMR_02_F_muzzle_snds_338_blackCUP_acc_LLM_blackSkeetIR_TWS_pipbipod_01_F_blk","OAF_Core_RH_fn57_RH_X2","Put","Throw"};
-    respawnWeapons[]={"Laserdesignator_04","OAF_Core_srifle_DMR_02_F_muzzle_snds_338_blackCUP_acc_LLM_blackSkeetIR_TWS_pipbipod_01_F_blk","OAF_Core_RH_fn57_RH_X2","Put","Throw"};
+    weapons[]={"Laserdesignator_04","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","Put","Throw"};
+    respawnWeapons[]={"Laserdesignator_04","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag"};
@@ -1231,8 +1231,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Sharpshooter (Optic)";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"Laserdesignator_04","OAF_Core_srifle_DMR_02_F_muzzle_snds_338_blackCUP_acc_LLM_blackSkeetIR_TWS_pipbipod_01_F_blk","OAF_Core_RH_fn57_RH_X2","Put","Throw"};
-    respawnWeapons[]={"Laserdesignator_04","OAF_Core_srifle_DMR_02_F_muzzle_snds_338_blackCUP_acc_LLM_blackSkeetIR_TWS_pipbipod_01_F_blk","OAF_Core_RH_fn57_RH_X2","Put","Throw"};
+    weapons[]={"Laserdesignator_04","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","Put","Throw"};
+    respawnWeapons[]={"Laserdesignator_04","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag"};
@@ -1248,8 +1248,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Missile Specialist";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_launch_Titan_short_blk_F_CUP_acc_LLM_black","OAF_Core_RH_fn57","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_launch_Titan_short_blk_F_CUP_acc_LLM_black","OAF_Core_RH_fn57","Put","Throw"};
+    weapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_launch_Titan_short_blk_F","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_launch_Titan_short_blk_F","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","Titan_AT","Titan_AT","Titan_AT"};
@@ -1265,8 +1265,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="AA Trooper";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_RH_fn57","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_acc_LLM_odAegis_optic_ROS","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_RH_fn57","Put","Throw"};
+    weapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","Titan_AA","Titan_AA","Titan_AA"};
@@ -1282,8 +1282,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Ammo Bearer";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS","Put","Throw"};
+    weapons[]={"OAF_Core_arifle_SABR_Standard","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_arifle_SABR_Standard","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","MiniGrenade","ACE_Chemlight_HiBlue","150Rnd_93x64_Mag_Red","MRAWS_HEAT55_F","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_20Rnd_762x51_B_SCAR_bkl","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell"};
@@ -1299,8 +1299,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="CBRN Specialist";
     uniformClass="Atlas_U_I_I_CBRN_Suit_01_Olive_F";
-    weapons[]={"Camera_lxWS","OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_muzzle_mfsup_SCAR_HCUP_acc_LLM_odSkeetIR_TWS","OAF_Core_RH_fn57_g_RH_M6X","Put","Throw"};
-    respawnWeapons[]={"Camera_lxWS","OAF_Core_CUP_arifle_Mk17_CQC_AFG_woodland_CUP_muzzle_mfsup_SCAR_HCUP_acc_LLM_odSkeetIR_TWS","OAF_Core_RH_fn57_g_RH_M6X","Put","Throw"};
+    weapons[]={"Camera_lxWS","OAF_Core_CUP_arifle_SABR_C_1","OAF_Core_hgun_P5A1_g_RH_M6X","Put","Throw"};
+    respawnWeapons[]={"Camera_lxWS","OAF_Core_CUP_arifle_SABR_C_1","OAF_Core_hgun_P5A1_g_RH_M6X","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","Chemlight_blue","ACE_Chemlight_IR","B_IR_Grenade"};
@@ -1316,8 +1316,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Military Scientist";
     uniformClass="Atlas_U_I_I_CBRN_Suit_01_Olive_F";
-    weapons[]={"Camera_lxWS","OAF_Core_CUP_arifle_Mk16_CQC_AFG_black_CUP_acc_LLM01_LAegis_optic_ROS_SMG","OAF_Core_RH_fn57_RH_M6X","Put","Throw"};
-    respawnWeapons[]={"Camera_lxWS","OAF_Core_CUP_arifle_Mk16_CQC_AFG_black_CUP_acc_LLM01_LAegis_optic_ROS_SMG","OAF_Core_RH_fn57_RH_M6X","Put","Throw"};
+    weapons[]={"Camera_lxWS","OAF_Core_CUP_arifle_U9A3_ROS","OAF_Core_hgun_P5A1_RH_M6X","Put","Throw"};
+    respawnWeapons[]={"Camera_lxWS","OAF_Core_CUP_arifle_U9A3_ROS","OAF_Core_hgun_P5A1_RH_M6X","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_30Rnd_556x45_Stanag_Mk16_black","CUP_30Rnd_556x45_Stanag_Mk16_black","CUP_30Rnd_556x45_Stanag_Mk16_black","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","Chemlight_blue","ACE_Chemlight_IR","B_IR_Grenade"};
@@ -2351,8 +2351,8 @@ class APOLLO_Guard: B_ION_soldier_AR_lxWS
     displayName="APOLLO Security Guard";
     editorSubcategory = "ApolloMan";
     uniformClass="USP_G3F_MCA";
-    weapons[]={"APOLLO_ACR_M","Put","Throw"};
-    respawnWeapons[]={"APOLLO_ACR_M","Put","Throw"};
+    weapons[]={"APOLLO_arifle_ACR_M","Put","Throw"};
+    respawnWeapons[]={"APOLLO_arifle_ACR_M","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_microDAGR","ACE_epinephrine","ACE_EarPlugs","ACE_DefusalKit","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_salineIV_250"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_microDAGR","ACE_epinephrine","ACE_EarPlugs","ACE_DefusalKit","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_salineIV_250"};
     magazines[]={"ACE_M84","ACE_M84","SmokeShell","CUP_30Rnd_556x45_Stanag_L85_Tracer_Red","CUP_30Rnd_556x45_Stanag_L85","CUP_30Rnd_556x45_Stanag_L85","CUP_30Rnd_556x45_Stanag_L85","CUP_30Rnd_556x45_Stanag_L85","CUP_30Rnd_556x45_Stanag_L85","CUP_30Rnd_556x45_Stanag_L85"};
@@ -2369,8 +2369,8 @@ class APOLLO_Guard: B_ION_soldier_AR_lxWS
     displayName="APOLLO Field Tech";
     editorSubcategory = "ApolloMan";
     uniformClass="USP_G3F_MCA";
-    weapons[]={"APOLLO_CUP_arifle_G36C_VFG_Carry_CUP_optic_G36Optics15x_3D","Put","Throw"};
-    respawnWeapons[]={"APOLLO_CUP_arifle_G36C_VFG_Carry_CUP_optic_G36Optics15x_3D","Put","Throw"};
+    weapons[]={"APOLLO_CUP_arifle_G36C","Put","Throw"};
+    respawnWeapons[]={"APOLLO_CUP_arifle_G36C","Put","Throw"};
     items[]={"ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_tourniquet","ACE_EarPlugs","ACE_splint","ACE_WaterBottle"};
     respawnItems[]={"ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_tourniquet","ACE_EarPlugs","ACE_splint","ACE_WaterBottle"};
     magazines[]={"ACE_HandFlare_White","B_IR_Grenade","CUP_30Rnd_TE1_Red_Tracer_556x45_G36","CUP_30Rnd_TE1_Red_Tracer_556x45_G36","CUP_30Rnd_TE1_Red_Tracer_556x45_G36","ACE_Chemlight_White","ACE_Chemlight_White","Chemlight_blue","Chemlight_blue"};
