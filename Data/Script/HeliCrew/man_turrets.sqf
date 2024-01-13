@@ -12,6 +12,7 @@ _heli deleteVehicleCrew _gunner1;
 _heli deleteVehicleCrew _gunner2;
 "OAF_Core_Helicopter_Crew" createUnit [_relpos, group _pilot, "myUnit = this"]; 
 myUnit moveInGunner _heli;
+myUnit2 moveInTurret [_heli, [1]];
 "OAF_Core_Helicopter_Crew" createUnit [_relpos, group _pilot, "myUnit2 = this"]; 
 myUnit moveInGunner _heli;
 myUnit2 moveInTurret [_heli, [2]];
