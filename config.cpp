@@ -2,7 +2,7 @@ class cfgPatches
 {
   class OAF_Core_Oasean_Armed_Forces
   {
-    units[]={"OAF_Core_Crewman","OAF_Core_Autorifleman","OAF_Core_Pilot","OAF_Core_Helicopter_Crew","OAF_Core_Rifleman","OAF_Core_Rifleman_AT","OAF_Core_Section_Leader","OAF_Core_Motorized_Rifleman","OAF_Core_Paramedic","OAF_Core_Combat_Engineer","OAF_Core_Demo_Specialist","OAF_Core_Grenadier","OAF_Core_Shock_Trooper","OAF_Core_AS_Operator","OAF_Core_Machine_Gunner","OAF_Core_Marksman","OAF_Core_Sharpshooter","OAF_Core_Missile_Specialist","OAF_Core_AA_Trooper","OAF_Core_Ammo_Bearer","OAF_Core_CBRN_Specialist","OAF_Core_Military_Scientist","OAF_Core_AA","OAF_Core_MGS","OAF_Core_MRAP","OAF_Core_MRAP_LFSV","OAF_Core_MRAP_LAAV","OAF_Core_MRAP_LATV","OAF_Core_MRAP_LRRV","OAF_Core_LSV","OAF_Core_LSV_MG","OAF_Core_LSV_AT","OAF_Core_HEMTT","OAF_Core_HEMTT_Container","OAF_Core_HEMTT_Flatbed","OAF_Core_HEMTT_Medevac","OAF_Core_HEMTT_Transport","OAF_Core_HEMTT_Transport_Covered","OAF_Core_MRAP_N","OAF_Core_MRAP_N_HMG","OAF_Core_MRAP_N_GMG","OAF_Core_UH_80_Ghost_Hawk","OAF_Core_RAH_66","OAF_Core_F_35","OAF_Core_Typhoon_Repair","OAF_Core_Typhoon_Fuel","OAF_Core_Typhoon_Ammo","OAF_Core_UV_85_Transport_Armed","OAF_Core_UV_85_Armed","OAF_Core_UV_85_Transport_Unarmed","OAF_Core_AMV_Mortar","OAF_Core_NH90_Armed","OAF_Core_NH90","OAF_Core_Merlin","OAF_Core_Seahawk","OAF_Core_UH_80_Ghost_Hawk_Medevac","OAF_Core_LAV_C","OAF_Core_AMV_Medevac","OAF_Core_AMV","OAF_Core_AEV_Nemmera","OAF_Core_AEV_Marid","OAF_Core_Pandur","OAF_Core_Rooikat","OAF_Core_Stomper","OAF_Core_Stomper_Medevac","OAF_Core_MPQ_105_Radar","OAF_Core_MIM_45_SAM","OAF_Core_UCAV_Sentinel","OAF_Core_Mk244","OAF_Core_Mk230","OAF_Core_AP_5","OAF_Core_AL_6","OAF_Core_AL_6_Med","OAF_Core_Raven","OAF_Core_Chinook","OAF_Core_T_2OF4_Dragon_II","OAF_Core_LAV","OAF_Core_Cougar_MRAV","OAF_Core_UV_85_Armed_Heavy","OAF_Core_F_15EX","OAF_Core_F_15SE","OAF_Core_Knighthawk","OAF_Core_Seahawk_FFV","OAF_Core_EC_635","OAF_Core_C_300_Cargo","OAF_Core_Offroad_Comms","OAF_Core_Stomper_HMG","OAF_Core_F_23_Thermobaric","OAF_Core_F_23_Anti_Vehicle","OAF_Core_F_23_Air_Superiority","OAF_Core_PLACEHOLDER","OAF_Core_Titus_Transport","OAF_Core_Titus_Armed","APOLLO_Guard","APOLLO_Field_Tech","APOLLO_Demolitions","APOLLO_Van_Transport","APOLLO_Van_Cargo","APOLLO_Van_Services","OAF_Core_Raven_Heavy","OAF_Core_Raven_Heavy_AT", "OAF_Core_AP_5", "OAF_Core_AP_5_light","OAF_Core_LFSV_Turret", "OAF_Core_LAAV_Turret", "OAF_Core_LATV_Turret", "OAF_Core_LRRV_Turret"};
+    units[]={"OAF_Core_Crewman","OAF_Core_Autorifleman","OAF_Core_Pilot","OAF_Core_Helicopter_Pilot","OAF_Core_Helicopter_Crew","OAF_Core_Rifleman","OAF_Core_Rifleman_AT","OAF_Core_Section_Leader","OAF_Core_Motorized_Rifleman","OAF_Core_Paramedic","OAF_Core_Combat_Engineer","OAF_Core_Demo_Specialist","OAF_Core_Grenadier","OAF_Core_Shock_Trooper","OAF_Core_AS_Operator","OAF_Core_Machine_Gunner","OAF_Core_Marksman","OAF_Core_Sharpshooter","OAF_Core_Missile_Specialist","OAF_Core_AA_Trooper","OAF_Core_Ammo_Bearer","OAF_Core_CBRN_Specialist","OAF_Core_Military_Scientist","OAF_Core_AA","OAF_Core_MGS","OAF_Core_MRAP","OAF_Core_MRAP_LFSV","OAF_Core_MRAP_LAAV","OAF_Core_MRAP_LATV","OAF_Core_MRAP_LRRV","OAF_Core_LSV","OAF_Core_LSV_MG","OAF_Core_LSV_AT","OAF_Core_HEMTT","OAF_Core_HEMTT_Container","OAF_Core_HEMTT_Flatbed","OAF_Core_HEMTT_Medevac","OAF_Core_HEMTT_Transport","OAF_Core_HEMTT_Transport_Covered","OAF_Core_MRAP_N","OAF_Core_MRAP_N_HMG","OAF_Core_MRAP_N_GMG","OAF_Core_UH_80_Ghost_Hawk","OAF_Core_RAH_66","OAF_Core_F_35","OAF_Core_Typhoon_Repair","OAF_Core_Typhoon_Fuel","OAF_Core_Typhoon_Ammo","OAF_Core_UV_85_Transport_Armed","OAF_Core_UV_85_Armed","OAF_Core_UV_85_Transport_Unarmed","OAF_Core_AMV_Mortar","OAF_Core_NH90_Armed","OAF_Core_NH90","OAF_Core_Merlin","OAF_Core_Seahawk","OAF_Core_UH_80_Ghost_Hawk_Medevac","OAF_Core_LAV_C","OAF_Core_AMV_Medevac","OAF_Core_AMV","OAF_Core_AEV_Nemmera","OAF_Core_AEV_Marid","OAF_Core_Pandur","OAF_Core_Rooikat","OAF_Core_Stomper","OAF_Core_Stomper_Medevac","OAF_Core_MPQ_105_Radar","OAF_Core_MIM_45_SAM","OAF_Core_UCAV_Sentinel","OAF_Core_Mk244","OAF_Core_Mk230","OAF_Core_AP_5","OAF_Core_AL_6","OAF_Core_AL_6_Med","OAF_Core_Raven","OAF_Core_Chinook","OAF_Core_T_2OF4_Dragon_II","OAF_Core_LAV","OAF_Core_Cougar_MRAV","OAF_Core_UV_85_Armed_Heavy","OAF_Core_F_15EX","OAF_Core_F_15SE","OAF_Core_Knighthawk","OAF_Core_Seahawk_FFV","OAF_Core_EC_635","OAF_Core_C_300_Cargo","OAF_Core_Offroad_Comms","OAF_Core_Stomper_HMG","OAF_Core_F_23_Thermobaric","OAF_Core_F_23_Anti_Vehicle","OAF_Core_F_23_Air_Superiority","OAF_Core_PLACEHOLDER","OAF_Core_Titus_Transport","OAF_Core_Titus_Armed","APOLLO_Guard","APOLLO_Field_Tech","APOLLO_Demolitions","APOLLO_Van_Transport","APOLLO_Van_Cargo","APOLLO_Van_Services","OAF_Core_Raven_Heavy","OAF_Core_Raven_Heavy_AT", "OAF_Core_AP_5", "OAF_Core_AP_5_light","OAF_Core_LFSV_Turret", "OAF_Core_LAAV_Turret", "OAF_Core_LATV_Turret", "OAF_Core_LRRV_Turret"};
     weapons[]={"OAF_Core_arifle_U9A3","OAF_Core_hgun_P5A1","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_smg_P7A7","OAF_Core_hgun_P5A1S","OAF_Core_arifle_U9A3S","OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_hgun_P5A1_1","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_CUP_arifle_SABR_1","OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","OAF_Core_CUP_arifle_SABR_GL","OAF_Core_sgun_S11","OAF_Core_arifle_SABR_Standard","OAF_Core_MMG_01_black_F","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_arifle_SABR_LR","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","OAF_Core_launch_Titan_short_blk_F","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_CUP_arifle_SABR_C_1","OAF_Core_CUP_arifle_U9A3_ROS","OAF_Core_hgun_P5A1_RH_M6X","launch_MRAWS_black_F","OAF_Core_srifle_SR33_Optic", "APOLLO_arifle_ACR_M","APOLLO_CUP_arifle_G36C","APOLLO_CUP_arifle_XM8_Compact"};
     requiredVersion=0.1;
     requiredAddons[]={"ace_medical_treatment","ace_hearing","ace_captives","A3_Weapons_F_Enoch","A3_Weapons_F","A3_Weapons_F_Enoch_Items","A3_Aegis_Weapons_F_Aegis","CUP_Weapons_SCAR","A3_Aegis_Characters_F_Aegis_Vests","CUP_Creatures_Military_USArmy","ace_attach","CUP_Creatures_Military_Germany","USP_Gear_IHPS","A3_Characters_F","ace_huntir","A3_Drones_F_Weapons_F_Gamma_Items","ace_flashlights","A3_Aegis_Characters_F_Aegis","ace_logistics_uavbattery","ace_logistics_wirecutter","A3_Weapons_F_Items","ace_kestrel4500","ace_trenches","ace_explosives","ace_chemlights","Weapons_1_F_lxWS_Shotguns_AA40","dzn_MG_Tripod_Core","CuratorOnly_Characters_F_BLUFOR","A3_Weapons_F_Mark_LongRangeRifles_DMR_02","A3_Atlas_Characters_F_Atlas_Uniforms"};
@@ -1004,6 +1004,23 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     backpack="";
   };
 
+  class OAF_Core_Helicopter_Pilot: B_A_Helicrew_F
+  {
+    faction="OAF_Core_Oasean_Armed_Forces";
+    side=1;
+    displayName="Helicopter Pilot";
+    uniformClass="USP_PCU_G3C_OR_MCT";
+    weapons[]={"OAF_Core_arifle_U9A3S","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_arifle_U9A3S","OAF_Core_hgun_P5A1","Put","Throw"};
+    items[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250"};
+    respawnItems[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250"};
+    magazines[]={"RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","ACE_Chemlight_HiBlue","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_HiGreen","ACE_Chemlight_HiRed","ACE_Chemlight_HiRed","ACE_HandFlare_Red","HandGrenade","HandGrenade","MiniGrenade","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag"};
+    respawnMagazines[]={"RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","ACE_Chemlight_HiBlue","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_HiGreen","ACE_Chemlight_HiRed","ACE_Chemlight_HiRed","ACE_HandFlare_Red","HandGrenade","HandGrenade","MiniGrenade","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","H_CrewHelmetHeli_B","V_HarnessOSpec_blk","USP_SUUNTO_BLK2","Aegis_NVG_IVAS_01_blk_F"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","H_CrewHelmetHeli_B","V_HarnessOSpec_blk","USP_SUUNTO_BLK2","Aegis_NVG_IVAS_01_blk_F"};
+    backpack="";
+  };
+
   class OAF_Core_Rifleman: B_A_Soldier_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
@@ -1061,7 +1078,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Motorized Rifleman";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_CUP_arifle_SABR_1","Put","Throw"};
+    weapons[]={"OAF_Core_CUP_arifle_SABR_C","Put","Throw"};
     respawnWeapons[]={"OAF_Core_CUP_arifle_SABR_C","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
@@ -1666,7 +1683,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="UH-85 Spectre";
     hiddenSelectionsTextures[]={"a3_aegis\air_f_aegis\heli_transport_01\data\heli_transport_01_ext01_grey_co.paa","a3_aegis\air_f_aegis\heli_transport_01\data\heli_transport_01_ext02_grey_co.paa"};
-    crew="OAF_Core_Helicopter_Crew";
+    crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     class TextureSources{
       class Default {
@@ -1688,7 +1705,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="O/ADH-66 Adder";
     hiddenSelectionsTextures[]={"a3_aegis\air_f_aegis\heli_attack_01\data\heli_attack_01_grey_co.paa"};
-    crew="OAF_Core_Helicopter_Crew";
+    crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
   };
 
@@ -1739,8 +1756,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="C/V-97 Heron";
     hiddenSelectionsTextures[]={"fvl_2k35\valor\data\valor_0_co_black.paa","",""};
-    crew="OAF_Core_Pilot";
-    typicalCargo[]={"OAF_Core_Pilot"};
+    crew="OAF_Core_Helicopter_Pilot";
+    typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     class EventHandlers
 	{
 		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\HeliCrew\man_turrets.sqf';";
@@ -1753,8 +1770,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="S/V-97 Condor";
     hiddenSelectionsTextures[]={"fvl_2k35\valor\data\valor_0_co.paa","",""};
-    crew="OAF_Core_Pilot";
-    typicalCargo[]={"OAF_Core_Pilot"};
+    crew="OAF_Core_Helicopter_Pilot";
+    typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     class EventHandlers
 	{
 		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\HeliCrew\man_turrets.sqf';";
@@ -1767,8 +1784,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="C/V-97 Heron (Unarmed)";
     hiddenSelectionsTextures[]={"fvl_2k35\valor\data\valor_0_co_black.paa","",""};
-    crew="OAF_Core_Pilot";
-    typicalCargo[]={"OAF_Core_Pilot"};
+    crew="OAF_Core_Helicopter_Pilot";
+    typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     class EventHandlers
 	{
 		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\HeliCrew\man_turrets.sqf';";
@@ -1791,7 +1808,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="UH-90 Nightjar";
     hiddenSelectionsTextures[]={"hafm_nh90\data\outerhaul_co.paa","hafm_nh90\data\uppertail_co.paa","hafm_nh90\data\misc_co.paa","hafm_nh90\data\doors_co.paa"};
-    crew="OAF_Core_Helicopter_Crew";
+    crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     class EventHandlers
 	{
@@ -1805,7 +1822,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="UH-90 Nightjar (Unarmed)";
     hiddenSelectionsTextures[]={"hafm_nh90\data\outerhaul_co.paa","hafm_nh90\data\uppertail_co.paa","hafm_nh90\data\misc_co.paa","hafm_nh90\data\doors_co.paa"};
-    crew="OAF_Core_Helicopter_Crew";
+    crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     
   };
@@ -1816,7 +1833,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="TH-5 Cormorant";
     hiddenSelectionsTextures[]={"a3_aegis\air_f_aegis\heli_transport_02\data\skins\heli_transport_02_ext_01_grey_co.paa","a3_aegis\air_f_aegis\heli_transport_02\data\skins\heli_transport_02_ext_02_grey_co.paa","a3_aegis\air_f_aegis\heli_transport_02\data\skins\heli_transport_02_ext_02_grey_co.paa","a3_aegis\air_f_aegis\heli_transport_02\data\skins\heli_transport_02_int_02_genmil_co.paa"};
-    crew="OAF_Core_Helicopter_Crew";
+    crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     
   };
@@ -1828,7 +1845,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     displayName="TH-63 Pegasus";
     editorSubcategory = "ReserveHeli";
     hiddenSelectionsTextures[]={"cup\airvehicles\cup_airvehicles_uh60\data\uh60m_fuselage_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\uh60m_engine_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa"};
-    crew="OAF_Core_Helicopter_Crew";
+    crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     class EventHandlers
 	{
@@ -1842,7 +1859,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="UH-85 Spectre Medevac";
     hiddenSelectionsTextures[]={"a3_aegis\air_f_aegis\heli_transport_01\data\heli_transport_01_ext01_medevac_co.paa","a3\air_f_beta\heli_transport_01\data\heli_transport_01_ext02_co.paa"};
-    crew="OAF_Core_Helicopter_Crew";
+    crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     class EventHandlers
 	{
@@ -2101,7 +2118,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="TH-57 Moa";
     hiddenSelectionsTextures[]={"a3_aegis\air_f_aegis\heli_transport_03\data\heli_transport_03_ext01_grey_co.paa","a3_aegis\air_f_aegis\heli_transport_03\data\heli_transport_03_ext02_grey_co.paa"};
-    crew="OAF_Core_Helicopter_Crew";
+    crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew","OAF_Core_Helicopter_Crew","OAF_Core_Helicopter_Crew","OAF_Core_Helicopter_Crew"};
     class TextureSources{
       class Default {
@@ -2161,8 +2178,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="A/V-97 Gyrfalcon";
     hiddenSelectionsTextures[]={"fvl_2k35\valor\data\valor_0_co.paa","",""};
-    crew="OAF_Core_Pilot";
-    typicalCargo[]={"OAF_Core_Pilot"};
+    crew="OAF_Core_Helicopter_Pilot";
+    typicalCargo[]={"OAF_Core_Helicopter_Crew"};
   };
 
   class OAF_Core_F_15EX: FIR_F15EX_Blank
@@ -2210,7 +2227,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     displayName="SH-63 Shadowhawk";
     editorSubcategory = "ReserveHeli";
     hiddenSelectionsTextures[]={"cup\airvehicles\cup_airvehicles_uh60\data\uh60m_fuselage_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\uh60m_engine_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa"};
-    crew="OAF_Core_Helicopter_Crew";
+    crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
   };
 
@@ -2221,7 +2238,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     displayName="TH-63 Pegasus (FFV)";
     editorSubcategory = "ReserveHeli";
     hiddenSelectionsTextures[]={"cup\airvehicles\cup_airvehicles_uh60\data\uh60m_fuselage_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\uh60m_engine_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa"};
-    crew="OAF_Core_Helicopter_Crew";
+    crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
   };
 
@@ -2232,7 +2249,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     displayName="SH-10 Shrike";
     editorSubcategory = "ReserveHeli";
     hiddenSelectionsTextures[]={"hafm_ec635\data\outerhaul_co.paa","hafm_ec635\data\upperparts_co.paa","hafm_ec635\data\tail_co.paa","hafm_ec635\data\bawl_co.paa","hafm_ec635\data\sidedoors_co.paa","hafm_ec635\data\cargodoors_co.paa","",""};
-    crew="OAF_Core_Helicopter_Crew";
+    crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
   };
 
