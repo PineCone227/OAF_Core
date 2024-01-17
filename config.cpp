@@ -58,34 +58,10 @@ class CfgFunctions
 {
 	class OAF_Core
 	{
-		class Category
+		class VehicleInits
 		{
-			class LFSV_Init {
-        if (!isServer) exitWith {};
-params ["_MRAP"];
-_relpos = _MRAP getRelPos [5, 90];  
-_turret = "I_LT_01_Cannon_F" createVehicle _relpos; 
-_turret attachTo [_MRAP, [0.302246,-2.22168,0.580989]]; 
-_turret addMagazineTurret ["60Rnd_20mm_HE_shells", [0]];
-_turret addMagazineTurret ["60Rnd_20mm_AP_shells", [0]];
-_turret addMagazineTurret ["200Rnd_762x51_Belt_Yellow", [0]];
-_turret addMagazineTurret ["200Rnd_762x51_Belt_Yellow", [0]];
-_turret setObjectTextureGlobal [0, ""];
-_turret setObjectTextureGlobal [1,"a3\armor_f_tank\lt_01\data\lt_01_cannon_olive_co.paa"];
-_turret setObjectTextureGlobal [2, ""];
-_turret setObjectTextureGlobal [3, ""];
-_turret lockDriver true;
-_turret allowCrewInImmobile true;
-group _MRAP addvehicle _turret;
-_MRAP addMagazineTurret ["SmokeLauncherMag", [-1]];
-_MRAP addWeaponTurret ["SmokeLauncher", [-1]];
-_driver = assignedDriver _MRAP;
-_myUnit = group _driver createUnit ["OAF_Core_Motorized_Rifleman", _relpos]; 
-_myUnit moveInGunner _turret;
-_myUnit assignAsTurret [_turret, [0]];
-_myUnit assignAsGunner _turret;
-
-      };
+      file = "OAF2\Addons\OAF_Core\VehicleInits";
+			class LFSVInit {};
 		};
 	};
 };
@@ -1153,8 +1129,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     weapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","Put","Throw"};
     respawnWeapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_UAVBattery","ACE_wirecutter","ToolKit","MineDetector","ACE_Kestrel4500","ACE_IR_Strobe_Item","ACE_HuntIR_monitor","ACE_Flashlight_MX991","ACE_EntrenchingTool","ACE_EarPlugs","ACE_DefusalKit","ACE_Chemlight_Shield","ACE_Chemlight_Shield","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
-    respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_UAVBattery","ACE_wirecutter","ToolKit","MineDetector","ACE_Kestrel4500","ACE_IR_Strobe_Item","ACE_HuntIR_monitor","ACE_Flashlight_MX991","ACE_EntrenchingTool","ACE_EarPlugs","ACE_DefusalKit","ACE_Chemlight_Shield","ACE_Chemlight_Shield","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
-    magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","DemoCharge_Remote_Mag","SLAMDirectionalMine_Wire_Mag"};
+    respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
+    magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","DemoCharge_Remote_Mag","SLAMDirectionalMine_Wire_Mag"};
     linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","Aegis_NVG_IVAS_01_grn_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_grn_F"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","Aegis_NVG_IVAS_01_grn_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_grn_F"};
@@ -1449,7 +1425,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     textureList[] = { "Default", 1 };
     class EventHandlers
 	{
-		init = "this call OAF_fnc_LFSV_Init";
+		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\Capral\LFSV.sqf';";
 	};
   };
 
