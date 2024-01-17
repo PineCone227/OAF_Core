@@ -23,4 +23,4 @@ myUnit moveInGunner _turret;
 myUnit assignAsTurret [_turret, [0]];
 myUnit assignAsGunner _turret;
 };
-if (isServer) call OAF_fnc_LFSV_Init;
+if (isServer) then call OAF_fnc_LFSV_Init;

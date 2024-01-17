@@ -26,4 +26,4 @@ _pylon setPylonLoadout ["pylon1", "CUP_PylonPod_1200Rnd_TE1_Red_Tracer_GAU19A_M"
 _APA setVehicleRadar 1;
 group _APA setCombatMode "RED";
 };
-if (isServer) call OAF_fnc_StormRavenInit;
+if (isServer) then call OAF_fnc_StormRavenInit;

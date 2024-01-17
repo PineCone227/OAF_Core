@@ -17,4 +17,4 @@ myUnit moveInTurret [_heli, [1]];
 myUnit2 moveInGunner _heli;
 myUnit2 moveInTurret [_heli, [2]];
 };
-if (isServer) call OAF_fnc_ManTurrets;
+if (isServer) then call OAF_fnc_ManTurrets;

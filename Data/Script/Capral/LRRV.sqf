@@ -22,4 +22,4 @@ _driver = assignedDriver _MRAP;
 myUnit moveInCommander _turret;
 myUnit assignAsCommander _turret;
 };
-if (isServer) call OAF_fnc_LFSV_Init;
+if (isServer) then call OAF_fnc_LFSV_Init;

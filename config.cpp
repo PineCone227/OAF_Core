@@ -54,6 +54,42 @@ class CfgEditorSubcategories
 	};
 };
 
+class CfgFunctions
+{
+	class OAF_Core
+	{
+		class Category
+		{
+			class LFSV_Init {
+        if (!isServer) exitWith {};
+params ["_MRAP"];
+_relpos = _MRAP getRelPos [5, 90];  
+_turret = "I_LT_01_Cannon_F" createVehicle _relpos; 
+_turret attachTo [_MRAP, [0.302246,-2.22168,0.580989]]; 
+_turret addMagazineTurret ["60Rnd_20mm_HE_shells", [0]];
+_turret addMagazineTurret ["60Rnd_20mm_AP_shells", [0]];
+_turret addMagazineTurret ["200Rnd_762x51_Belt_Yellow", [0]];
+_turret addMagazineTurret ["200Rnd_762x51_Belt_Yellow", [0]];
+_turret setObjectTextureGlobal [0, ""];
+_turret setObjectTextureGlobal [1,"a3\armor_f_tank\lt_01\data\lt_01_cannon_olive_co.paa"];
+_turret setObjectTextureGlobal [2, ""];
+_turret setObjectTextureGlobal [3, ""];
+_turret lockDriver true;
+_turret allowCrewInImmobile true;
+group _MRAP addvehicle _turret;
+_MRAP addMagazineTurret ["SmokeLauncherMag", [-1]];
+_MRAP addWeaponTurret ["SmokeLauncher", [-1]];
+_driver = assignedDriver _MRAP;
+_myUnit = group _driver createUnit ["OAF_Core_Motorized_Rifleman", _relpos]; 
+_myUnit moveInGunner _turret;
+_myUnit assignAsTurret [_turret, [0]];
+_myUnit assignAsGunner _turret;
+
+      };
+		};
+	};
+};
+
 class cfgWeapons
 {
   class CUP_arifle_Mk16_CQC_AFG_woodland;
@@ -670,8 +706,8 @@ class cfgVehicles
   // class OAF_Rifleman_pack;
   // class OAF_Rifleman_AT;
   // class OAF_Rifleman_AT_pack;
-  class OAF_Section_Leader;
-  class OAF_Section_Leader_pack;
+  // class OAF_Section_Leader;
+  // class OAF_Section_Leader_pack;
   // class OAF_Vehicle_Crew;
   // class OAF_Vehicle_Crew_pack;
   class B_A_Medic_F;
@@ -1413,9 +1449,10 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     textureList[] = { "Default", 1 };
     class EventHandlers
 	{
-		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\Capral\LFSV.sqf';";
+		init = "this call OAF_fnc_LFSV_Init";
 	};
   };
+
   class OAF_Core_MRAP_LAAV: O_MRAP_02_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
