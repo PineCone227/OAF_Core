@@ -66,6 +66,42 @@ class CfgFunctions
 	};
 };
 
+class CfgRemoteExec
+{
+	class Functions
+	{
+		/*
+		Operation modes:
+			0 - remote execution is blocked
+			1 - only whitelisted functions / commands are allowed
+			2 - remote execution is fully allowed, ignoring the whitelist (default, because of backward compatibility)
+		*/
+		mode = 2;
+
+		/*
+		JIP:
+			0 - JIP flag can not be set
+			1 - JIP flag can be set (default)
+		*/
+		jip = 1;
+
+		class LFSVInit
+		{
+			/*
+			Allowed targets:
+				0 - can target all machines (default)
+				1 - can only target clients, execution on the server is denied
+				2 - can only target the server, execution on clients is denied
+				Any other value will be treated as 0.
+			*/
+			allowedTargets = 0;
+
+			//Override the global setting (defined in class Functions) for this function:
+			jip = 0;
+		};
+	};
+};
+
 class cfgWeapons
 {
   class CUP_arifle_Mk16_CQC_AFG_woodland;
@@ -394,7 +430,7 @@ class cfgWeapons
       class LinkedItemsOptic
       {
         slot="CowsSlot";
-        item="optic_LRCO_blk_F";
+        item="Aegis_optic_ROS";
       };
       class LinkedItemsAcc
       {
@@ -1425,7 +1461,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     textureList[] = { "Default", 1 };
     class EventHandlers
 	{
-		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\Capral\LFSV.sqf';";
+		// init = "call OAF_CORE_fnc_LFSVInit" 
+    init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\Capral\LFSV.sqf';";
 	};
   };
 

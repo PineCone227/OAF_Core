@@ -1,9 +1,8 @@
-myOwnerID = clientOwner;
+if (!isServer) exitWith {};
+// OAF_fnc_ManTurrets = {
 params ["_MRAP"];
-if (!local _MRAP) exitWith {};
 _relpos = _MRAP getRelPos [5, 90];  
-_turret = "I_LT_01_Cannon_F" createVehicle _relpos;
-// ["I_LT_01_Cannon_F", _relpos] remoteExec ['createVehicle', clientOwner];
+_turret = "I_LT_01_Cannon_F" createVehicle _relpos; 
 _turret attachTo [_MRAP, [0.302246,-2.22168,0.580989]]; 
 _turret addMagazineTurret ["60Rnd_20mm_HE_shells", [0]];
 _turret addMagazineTurret ["60Rnd_20mm_HE_shells", [0]];
@@ -25,3 +24,11 @@ myUnit assignAsTurret [_turret, [0]];
 myUnit assignAsGunner _turret;
 myUnit moveInGunner _turret;
 myUnit moveInTurret [_turret, [0]];
+// };
+// // _MRAP = _this select 0;
+// params ["_MRAP"];
+// [_MRAP, 0] remoteExec ["OAF_fnc_ManTurrets", 0];
+myUnit moveInGunner _turret;
+myUnit moveInTurret [_turret, [0]];
+
+
