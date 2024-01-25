@@ -3,7 +3,7 @@ class cfgPatches
   class OAF_Core_Oasean_Armed_Forces
   {
     units[]={"OAF_Core_Crewman","OAF_Core_Autorifleman","OAF_Core_Pilot","OAF_Core_Helicopter_Pilot","OAF_Core_Helicopter_Crew","OAF_Core_Rifleman","OAF_Core_Rifleman_AT","OAF_Core_Section_Leader","OAF_Core_Motorized_Rifleman","OAF_Core_Paramedic","OAF_Core_Combat_Engineer","OAF_Core_Demo_Specialist","OAF_Core_Grenadier","OAF_Core_Shock_Trooper","OAF_Core_AS_Operator","OAF_Core_Machine_Gunner","OAF_Core_Marksman","OAF_Core_Sharpshooter","OAF_Core_Missile_Specialist","OAF_Core_AA_Trooper","OAF_Core_Ammo_Bearer","OAF_Core_CBRN_Specialist","OAF_Core_Military_Scientist","OAF_Core_AA","OAF_Core_MGS","OAF_Core_MRAP","OAF_Core_MRAP_LFSV","OAF_Core_MRAP_LAAV","OAF_Core_MRAP_LATV","OAF_Core_MRAP_LRRV","OAF_Core_LSV","OAF_Core_LSV_MG","OAF_Core_LSV_AT","OAF_Core_HEMTT","OAF_Core_HEMTT_Container","OAF_Core_HEMTT_Flatbed","OAF_Core_HEMTT_Medevac","OAF_Core_HEMTT_Transport","OAF_Core_HEMTT_Transport_Covered","OAF_Core_MRAP_N","OAF_Core_MRAP_N_HMG","OAF_Core_MRAP_N_GMG","OAF_Core_UH_80_Ghost_Hawk","OAF_Core_RAH_66","OAF_Core_F_35","OAF_Core_Typhoon_Repair","OAF_Core_Typhoon_Fuel","OAF_Core_Typhoon_Ammo","OAF_Core_UV_85_Transport_Armed","OAF_Core_UV_85_Armed","OAF_Core_UV_85_Transport_Unarmed","OAF_Core_AMV_Mortar","OAF_Core_NH90_Armed","OAF_Core_NH90","OAF_Core_Merlin","OAF_Core_Seahawk","OAF_Core_UH_80_Ghost_Hawk_Medevac","OAF_Core_LAV_C","OAF_Core_AMV_Medevac","OAF_Core_AMV","OAF_Core_AEV_Nemmera","OAF_Core_AEV_Marid","OAF_Core_Pandur","OAF_Core_Rooikat","OAF_Core_Stomper","OAF_Core_Stomper_Medevac","OAF_Core_MPQ_105_Radar","OAF_Core_MIM_45_SAM","OAF_Core_UCAV_Sentinel","OAF_Core_Mk244","OAF_Core_Mk230","OAF_Core_AP_5","OAF_Core_AL_6","OAF_Core_AL_6_Med","OAF_Core_Raven","OAF_Core_Chinook","OAF_Core_T_2OF4_Dragon_II","OAF_Core_LAV","OAF_Core_Cougar_MRAV","OAF_Core_UV_85_Armed_Heavy","OAF_Core_F_15EX","OAF_Core_F_15SE","OAF_Core_Knighthawk","OAF_Core_Seahawk_FFV","OAF_Core_EC_635","OAF_Core_C_300_Cargo","OAF_Core_Offroad_Comms","OAF_Core_Stomper_HMG","OAF_Core_F_23_Thermobaric","OAF_Core_F_23_Anti_Vehicle","OAF_Core_F_23_Air_Superiority","OAF_Core_PLACEHOLDER","OAF_Core_Titus_Transport","OAF_Core_Titus_Armed","APOLLO_Guard","APOLLO_Field_Tech","APOLLO_Demolitions","APOLLO_Van_Transport","APOLLO_Van_Cargo","APOLLO_Van_Services","OAF_Core_Raven_Heavy","OAF_Core_Raven_Heavy_AT", "OAF_Core_AP_5", "OAF_Core_AP_5_light","OAF_Core_LFSV_Turret", "OAF_Core_LAAV_Turret", "OAF_Core_LATV_Turret", "OAF_Core_LRRV_Turret"};
-    weapons[]={"OAF_Core_arifle_U9A3","OAF_Core_hgun_P5A1","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_smg_P7A7","OAF_Core_hgun_P5A1S","OAF_Core_arifle_U9A3S","OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_hgun_P5A1_1","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_CUP_arifle_SABR_1","OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","OAF_Core_CUP_arifle_SABR_GL","OAF_Core_sgun_S11","OAF_Core_arifle_SABR_Standard","OAF_Core_MMG_01_black_F","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_arifle_SABR_LR","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","OAF_Core_launch_Titan_short_blk_F","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_CUP_arifle_SABR_C_1","OAF_Core_CUP_arifle_U9A3_ROS","OAF_Core_hgun_P5A1_RH_M6X","launch_MRAWS_black_F","OAF_Core_srifle_SR33_Optic", "APOLLO_arifle_ACR_M","APOLLO_CUP_arifle_G36C","APOLLO_CUP_arifle_XM8_Compact"};
+    weapons[]={"OAF_Core_arifle_U9A3","OAF_Core_hgun_P5A1","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_smg_P7A7","OAF_Core_hgun_P5A1S","OAF_Core_arifle_U9A3S","OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","OAF_Core_CUP_arifle_SABR_GL","OAF_Core_sgun_S11","OAF_Core_MMG_01_black_F","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_arifle_SABR_LR","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","OAF_Core_launch_Titan_short_blk_F","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_CUP_arifle_SABR_C_1","OAF_Core_CUP_arifle_U9A3_ROS","OAF_Core_hgun_P5A1_RH_M6X","launch_MRAWS_black_F","OAF_Core_srifle_SR33_Optic", "APOLLO_arifle_ACR_M","APOLLO_CUP_arifle_G36C","APOLLO_CUP_arifle_XM8_Compact"};
     requiredVersion=0.1;
     requiredAddons[]={"ace_medical_treatment","ace_hearing","ace_captives","A3_Weapons_F_Enoch","A3_Weapons_F","A3_Weapons_F_Enoch_Items","A3_Aegis_Weapons_F_Aegis","CUP_Weapons_SCAR","A3_Aegis_Characters_F_Aegis_Vests","CUP_Creatures_Military_USArmy","ace_attach","CUP_Creatures_Military_Germany","USP_Gear_IHPS","A3_Characters_F","ace_huntir","A3_Drones_F_Weapons_F_Gamma_Items","ace_flashlights","A3_Aegis_Characters_F_Aegis","ace_logistics_uavbattery","ace_logistics_wirecutter","A3_Weapons_F_Items","ace_kestrel4500","ace_trenches","ace_explosives","ace_chemlights","Weapons_1_F_lxWS_Shotguns_AA40","dzn_MG_Tripod_Core","CuratorOnly_Characters_F_BLUFOR","A3_Weapons_F_Mark_LongRangeRifles_DMR_02","A3_Atlas_Characters_F_Atlas_Uniforms"};
   };
@@ -141,6 +141,7 @@ class cfgWeapons
   class APOLLO_arifle_ACR_M: CUP_arifle_ACR_DMR_blk_556
   {
     displayName="ACR-M 5.56 mm";
+    descriptionShort="Adaptive Combat Rifle - 5.56x45mm caliber.<br>Utilized by APOLLO security staff.";
     scope=1;
     class LinkedItems
     {
@@ -155,6 +156,7 @@ class cfgWeapons
   class APOLLO_CUP_arifle_G36C: CUP_arifle_G36C_VFG_Carry
   {
     displayName="G36C 5.56 mm";
+    descriptionShort="G36 Compact Carbine - 5.56x45mm caliber.<br>Utilized by APOLLO field maintenance personnel.";
     scope=1;
     class LinkedItems
     {
@@ -168,7 +170,8 @@ class cfgWeapons
 
   class APOLLO_CUP_arifle_XM8_Compact: CUP_arifle_XM8_Compact
   {
-    displayName="XM8C 5.56 mm";
+    displayName="M8C 5.56 mm";
+    descriptionShort="M8C Compact Carbine - 5.56x45mm caliber.<br>Utilized by APOLLO engineering personnel.";
     scope=1;
     class LinkedItems
     {
@@ -178,6 +181,7 @@ class cfgWeapons
   class OAF_Core_arifle_U9A3: CUP_arifle_Mk16_CQC_AFG_woodland
   {
     displayName="U9A3 PDC 5.56 mm";
+    descriptionShort="U9 Personal Defence Carbine - 5.56x45mm caliber.<br>Standard compact carbine of the Oasean Armed Forces. 2035-issue A3 model.";
     scope=1;
     class LinkedItems
     {
@@ -192,6 +196,7 @@ class cfgWeapons
   class OAF_Core_hgun_P5A1: RH_fn57
   {
     displayName="P5A1 5.7 mm";
+    descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br>Standard sidearm of the Oasean Armed Forces.";
     scope=1;
     class LinkedItems
     {
@@ -201,6 +206,7 @@ class cfgWeapons
   class OAF_Core_CUP_arifle_SABR_IAW: CUP_arifle_Mk20_woodland
   {
     displayName="SABR-IAW 7.62 mm";
+    descriptionShort="SABR Infantry Automatic Weapon - 7.62x51mm caliber.<br>Support variant of the Standard Advanced Battle Rifle. OAF-issue.";
     scope=1;
     class LinkedItems
 		{
@@ -220,6 +226,7 @@ class cfgWeapons
   class OAF_Core_smg_P7A7: CUP_smg_MP7
   {
     displayName="P7A7-SK 4.6mm";
+    descriptionShort="P7 (Survival Kit) submachine gun - 4.6x30mm caliber.<br>Covert weapon included in emergency supply kits for downed pilots. OAF-issue.";
     scope=1;
     class LinkedItems
     {
@@ -233,12 +240,18 @@ class cfgWeapons
         slot="PointerSlot";
         item="CUP_acc_LLM_black";
       };
+      class LinkedItemsMuzzle
+      {
+        slot="MuzzleSlot";
+        item="CUP_muzzle_snds_MP7";
+      };
     };
   };
 
   class OAF_Core_hgun_P5A1S: RH_fn57
   {
     displayName="P5A1-S 5.7mm";
+    descriptionShort="P5A1 Suppressed pistol - 5.7x28mm caliber.<br>Signature-reduced variant of the standard OAF sidearm.";
     scope=1;
     class LinkedItems
     {
@@ -253,6 +266,7 @@ class cfgWeapons
   class OAF_Core_arifle_U9A3S: CUP_arifle_Mk16_CQC_black
   {
     displayName="U9A3-S PDC 5.56 mm";
+    descriptionShort="U9 Suppressed Personal Defence Carbine - 5.56x45mm caliber.<br>Suppressed compact carbine for aircrews of the Oasean Armed Forces.";
     scope=1;
     class LinkedItems
     {
@@ -279,6 +293,7 @@ class cfgWeapons
   class OAF_Core_arifle_SABR: CUP_arifle_Mk17_STD_woodland
   {
     displayName="SABR 7.62mm";
+    descriptionShort="Standard Advanced Battle Rifle - 7.62x51mm caliber.<br>Main combat rifle of the Oasean Armed Forces. 2030-issue.";
     scope=1;
     class LinkedItems
 		{
@@ -298,6 +313,7 @@ class cfgWeapons
   class OAF_Core_launch_MRAWS: launch_MRAWS_black_F
   {
     displayName="MRAWS Mk5 84 mm";
+    descriptionShort="Multi-Role Anti-Armor Weapon System - 84mm Recoilless Rifle.";
     scope=1;
     class LinkedItems
     {
@@ -309,18 +325,10 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_hgun_P5A1_1: RH_fn57
-  {
-    displayName="P5A1 5.7 mm";
-    scope=1;
-    class LinkedItems
-    {
-    };
-  };
-
   class OAF_Core_CUP_arifle_SABR_GL_SL: CUP_arifle_Mk17_STD_EGLM_woodland
   {
     displayName="SABR-GL 7.62 mm";
+    descriptionShort="Standard Advanced Battle Rifle with Grenade Launcher - 7.62x51mm caliber.<br>Main combat rifle of the Oasean Armed Forces, equipped with grenade-launching module.";
     scope=1;
     class LinkedItems
     {
@@ -343,28 +351,10 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_SABR_1: CUP_arifle_Mk17_STD_woodland
-  {
-    displayName="SABR 7.62mm";
-    scope=1;
-    class LinkedItems
-		{
-			class LinkedItemOptic
-			{
-				slot="CUP_PicatinnyTopMountSCAR";
-				item="CUP_optic_AC11704_Black";
-			};
-			class LinkedItemSide
-			{
-				slot="CUP_PicatinnySideMountSCAR";
-				item="CUP_acc_LLM_od";
-			};
-		};
-  };
-
   class OAF_Core_CUP_arifle_SABR_C: CUP_arifle_Mk17_CQC_AFG_woodland
   {
     displayName="SABR-C 7.62 mm";
+    descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br>Short-barelled version of the SABR for support troops. OAF 2030-issue.";
     scope=1;
     class LinkedItems
     {
@@ -385,6 +375,7 @@ class cfgWeapons
   class OAF_Core_hgun_P5A1_g_RH_M6X: RH_fn57_g
   {
     displayName="P5A1 5.7 mm";
+    descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br>Standard sidearm of the Oasean Armed Forces.";
     scope=1;
     class LinkedItems
     {
@@ -399,6 +390,7 @@ class cfgWeapons
   class OAF_Core_CUP_arifle_SABR_GL: CUP_arifle_Mk17_STD_EGLM_woodland
   {
     displayName="SABR-GL 7.62 mm";
+    descriptionShort="Standard Advanced Battle Rifle with Grenade Launcher - 7.62x51mm caliber.<br>Main combat rifle of the Oasean Armed Forces, equipped with grenade-launching module.";
     scope=1;
     class LinkedItems
     {
@@ -419,6 +411,7 @@ class cfgWeapons
   class OAF_Core_sgun_S11: sgun_aa40_lxWS
   {
     displayName="S11AB-S Breach 12g";
+    descriptionShort="S11 Advanced Breaching Shotgun - 12 gauge.<br>Automatic multipurpose shotgun utilized by breachers and shock troops. OAF-issue.";
     scope=1;
     class LinkedItems
     {
@@ -441,30 +434,31 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_arifle_SABR_Standard: CUP_arifle_Mk17_STD_woodland
-  {
-    displayName="SABR 7.62mm";
-    descriptionShort="Standard Advanced Battle Rifle of the Oasean Armed Forces. 2039 Pattern."
-    scope=1;
-    class LinkedItems
-    {
-      class LinkedItemOptic
-			{
-				slot="CUP_PicatinnyTopMountSCAR";
-				item="CUP_optic_AC11704_Black";
-			};
-			class LinkedItemSide
-			{
-				slot="CUP_PicatinnySideMountSCAR";
-				item="CUP_acc_LLM_od";
-			};
+  // class OAF_Core_arifle_SABR: CUP_arifle_Mk17_STD_woodland
+  // {
+  //   displayName="SABR 7.62mm";
+  //   descriptionShort="Standard Advanced Battle Rifle of the Oasean Armed Forces. 2039 Pattern."
+  //   scope=1;
+  //   class LinkedItems
+  //   {
+  //     class LinkedItemOptic
+	// 		{
+	// 			slot="CUP_PicatinnyTopMountSCAR";
+	// 			item="CUP_optic_AC11704_Black";
+	// 		};
+	// 		class LinkedItemSide
+	// 		{
+	// 			slot="CUP_PicatinnySideMountSCAR";
+	// 			item="CUP_acc_LLM_od";
+	// 		};
 
-    };
-  };
+  //   };
+  // };
 
   class OAF_Core_MMG_01_black_F: MMG_01_black_F
   {
     displayName="IMG-93 Gharial 9.3 mm";
+    descriptionShort='Infantry Machine Gun 93 "Gharial" - 9.3x64mm caliber.<br>Squad medium machine gun indigenously produced in Oasea. OAF-issue.';
     scope=1;
     class LinkedItems
     {
@@ -494,6 +488,7 @@ class cfgWeapons
   class OAF_Core_dzn_MG_Tripod_Universal_Carry: dzn_MG_Tripod_Universal_Carry
   {
     displayName="MG Tripod (IMG-93)";
+    descriptionShort='Tripod for the IMG-93 "Gharial"<br>Used for setting up stable firing platforms or sentry positions and allows crew-serving of the weapon.';
     scope=1;
     class LinkedItems
     {
@@ -503,6 +498,7 @@ class cfgWeapons
   class OAF_Core_arifle_SABR_LR: CUP_arifle_Mk20_woodland
   {
     displayName="SABR-LR 7.62 mm";
+    descriptionShort="SABR Long Range - 7.62x51mm caliber.<br>Marksman variant of the Standard Advanced Battle Rifle. OAF-issue.";
     scope=1;
     class LinkedItems
     {
@@ -523,6 +519,7 @@ class cfgWeapons
   class OAF_Core_srifle_SR33: srifle_DMR_02_F
   {
     displayName="SR-33 .338";
+    descriptionShort="SR-33 Precision Rifle - 8.6x70mm caliber.<br>High-accuracy sharpshooter's rifle, primarily used in a defensive role.";
     scope=1;
     class LinkedItems
     {
@@ -552,6 +549,7 @@ class cfgWeapons
   class OAF_Core_srifle_SR33_Optic: srifle_DMR_02_F
   {
     displayName="SR-33 .338";
+    descriptionShort="SR-33 Precision Rifle - 8.6x70mm caliber.<br>High-accuracy sharpshooter's rifle, primarily used in a defensive role.";
     scope=1;
     class LinkedItems
     {
@@ -581,6 +579,7 @@ class cfgWeapons
   class OAF_Core_hgun_P5A1_RH_X2: RH_fn57
   {
     displayName="P5A1 5.7 mm";
+    descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br>Standard sidearm of the Oasean Armed Forces.";
     scope=1;
     class LinkedItems
     {
@@ -623,6 +622,7 @@ class cfgWeapons
   class OAF_Core_CUP_arifle_SABR_C_1: CUP_arifle_Mk17_CQC_AFG_woodland
   {
     displayName="SABR-C 7.62 mm";
+    descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br>Short-barelled version of the SABR for support troops. OAF-issue.";
     scope=1;
     class LinkedItems
     {
@@ -648,6 +648,7 @@ class cfgWeapons
   class OAF_Core_CUP_arifle_U9A3_ROS: CUP_arifle_Mk16_CQC_AFG_black
   {
     displayName="U9A3 PDC 5.56 mm";
+    descriptionShort="U9 Personal Defence Carbine - 5.56x45mm caliber.";
     scope=1;
     class LinkedItems
     {
@@ -668,6 +669,7 @@ class cfgWeapons
   class OAF_Core_hgun_P5A1_RH_M6X: RH_fn57
   {
     displayName="P5A1 5.7 mm";
+    descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br>Standard sidearm of the Oasean Armed Forces.";
     scope=1;
     class LinkedItems
     {
@@ -723,12 +725,12 @@ class cfgVehicles
   // class OAF_Vehicle_Crew;
   // class OAF_Vehicle_Crew_pack;
   class B_A_Medic_F;
-  class USP_45L_RUCKSACK;
+  class USP_45L_RUCKSACK_GRN;
   class B_A_Engineer_F;
   class B_Kitbag_blk;
   class B_A_Soldier_Exp_F;
   class B_A_Soldier_GL_F;
-  class USP_ZIPON_PANEL_MCT;
+  class USP_ZIPON_PANEL_CPC_RGR;
   class B_A_Soldier_CQ_F;
   class USP_PACK_BREACHER_RGR;
   class B_A_Soldier_UAV_F;
@@ -1030,8 +1032,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnWeapons[]={"OAF_Core_smg_P7A7","OAF_Core_hgun_P5A1S","Put","Throw"};
     items[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250"};
     respawnItems[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250"};
-    magazines[]={"RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","ACE_Chemlight_HiBlue","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_HiGreen","ACE_Chemlight_HiRed","ACE_Chemlight_HiRed","ACE_HandFlare_Red","HandGrenade","HandGrenade","MiniGrenade","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN"};
-    respawnMagazines[]={"CUP_40Rnd_46x30_MP7","CUP_40Rnd_46x30_MP7","CUP_40Rnd_46x30_MP7","CUP_40Rnd_46x30_MP7","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","ACE_Chemlight_HiBlue","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_HiGreen","ACE_Chemlight_HiRed","ACE_Chemlight_HiRed","ACE_HandFlare_Red","HandGrenade","HandGrenade","MiniGrenade","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN"};
+    magazines[]={"RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","ACE_Chemlight_HiBlue","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_HiGreen","ACE_Chemlight_HiRed","ACE_Chemlight_HiRed","ACE_HandFlare_Red","HandGrenade","HandGrenade","MiniGrenade","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","40Rnd_460x30_Mag_F","40Rnd_460x30_Mag_F","40Rnd_460x30_Mag_F","40Rnd_460x30_Mag_F"};
+    respawnMagazines[]={"40Rnd_460x30_Mag_F","40Rnd_460x30_Mag_F","40Rnd_460x30_Mag_F","40Rnd_460x30_Mag_F","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","ACE_Chemlight_HiBlue","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_HiGreen","ACE_Chemlight_HiRed","ACE_Chemlight_HiRed","ACE_HandFlare_Red","HandGrenade","HandGrenade","MiniGrenade","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN"};
     linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","H_PilotHelmetFighter_B","V_HarnessOSpec_blk","G_Aviator"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","H_PilotHelmetFighter_B","V_HarnessOSpec_blk","G_Aviator"};
     backpack="OAF_Core_Pilot_pack";
@@ -1094,8 +1096,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Rifleman (AT)";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_hgun_P5A1_1","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_hgun_P5A1_1","Put","Throw"};
+    weapons[]={"OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_EarPlugs"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","MRAWS_HEAT_F","MRAWS_HEAT_F","MRAWS_HEAT_F","MRAWS_HEAT_F","MRAWS_HE_F"};
@@ -1111,8 +1113,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Section Leader";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_hgun_P5A1_1","Put","Throw"};
-    respawnWeapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_hgun_P5A1_1","Put","Throw"};
+    weapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_HuntIR_monitor","ACE_HuntIR_monitor"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_HuntIR_monitor","ACE_HuntIR_monitor"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_1Rnd_HEDP_M203","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","ACE_HuntIR_M203","ACE_HuntIR_M203","ACE_HuntIR_M203","ACE_HuntIR_M203"};
@@ -1164,7 +1166,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
     weapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","Put","Throw"};
     respawnWeapons[]={"OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","Put","Throw"};
-    items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_UAVBattery","ACE_wirecutter","ToolKit","MineDetector","ACE_Kestrel4500","ACE_IR_Strobe_Item","ACE_HuntIR_monitor","ACE_Flashlight_MX991","ACE_EntrenchingTool","ACE_EarPlugs","ACE_DefusalKit","ACE_Chemlight_Shield","ACE_Chemlight_Shield","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
+    items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","DemoCharge_Remote_Mag","SLAMDirectionalMine_Wire_Mag"};
@@ -1230,8 +1232,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Operator (Autonomous Systems)";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"Laserdesignator_04","OAF_Core_arifle_SABR_Standard","OAF_Core_hgun_P5A1","Put","Throw"};
-    respawnWeapons[]={"Laserdesignator_04","OAF_Core_arifle_SABR_Standard","OAF_Core_hgun_P5A1","Put","Throw"};
+    weapons[]={"Laserdesignator_04","OAF_Core_arifle_SABR","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"Laserdesignator_04","OAF_Core_arifle_SABR","OAF_Core_hgun_P5A1","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_HuntIR_monitor","ACE_UAVBattery","ACE_UAVBattery"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_HuntIR_monitor","ACE_UAVBattery","ACE_UAVBattery"};
     magazines[]={"CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","Laserbatteries"};
@@ -1349,8 +1351,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Ammo Bearer";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"OAF_Core_arifle_SABR_Standard","Put","Throw"};
-    respawnWeapons[]={"OAF_Core_arifle_SABR_Standard","Put","Throw"};
+    weapons[]={"OAF_Core_arifle_SABR","Put","Throw"};
+    respawnWeapons[]={"OAF_Core_arifle_SABR","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","MiniGrenade","ACE_Chemlight_HiBlue","150Rnd_93x64_Mag_Red","MRAWS_HEAT55_F","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_20Rnd_762x51_B_SCAR_bkl","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell"};
@@ -2572,7 +2574,7 @@ class APOLLO_Guard: B_ION_soldier_AR_lxWS
   };
 
 
-  class OAF_Core_Rifleman_pack: USP_ZIPON_PANEL_MCT
+  class OAF_Core_Rifleman_pack: USP_ZIPON_PANEL_CPC_RGR
   {
     scope=1;
     class TransportMagazines
@@ -2619,7 +2621,7 @@ class APOLLO_Guard: B_ION_soldier_AR_lxWS
   };
 
 
-  class OAF_Core_Motorized_Rifleman_pack: USP_ZIPON_PANEL_MCT
+  class OAF_Core_Motorized_Rifleman_pack: USP_ZIPON_PANEL_CPC_RGR
   {
     scope=1;
     class TransportMagazines
@@ -2636,7 +2638,7 @@ class APOLLO_Guard: B_ION_soldier_AR_lxWS
   };
 
 
-  class OAF_Core_Paramedic_pack: USP_45L_RUCKSACK
+  class OAF_Core_Paramedic_pack: USP_45L_RUCKSACK_GRN
   {
     scope=1;
     class TransportMagazines
@@ -2722,7 +2724,7 @@ class APOLLO_Guard: B_ION_soldier_AR_lxWS
   };
 
 
-  class OAF_Core_Grenadier_pack: USP_ZIPON_PANEL_MCT
+  class OAF_Core_Grenadier_pack: USP_ZIPON_PANEL_CPC_RGR
   {
     scope=1;
     class TransportMagazines
@@ -3132,7 +3134,7 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_Section_Leader";
-            rank="PRIVATE";
+            rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
@@ -3166,7 +3168,7 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_Section_Leader";
-            rank="PRIVATE";
+            rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
@@ -3315,7 +3317,7 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_Titus_Transport";
-            rank="PRIVATE";
+            rank="CORPORAL";
             position[]={0,-0,0};
           };
           class Unit1
@@ -3343,7 +3345,7 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_Section_Leader";
-            rank="PRIVATE";
+            rank="SERGEANT";
             position[]={0,-60,0};
           };
           class Unit5
@@ -3364,7 +3366,7 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_AS_Operator";
-            rank="PRIVATE";
+            rank="CORPORAL";
             position[]={0,-105,0};
           };
           class Unit8
@@ -3384,21 +3386,21 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_Titus_Armed";
-            rank="PRIVATE";
+            rank="CORPORAL";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
             vehicle="OAF_Core_Section_Leader";
-            rank="PRIVATE";
+            rank="SERGEANT";
             position[]={0,-15,0};
           };
           class Unit2
           {
             side=1;
             vehicle="OAF_Core_Sharpshooter";
-            rank="PRIVATE";
+            rank="CORPORAL";
             position[]={0,-30,0};
           };
           class Unit3
@@ -3464,14 +3466,14 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_AA";
-            rank="COLONEL";
+            rank="LIEUTENANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
             vehicle="OAF_Core_AA";
-            rank="PRIVATE";
+            rank="SERGEANT";
             position[]={0,-15,0};
           };
         };
@@ -3484,14 +3486,14 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_T_2OF4_Dragon_II";
-            rank="COLONEL";
+            rank="LIEUTENANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
             vehicle="OAF_Core_T_2OF4_Dragon_II";
-            rank="PRIVATE";
+            rank="SERGEANT";
             position[]={0,-15,0};
           };
         };
@@ -3514,7 +3516,7 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_Section_Leader";
-            rank="MAJOR";
+            rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
@@ -3548,7 +3550,7 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_Section_Leader";
-            rank="MAJOR";
+            rank="CORPORAL";
             position[]={0,-0,0};
           };
           class Unit1
@@ -3582,7 +3584,7 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_Section_Leader";
-            rank="MAJOR";
+            rank="CORPORAL";
             position[]={0,-0,0};
           };
           class Unit1
@@ -3616,14 +3618,14 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_CBRN_Specialist";
-            rank="MAJOR";
+            rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
           {
             side=1;
             vehicle="OAF_Core_CBRN_Specialist";
-            rank="PRIVATE";
+            rank="CORPORAL";
             position[]={0,-15,0};
           };
           class Unit2
@@ -3650,7 +3652,7 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_CBRN_Specialist";
-            rank="MAJOR";
+            rank="SERGEANT";
             position[]={0,-0,0};
           };
           class Unit1
@@ -3671,7 +3673,7 @@ class cfgGroups
           {
             side=1;
             vehicle="OAF_Core_CBRN_Specialist";
-            rank="PRIVATE";
+            rank="CORPORAL";
             position[]={0,-45,0};
           };
         };

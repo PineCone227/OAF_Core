@@ -1,5 +1,5 @@
-_MRAP = _this select 0;
-OAF_fnc_LFSV_Init = {
+params ["_MRAP"];
+if (!local _MRAP) exitWith {};
 _relpos = _MRAP getRelPos [5, 90];  
 _turret = "I_LT_01_scout_F" createVehicle _relpos; 
 _turret attachTo [_MRAP, [0.208984,-2.5127,0.480238]]; 
@@ -16,10 +16,8 @@ _turret allowCrewInImmobile true;
 group _MRAP addvehicle _turret;
 _MRAP addMagazineTurret ["SmokeLauncherMag", [-1]];
 _MRAP addWeaponTurret ["SmokeLauncher", [-1]];
-// _MRAP addEventHandler ["killed", "deleteVehicle _turret20;"];
+_MRAP addEventHandler ["Deleted", "deleteVehicle _turret;"];
 _driver = assignedDriver _MRAP;
 "OAF_Core_Motorized_Rifleman" createUnit [_relpos, group _driver, "myUnit = this"]; 
 myUnit moveInCommander _turret;
 myUnit assignAsCommander _turret;
-};
-if (isServer) then call OAF_fnc_LFSV_Init;

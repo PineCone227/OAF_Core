@@ -1,9 +1,7 @@
-myOwnerID = clientOwner;
 params ["_MRAP"];
 if (!local _MRAP) exitWith {};
 _relpos = _MRAP getRelPos [5, 90];  
 _turret = "I_LT_01_Cannon_F" createVehicle _relpos;
-// ["I_LT_01_Cannon_F", _relpos] remoteExec ['createVehicle', clientOwner];
 _turret attachTo [_MRAP, [0.302246,-2.22168,0.580989]]; 
 _turret addMagazineTurret ["60Rnd_20mm_HE_shells", [0]];
 _turret addMagazineTurret ["60Rnd_20mm_HE_shells", [0]];
@@ -18,7 +16,7 @@ _turret allowCrewInImmobile true;
 group _MRAP addvehicle _turret;
 _MRAP addMagazineTurret ["SmokeLauncherMag", [-1]];
 _MRAP addWeaponTurret ["SmokeLauncher", [-1]];
-_MRAP addEventHandler ["deleted", "deleteVehicle _turret;"];
+_MRAP addEventHandler ["Deleted", "deleteVehicle _turret;"];
 _driver = assignedDriver _MRAP;
 "OAF_Core_Motorized_Rifleman" createUnit [_relpos, group _driver, "myUnit = this"]; 
 myUnit assignAsTurret [_turret, [0]];

@@ -1,5 +1,6 @@
 _APA = _this select 0;
-OAF_fnc_StormRaven_Init = {
+params ["_APA"];
+if (!local _APA) exitWith {};
 _relpos = _APA getRelPos [5, 90]; 
 _pylon = "pya_main_pylon_single_fixed" createVehicle _relpos; 
 _pylon attachTo [_APA, [0.0,-0.2,0.3], "PIP1_pos", true]; 
@@ -11,5 +12,3 @@ _APA setPylonLoadout [2, "PylonRack_12Rnd_PG_missiles"];
 _APA setPylonLoadout [3, "PylonRack_12Rnd_PG_missiles"]; 
 _APA setPylonLoadout [4, "PylonRack_12Rnd_PG_missiles"]; 
 group _APA setCombatMode "RED"; 
-};
-if (isServer) then call OAF_fnc_StormRaven_Init;

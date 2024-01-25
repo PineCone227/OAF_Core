@@ -1,6 +1,7 @@
 _APA = _this select 0;
 //Custom Loadout for: APA-15H Stormraven (AT)
 params["_APA"];
+if (!local _APA) exitWith {};
 _allTurrets = [[-1],[0]];
 _loadout = [[1,"Pylons1",[0],"PylonRack_4Rnd_LG_scalpel",4,"0:10000107"],[2,"Pylons2",[0],"PylonRack_4Rnd_LG_scalpel",4,"0:10000109"],[3,"Pylons3",[0],"PylonRack_4Rnd_LG_scalpel",4,"0:10000111"],[4,"Pylons4",[0],"PylonRack_4Rnd_LG_scalpel",4,"0:10000112"]];
 _originalPylonsInfo = getAllPylonsInfo _APA;
@@ -17,7 +18,6 @@ _originalPylonsInfo = getAllPylonsInfo _APA;
 }forEach _loadout;
 _APA setVariable ["pylonPriority", [5,4,4,5]];
 _APA setPylonsPriority [5,4,4,5];
-OAF_fnc_StormRavenInit = {
 _relpos = _APA getRelPos [5, 90];
 _pylon = "pya_main_pylon_single_fixed" createVehicle _relpos;
 _pylon attachTo [_APA, [0.0,-0.2,0.3], "PIP1_pos", true];
@@ -25,5 +25,3 @@ _pylon attachTo [_APA, [0.0,-0.2,0.3], "PIP1_pos", true];
 _pylon setPylonLoadout ["pylon1", "CUP_PylonPod_1200Rnd_TE1_Red_Tracer_GAU19A_M"];
 _APA setVehicleRadar 1;
 group _APA setCombatMode "RED";
-};
-if (isServer) then call OAF_fnc_StormRavenInit;
