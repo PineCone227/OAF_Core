@@ -10,7 +10,6 @@ class cfgPatches
 };
 
 
-
 class cfgFactionClasses
 {
   class OAF_Core_Oasean_Armed_Forces
