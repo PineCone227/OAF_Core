@@ -206,37 +206,68 @@ class cfgWeapons
   //   class SCAR_H_FullAuto;
   // };
 
-  class OAF_Core_IAW_Base : CUP_arifle_Mk20_woodland	// define that the external parent base class inherits from the external base class
+  class OAF_Core_IAW_Base : CUP_arifle_Mk20_woodland	
   {
-	  class SCAR_H_FullAuto;					// define the external child base class "skeleton"
+	  class SCAR_H_FullAuto;					
   };
 
   class OAF_Core_CUP_arifle_SABR_IAW: OAF_Core_IAW_Base
   {
     displayName="SABR-IAW 7.62 mm";
-    descriptionShort="SABR Infantry Automatic Weapon - 7.62x51mm caliber.<br>Support variant of the Standard Advanced Battle Rifle. Swappable barrel. OAF-issue.";
-    scope=1;
-    modes[] = {"SCAR_H_Single","SCAR_H_FullAuto","SCAR_H_AiAuto"};
+    descriptionShort="SABR Infantry Automatic Weapon - 7.62x51mm caliber.<br>Support variant of the Standard Advanced Battle Rifle featuring increased rate of fire and a heavier, swappable barrel. OAF-issue.";
+    scope=2;
+    modes[] = {"SCAR_H_Single","SCAR_H_FullAuto","SCAR_H_AiAuto","SCAR_H_AiAutoClose","SCAR_H_AiAutoFar"};
     class SCAR_H_AiAuto: SCAR_H_FullAuto {
-      reloadTime = 0.07;
-      aiRateOfFireDistance = 1000;
-      displayName = "High";
+      reloadTime = 0.0665;
+      aiRateOfFireDistance = 800;
+      displayName = "AIhigh";
       maxRange = 800;
-      maxRangeProbab = 0.5;
+      maxRangeProbab = 0.05;
       midRange = 400;
-      midRangeProbab = 1;
+      midRangeProbab = 0.8;
       minRange = 0;
-      minRangeProbab = 2;
+      minRangeProbab = 0.3;
       showToPlayer=false;
       burst = 5;
 			aiBurstTerminable = 1;
+      dispersion = 0.00055;
+    }
+    class SCAR_H_AiAutoClose: SCAR_H_FullAuto {
+      reloadTime = 0.0665;
+      aiRateOfFireDistance = 200;
+      displayName = "AIhighclose";
+      maxRange = 200;
+      maxRangeProbab = 0.05;
+      midRange = 100;
+      midRangeProbab = 0.3;
+      minRange = 0;
+      minRangeProbab = 0.5;
+      showToPlayer=false;
+      burst = 10;
+			aiBurstTerminable = 1;
+      dispersion = 0.00055;
+    }
+    class SCAR_H_AiAutoFar: SCAR_H_FullAuto {
+      reloadTime = 0.0665;
+      aiRateOfFireDistance = 800;
+      displayName = "AIhighfar";
+      maxRange = 800;
+      maxRangeProbab = 0.2;
+      midRange = 500;
+      midRangeProbab = 0.7;
+      minRange = 0;
+      minRangeProbab = 0.4;
+      showToPlayer=false;
+      burst = 3;
+			aiBurstTerminable = 1;
+      dispersion = 0.00055;
     }
     class SCAR_H_FullAuto : SCAR_H_FullAuto {
-      reloadTime = 0.07;
+      reloadTime = 0.0665;
     }
 
     ace_overheating_allowSwapBarrel = 1; // 1 to enable barrel swap. 0 to disable. Meant for machine guns where you can easily swap the barrel without dismantling the whole weapon.
-    ace_overheating_barrelMass = 2;
+    ace_overheating_barrelMass = 2.5;
 
     class LinkedItems
 		{
@@ -327,7 +358,11 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_arifle_SABR: CUP_arifle_Mk17_STD_woodland
+  class OAF_Core_SABR_Base : CUP_arifle_Mk17_STD_woodland	
+  {
+	  class SCAR_H_FullAuto;					
+  };
+  class OAF_Core_arifle_SABR: OAF_Core_SABR_Base
   {
     displayName="SABR 7.62mm";
     descriptionShort="Standard Advanced Battle Rifle - 7.62x51mm caliber.<br>Main combat rifle of the Oasean Armed Forces. 2030-issue.";
@@ -345,6 +380,35 @@ class cfgWeapons
 				item="CUP_acc_LLM_od";
 			};
 		};
+    modes[] = {"SCAR_H_Single","SCAR_H_FullAuto","SCAR_H_AiAuto","SCAR_H_AiAutoPanic"};
+    class SCAR_H_AiAuto: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighclose";
+      maxRange = 600;
+      maxRangeProbab = 0.04;
+      midRange = 300;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 0.5;
+      showToPlayer=false;
+      burst = 1;
+      burstRangeMax = 4;
+			aiBurstTerminable = 1;
+    }
+    class SCAR_H_AiAutoPanic: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighveryclose";
+      maxRange = 30;
+      maxRangeProbab = 0.04;
+      midRange = 15;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 2;
+      showToPlayer=false;
+      burst = 3;
+      burstRangeMax = 15;
+			aiBurstTerminable = 1;
+    }
 	};
 
   class OAF_Core_launch_MRAWS: launch_MRAWS_black_F
@@ -361,8 +425,11 @@ class cfgWeapons
       };
     };
   };
-
-  class OAF_Core_CUP_arifle_SABR_GL_SL: CUP_arifle_Mk17_STD_EGLM_woodland
+  class OAF_Core_GLC_Base : CUP_arifle_Mk17_STD_EGLM_woodland	
+  {
+	  class SCAR_H_FullAuto;					
+  };
+  class OAF_Core_CUP_arifle_SABR_GL_SL: OAF_Core_GLC_Base
   {
     displayName="SABR-GL 7.62 mm";
     descriptionShort="Standard Advanced Battle Rifle with Grenade Launcher - 7.62x51mm caliber.<br>Main combat rifle of the Oasean Armed Forces, equipped with grenade-launching module.";
@@ -386,9 +453,41 @@ class cfgWeapons
 			};
 
     };
+    modes[] = {"SCAR_H_Single","SCAR_H_FullAuto","SCAR_H_AiAuto","SCAR_H_AiAutoPanic"};
+    class SCAR_H_AiAuto: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighclose";
+      maxRange = 600;
+      maxRangeProbab = 0.04;
+      midRange = 300;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 0.5;
+      showToPlayer=false;
+      burst = 1;
+      burstRangeMax = 4;
+			aiBurstTerminable = 1;
+    }
+    class SCAR_H_AiAutoPanic: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighveryclose";
+      maxRange = 30;
+      maxRangeProbab = 0.04;
+      midRange = 15;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 2;
+      showToPlayer=false;
+      burst = 3;
+      burstRangeMax = 15;
+			aiBurstTerminable = 1;
+    }
   };
-
-  class OAF_Core_CUP_arifle_SABR_C: CUP_arifle_Mk17_CQC_AFG_woodland
+  class OAF_Core_SABRC_Base : CUP_arifle_Mk17_CQC_AFG_woodland	
+  {
+	  class SCAR_H_FullAuto;					
+  };
+  class OAF_Core_CUP_arifle_SABR_C: OAF_Core_SABRC_Base
   {
     displayName="SABR-C 7.62 mm";
     descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br>Short-barelled version of the SABR for support troops. OAF 2030-issue.";
@@ -407,6 +506,35 @@ class cfgWeapons
 			};
 
     };
+    modes[] = {"SCAR_H_Single","SCAR_H_FullAuto","SCAR_H_AiAuto","SCAR_H_AiAutoPanic"};
+    class SCAR_H_AiAuto: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighclose";
+      maxRange = 600;
+      maxRangeProbab = 0.04;
+      midRange = 300;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 0.5;
+      showToPlayer=false;
+      burst = 1;
+      burstRangeMax = 4;
+			aiBurstTerminable = 1;
+    }
+    class SCAR_H_AiAutoPanic: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighveryclose";
+      maxRange = 30;
+      maxRangeProbab = 0.04;
+      midRange = 15;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 2;
+      showToPlayer=false;
+      burst = 3;
+      burstRangeMax = 15;
+			aiBurstTerminable = 1;
+    }
   };
 
   class OAF_Core_hgun_P5A1_g_RH_M6X: RH_fn57_g
@@ -424,7 +552,11 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_SABR_GL: CUP_arifle_Mk17_STD_EGLM_woodland
+  class OAF_Core_SABRGL_Base : CUP_arifle_Mk17_STD_EGLM_woodland	
+  {
+	  class SCAR_H_FullAuto;					
+  };
+  class OAF_Core_CUP_arifle_SABR_GL: OAF_Core_SABRGL_Base
   {
     displayName="SABR-GL 7.62 mm";
     descriptionShort="Standard Advanced Battle Rifle with Grenade Launcher - 7.62x51mm caliber.<br>Main combat rifle of the Oasean Armed Forces, equipped with grenade-launching module.";
@@ -443,6 +575,35 @@ class cfgWeapons
 			};
 
     };
+    modes[] = {"SCAR_H_Single","SCAR_H_FullAuto","SCAR_H_AiAuto","SCAR_H_AiAutoPanic"};
+    class SCAR_H_AiAuto: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighclose";
+      maxRange = 600;
+      maxRangeProbab = 0.04;
+      midRange = 300;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 0.5;
+      showToPlayer=false;
+      burst = 1;
+      burstRangeMax = 4;
+			aiBurstTerminable = 1;
+    }
+    class SCAR_H_AiAutoPanic: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighveryclose";
+      maxRange = 30;
+      maxRangeProbab = 0.04;
+      midRange = 15;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 2;
+      showToPlayer=false;
+      burst = 3;
+      burstRangeMax = 15;
+			aiBurstTerminable = 1;
+    }
   };
 
   class OAF_Core_sgun_S11: sgun_aa40_lxWS
@@ -492,7 +653,18 @@ class cfgWeapons
   //   };
   // };
 
-  class OAF_Core_MMG_01_black_F: MMG_01_black_F
+  class OAF_Core_MMG_01_black_F_base : MMG_01_black_F	
+  {
+	  class manual;				
+    class burst;	
+    class close;	
+    class short;	
+    class medium;	
+    class far_optic1;	
+    class far_optic2;	
+  };
+
+  class OAF_Core_MMG_01_black_F: OAF_Core_MMG_01_black_F_base
   {
     displayName="IMG-93 Gharial 9.3 mm";
     descriptionShort='Infantry Machine Gun 93 "Gharial" - 9.3x64mm caliber.<br>Squad medium machine gun indigenously produced in Oasea. OAF-issue.';
@@ -507,7 +679,7 @@ class cfgWeapons
       class LinkedItemsOptic
       {
         slot="CowsSlot";
-        item="SkeetIR_TWS_pip";
+        item="SkeetIR_TWS";
       };
       class LinkedItemsAcc
       {
@@ -520,16 +692,90 @@ class cfgWeapons
         item="CUP_bipod_VLTOR_Modpod_black";
       };
     };
-  };
+    modes[] = {"autoSlow","autoFast","semiAuto","close","closeSlow","short","shortSlow","medium","far_optic1","far_optic2"};
+    class autoFast: manual {
+      reloadTime = 0.05;
+      textureType = "fastAuto";
+      flashSize = 0.25;
+      showToPlayer = true;
+    }
+    class autoSlow: manual {
+      reloadTime = 0.1;
+      textureType = "fullAuto";
+      flashSize = 0.2;
+      showToPlayer = true;
+    }
+    class semiAuto: manual {
+      autofire = 0;
+      burst = 1;
+      reloadTime = 0.1;
+      textureType = "semi";
+      flashSize = 0.2;
+      showToPlayer = true;
+    }
+    class close: close {
+      reloadTime = 0.05;
+      flashSize = 0.2;
+      burst = 5;
+      burstRangeMax = 15;
+      aiBurstTerminable = 1;
+    }
+    class closeSlow: close {
+      reloadTime = 0.1;
+      flashSize = 0.2;
+      burst = 5;
+      burstRangeMax = 15;
+      aiBurstTerminable = 1;
+    }
+    class short: short {
+      reloadTime = 0.05;
+      flashSize = 0.2;
+      burst = 3;
+      burstRangeMax = 7;
+      aiBurstTerminable = 1;
+    }
+    class shortSlow: short {
+      reloadTime = 0.1;
+      flashSize = 0.2;
+      burst = 3;
+      burstRangeMax = 7;
+      aiBurstTerminable = 1;
+    }
+    class medium: medium {
+      reloadTime = 0.1;
+      flashSize = 0.2;
+      burst = 3;
+      burstRangeMax = 7;
+      aiBurstTerminable = 1;
+    }
+    class far_optic1: far_optic1 {
+      reloadTime = 0.1;
+      flashSize = 0.2;
+      burst = 1;
+      burstRangeMax = 5;
+      aiBurstTerminable = 1;
+    }
+    class far_optic2: far_optic2 {
+      reloadTime = 0.1;
+      flashSize = 0.2;
+      burst = 1;
+      burstRangeMax = 5;
+      aiBurstTerminable = 1;
+    }
 
-  class OAF_Core_dzn_MG_Tripod_Universal_Carry: dzn_MG_Tripod_Universal_Carry
+  };
+class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry	
+  {
+	  class WeaponSlotsInfo;		
+  };
+  class OAF_Core_dzn_MG_Tripod_Universal_Carry: OAF_Core_Tripod_Base
   {
     displayName="MG Tripod (IMG-93)";
-    descriptionShort='Tripod for the IMG-93 "Gharial"<br>Used for setting up stable firing platforms or sentry positions and allows crew-serving of the weapon.';
+    descriptionShort="Tripod for the IMG-93 'Gharial'<br>Used for setting up stable firing platforms or sentry positions and allows crew-serving of the weapon.";
     scope=1;
-    class LinkedItems
-    {
-    };
+    class WeaponSlotsInfo{
+      mass=40;
+    }
   };
 
   class OAF_Core_arifle_SABR_LR: CUP_arifle_Mk20_woodland
@@ -660,8 +906,11 @@ class cfgWeapons
       };
     };
   };
-
-  class OAF_Core_CUP_arifle_SABR_C_1: CUP_arifle_Mk17_CQC_AFG_woodland
+  class OAF_Core_SABRC1_Base : CUP_arifle_Mk17_CQC_AFG_woodland	
+  {
+	  class SCAR_H_FullAuto;					
+  };
+  class OAF_Core_CUP_arifle_SABR_C_1: OAF_Core_SABRC1_Base
   {
     displayName="SABR-C 7.62 mm";
     descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br>Short-barelled version of the SABR for support troops. OAF-issue.";
@@ -685,6 +934,35 @@ class cfgWeapons
 			};
 
     };
+    modes[] = {"SCAR_H_Single","SCAR_H_FullAuto","SCAR_H_AiAuto","SCAR_H_AiAutoPanic"};
+    class SCAR_H_AiAuto: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighclose";
+      maxRange = 600;
+      maxRangeProbab = 0.04;
+      midRange = 300;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 0.5;
+      showToPlayer=false;
+      burst = 1;
+      burstRangeMax = 4;
+			aiBurstTerminable = 1;
+    }
+    class SCAR_H_AiAutoPanic: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighveryclose";
+      maxRange = 30;
+      maxRangeProbab = 0.04;
+      midRange = 15;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 2;
+      showToPlayer=false;
+      burst = 3;
+      burstRangeMax = 15;
+			aiBurstTerminable = 1;
+    }
   };
 
   class OAF_Core_CUP_arifle_U9A3_ROS: CUP_arifle_Mk16_CQC_AFG_black
@@ -1454,7 +1732,11 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
         factions[] = {"OAF_Core_Oasean_Armed_Forces"};
       }
     }
-    textureList[] = { "Default", 1 };
+    textureList[] = { "Default", 0, "White", 1};
+    class EventHandlers
+	{
+    init = "[_this select 0, ['White',1], ['hide_rear_left_antenna',0,'hide_rear_right_antenna',0,'hide_left_mirror',0,'hide_right_mirror',0,'hide_brushguard',0,'hide_blue_force_tracker',0,'hide_door_front_left',0,'hide_door_front_right',0,'hide_door_rear_left',0,'hide_door_rear_right',0,'hide_cip',1,'hide_rear_view_camera',0,'hide_radio_small',1,'hide_radio_large',0,'hide_old_front_bumper',0,'hide_old_rear_bumper',1,'hide_rear_ammo_box',0]] call BIS_fnc_initVehicle;";
+	};
   };
 
   class OAF_Core_MGS: CUP_B_M1128_MGS_Desert
@@ -1850,42 +2132,66 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="C/V-97 Heron";
-    hiddenSelectionsTextures[]={"fvl_2k35\valor\data\valor_0_co_black.paa","",""};
+    displayName="C/V-97 Heron-A";
+    hiddenSelectionsTextures[]={"\FVL_2k35\Valor\data\Valor_0_CO_White.paa","",""};
     crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     class EventHandlers
 	{
 		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\HeliCrew\man_turrets.sqf';";
 	};
+  class TextureSources{
+      class Default {
+        displayname = "Oasean Armed Forces";
+        textures[] = {"\FVL_2k35\Valor\data\Valor_0_CO_White.paa"};
+        factions[] = {"OAF_Core_Oasean_Armed_Forces"};
+      }
+    }
+    textureList[] = { "Default", 1, "Black", 0.5, "Green", 0};
   };
 
   class OAF_Core_UV_85_Armed: Valor_Turret_Transport_CrewGun_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="S/V-97 Condor";
-    hiddenSelectionsTextures[]={"fvl_2k35\valor\data\valor_0_co.paa","",""};
+    displayName="S/V-97 Vulture";
+    hiddenSelectionsTextures[]={"\FVL_2k35\Valor\data\Valor_0_CO_White.paa","",""};
     crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     class EventHandlers
 	{
 		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\HeliCrew\man_turrets.sqf';";
 	};
+  class TextureSources{
+      class Default {
+        displayname = "Oasean Armed Forces";
+        textures[] = {"\FVL_2k35\Valor\data\Valor_0_CO_White.paa"};
+        factions[] = {"OAF_Core_Oasean_Armed_Forces"};
+      }
+    }
+    textureList[] = { "Default", 1, "Black", 0, "Green", 0};
   };
 
   class OAF_Core_UV_85_Transport_Unarmed: Valor_Transport_Unarmed_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="C/V-97 Heron (Unarmed)";
-    hiddenSelectionsTextures[]={"fvl_2k35\valor\data\valor_0_co_black.paa","",""};
+    displayName="C/V-97 Heron-B (Unarmed)";
+    hiddenSelectionsTextures[]={"\FVL_2k35\Valor\data\Valor_0_CO_White.paa","",""};
     crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     class EventHandlers
 	{
 		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\HeliCrew\man_turrets.sqf';";
 	};
+  class TextureSources{
+      class Default {
+        displayname = "Oasean Armed Forces";
+        textures[] = {"\FVL_2k35\Valor\data\Valor_0_CO_White.paa"};
+        factions[] = {"OAF_Core_Oasean_Armed_Forces"};
+      }
+    }
+    textureList[] = { "Default", 1, "Black", 0, "Green", 0};
   };
 
   class OAF_Core_AMV_Mortar: B_T_APC_Wheeled_01_mortar_lxWS
@@ -2001,6 +2307,10 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     hiddenSelectionsTextures[]={"a3\armor_f_exp\apc_tracked_01\data\apc_tracked_01_body_crv_olive_co.paa","a3\armor_f_exp\apc_tracked_01\data\mbt_01_body_olive_co.paa","a3\data_f_exp\vehicles\turret_olive_co.paa","a3\armor_f_exp\apc_tracked_01\data\apc_tracked_01_crv_olive_co.paa","a3\armor_f\data\camonet_nato_green_co.paa"};
     crew="OAF_Core_Crewman";
     typicalCargo[]={"OAF_Core_Combat_Engineer"};
+    class EventHandlers
+        {
+          init = "[_this select 0,['Olive',1], ['showAmmobox',1,'showWheels',1,'showCamonetHull',0,'showBags',1]] call BIS_fnc_initVehicle;";
+        };
   };
 
   class OAF_Core_AEV_Marid: Atlas_O_W_APC_Wheeled_02_unarmed_lxWS
@@ -2238,6 +2548,14 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     hiddenSelectionsTextures[]={"armaretex_leopard\data\olv_mbt_03_ext01_co.paa","armaretex_leopard\data\olv_mbt_03_ext02_co.paa","armaretex_leopard\data\olv_mbt_03_rcws_co.paa","a3\armor_f\data\camonet_green_co.paa"};
     crew="OAF_Core_Crewman";
     typicalCargo[]={"OAF_Core_Crewman"};
+    enginePower = 1500;
+    armor = 900;
+    class EventHandlers
+      {
+        init = "[_this select 0,['Blu_Olive',1], ['HideTurret',1,'HideHull',1,'showCamonetHull',0,'showCamonetTurret',0]] call BIS_fnc_initVehicle;";
+      };
+    
+
   };
 
   class OAF_Core_LAV: CUP_B_LAV25M240_green
@@ -2273,9 +2591,18 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
     displayName="A/V-97 Gyrfalcon";
-    hiddenSelectionsTextures[]={"fvl_2k35\valor\data\valor_0_co.paa","",""};
+    hiddenSelectionsTextures[]={"\FVL_2k35\Valor\data\Valor_0_CO_White.paa","",""};
     crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
+    
+    class TextureSources{
+      class Default {
+        displayname = "Oasean Armed Forces";
+        textures[] = {"\FVL_2k35\Valor\data\Valor_0_CO_White.paa"};
+        factions[] = {"OAF_Core_Oasean_Armed_Forces"};
+      }
+    }
+    textureList[] = { "Default", 1, "Black", 1, "Green", 1};
   };
 
   class OAF_Core_F_15EX: FIR_F15EX_Blank
@@ -2818,7 +3145,7 @@ class APOLLO_Guard: B_ION_soldier_AR_lxWS
     scope=1;
     class TransportMagazines
     {
-     class _xx_150Rnd_93x64_Mag_Red {count=5;magazine="150Rnd_93x64_Mag_Red";};
+     class _xx_150Rnd_93x64_Mag_Red {count=3;magazine="150Rnd_93x64_Mag_Red";};
     };
     class TransportItems{};
     class TransportWeapons{};

@@ -16,6 +16,6 @@ myUnit moveInTurret [_heli, [1]];
 "OAF_Core_Helicopter_Crew" createUnit [_relpos, group _pilot, "myUnit2 = this"]; 
 myUnit2 moveInGunner _heli;
 myUnit2 moveInTurret [_heli, [2]];
-myUnit moveInTurret [_heli, [1]]; // this is compat for the V-97. Yeah. I know.
+myUnit2 moveInTurret [_heli, [1]]; // this is compat for the V-97. Yeah. I know.
 };
 if (isServer) then call OAF_fnc_ManTurrets;
