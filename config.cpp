@@ -202,11 +202,42 @@ class cfgWeapons
     };
   };
 
-  class OAF_Core_CUP_arifle_SABR_IAW: CUP_arifle_Mk20_woodland
+  // class OAF_Core_IAW_Base: CUP_arifle_Mk20_woodland {
+  //   class SCAR_H_FullAuto;
+  // };
+
+  class OAF_Core_IAW_Base : CUP_arifle_Mk20_woodland	// define that the external parent base class inherits from the external base class
+  {
+	  class SCAR_H_FullAuto;					// define the external child base class "skeleton"
+  };
+
+  class OAF_Core_CUP_arifle_SABR_IAW: OAF_Core_IAW_Base
   {
     displayName="SABR-IAW 7.62 mm";
-    descriptionShort="SABR Infantry Automatic Weapon - 7.62x51mm caliber.<br>Support variant of the Standard Advanced Battle Rifle. OAF-issue.";
+    descriptionShort="SABR Infantry Automatic Weapon - 7.62x51mm caliber.<br>Support variant of the Standard Advanced Battle Rifle. Swappable barrel. OAF-issue.";
     scope=1;
+    modes[] = {"SCAR_H_Single","SCAR_H_FullAuto","SCAR_H_AiAuto"};
+    class SCAR_H_AiAuto: SCAR_H_FullAuto {
+      reloadTime = 0.07;
+      aiRateOfFireDistance = 1000;
+      displayName = "High";
+      maxRange = 800;
+      maxRangeProbab = 0.5;
+      midRange = 400;
+      midRangeProbab = 1;
+      minRange = 0;
+      minRangeProbab = 2;
+      showToPlayer=false;
+      burst = 5;
+			aiBurstTerminable = 1;
+    }
+    class SCAR_H_FullAuto : SCAR_H_FullAuto {
+      reloadTime = 0.07;
+    }
+
+    ace_overheating_allowSwapBarrel = 1; // 1 to enable barrel swap. 0 to disable. Meant for machine guns where you can easily swap the barrel without dismantling the whole weapon.
+    ace_overheating_barrelMass = 2;
+
     class LinkedItems
 		{
 			class LinkedItemOptic
@@ -219,7 +250,14 @@ class cfgWeapons
 				slot="CUP_PicatinnySideMountSCAR";
 				item="CUP_acc_LLM_od";
 			};
+      class LinkedItemsUnder
+      {
+        slot="CUP_PicatinnyUnderMountSCAR";
+        item="CUP_bipod_VLTOR_Modpod_black";
+      };
 		};
+
+    
   };
 
   class OAF_Core_smg_P7A7: CUP_smg_MP7
@@ -511,6 +549,11 @@ class cfgWeapons
 				slot="CUP_PicatinnySideMountSCAR";
 				item="CUP_acc_LLM_od";
 			};
+      class LinkedItemsUnder
+      {
+        slot="CUP_PicatinnyUnderMountSCAR";
+        item="CUP_bipod_VLTOR_Modpod_black";
+      };
 
     };
   };
@@ -887,7 +930,7 @@ class OAF_Core_Raven_Heavy_base: B_UAV_03_dynamicLoadout_F
   scope = 2;
   scopeCurator = 2;
 	side = 1;
-	displayName = "APA-15H Stormraven";
+	displayName = "APA-15H Raven";
 	hiddenSelectionsTextures[] = {"a3_aegis\air_f_aegis\uav_03\data\uav_03_1_black_co.paa", "a3_aegis\air_f_aegis\uav_03\data\uav_03_2_black_co.paa"};
 	crew = "B_UAV_AI_F";
 	typicalCargo[] = {"B_UAV_AI_F"};
@@ -896,7 +939,7 @@ class OAF_Core_Raven_Heavy_base: B_UAV_03_dynamicLoadout_F
 	reportRemoteTargets = true;
 	reportOwnPosition = true;
   armor = 190;
-  armorEngine = 1;
+  armorEngine = 2;
 	class EventHandlers
 	{
 		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\StormRaven\stormraven_serverside.sqf';";
@@ -967,7 +1010,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   scope = 2;
   scopeCurator = 2;
 	side = 1;
-	displayName = "APA-15H Stormraven (AT)";
+	displayName = "APA-15H Raven (AT)";
 	hiddenSelectionsTextures[] = {"a3_aegis\air_f_aegis\uav_03\data\uav_03_1_black_co.paa", "a3_aegis\air_f_aegis\uav_03\data\uav_03_2_black_co.paa"};
 	crew = "B_UAV_AI_F";
 	typicalCargo[] = {"B_UAV_AI_F"};
@@ -976,7 +1019,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
 	reportRemoteTargets = true;
 	reportOwnPosition = true;
   armor = 190;
-  armorEngine = 1;
+  armorEngine = 2;
 	class EventHandlers
 	{
 		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\StormRaven\stormraven_AT_serverside.sqf';";
@@ -1299,8 +1342,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     displayName="Sharpshooter (Optic)";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
-    weapons[]={"Laserdesignator_04","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","Put","Throw"};
-    respawnWeapons[]={"Laserdesignator_04","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","Put","Throw"};
+    weapons[]={"Laserdesignator_04","OAF_Core_srifle_SR33_Optic","OAF_Core_hgun_P5A1_RH_X2","Put","Throw"};
+    respawnWeapons[]={"Laserdesignator_04","OAF_Core_srifle_SR33_Optic","OAF_Core_hgun_P5A1_RH_X2","Put","Throw"};
     items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag"};
