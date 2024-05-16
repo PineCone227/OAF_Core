@@ -141,7 +141,9 @@ class cfgWeapons
   class APOLLO_arifle_ACR_M: CUP_arifle_ACR_DMR_blk_556
   {
     displayName="ACR-M 5.56 mm";
+
     descriptionShort="Adaptive Combat Rifle - 5.56x45mm caliber.<br />Utilized by APOLLO security personnel.";
+
     scope=1;
     class LinkedItems
     {
@@ -293,8 +295,8 @@ class cfgWeapons
       reloadTime = 0.0665;
     }
 
-    ace_overheating_allowSwapBarrel = 1; // 1 to enable barrel swap. 0 to disable. Meant for machine guns where you can easily swap the barrel without dismantling the whole weapon.
-    ace_overheating_barrelMass = 2.5;
+    ace_overheating_allowSwapBarrel = 1; // 1 to enable barrel swap. 0 to disable.
+    ace_overheating_barrelMass = 1.5;
 
     class LinkedItems
 		{
@@ -330,7 +332,9 @@ class cfgWeapons
   class OAF_Core_smg_P7A7: CUP_smg_MP7
   {
     displayName="P7A7-SK 4.6mm";
-    descriptionShort="P7 (Survival Kit) submachine gun - 4.6x30mm caliber.<br />Covert weapon included in emergency supply kits for downed pilots. OAF-issue.";
+
+    descriptionShort="P7 submachine gun - 4.6x30mm caliber.<br>Covert weapon included in emergency survival kits for downed pilots. OAF-issue.";
+
     scope=1;
     class LinkedItems
     {
@@ -371,6 +375,7 @@ class cfgWeapons
   {
     displayName="U9A3-S PDC 5.56 mm";
     descriptionShort="U9 Suppressed Personal Defence Carbine - 5.56x45mm caliber.<br />Suppressed compact carbine for aircrews of the Oasean Armed Forces.";
+
     scope=1;
     class LinkedItems
     {
@@ -948,7 +953,7 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
 
   class OAF_Core_launch_Titan_short_blk_F: launch_Titan_short_blk_F
   {
-    displayName="Titan MPRL Compact (Black)";
+    //displayName="Titan MPRL Compact (Black)";
     scope=1;
     class LinkedItems
     {
@@ -962,7 +967,7 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
 
   class OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black: launch_Titan_blk_F
   {
-    displayName="Titan MPRL (Black)";
+    //displayName="Titan MPRL (Black)";
     scope=1;
     class LinkedItems
     {
@@ -1789,7 +1794,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="LSRAA (M1151 EAC)";
+    displayName="M1151 LSRAA";
     editorSubcategory = "ReserveAA";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_newhmmwv\data\body_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_newm1097\data\roof_avenger_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_newhmmwv\data\snorkel_mesh_ca.paa","cup\wheeledvehicles\cup_wheeledvehicles_newhmmwv\data\chassis_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_newhmmwv\data\attachments_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_newhmmwv\data\interior_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_newhmmwv\data\interior_detail_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_newm1097\data\avenger_turret_co.paa","#(argb,8,8,3)color(0,0,0,0)","#(argb,8,8,3)color(0,0,0,0)","#(argb,8,8,3)color(0,0,0,0)","#(argb,8,8,3)color(0,0,0,0)","#(argb,8,8,3)color(0,0,0,0)","#(argb,8,8,3)color(0,0,0,0)","#(argb,8,8,3)color(0,0,0,0)","#(argb,8,8,3)color(0,0,0,0)","#(argb,8,8,3)color(0,0,0,0)","#(argb,8,8,3)color(0,0,0,1)","cup\wheeledvehicles\cup_wheeledvehicles_newhmmwv\data\chassis_co.paa","#(argb,8,8,3)color(0,0,0,1)","#(argb,8,8,3)color(0,0,0,1)","cup\wheeledvehicles\cup_wheeledvehicles_newm1097\data\avenger_launcher_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_newm1097\data\avenger_interior_co.paa","#(argb,8,8,3)color(0,0,0,0)","#(argb,8,8,3)color(0,0,0,0)"};
     crew="OAF_Core_Motorized_Rifleman";
@@ -1812,7 +1817,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="FSV-2 Stryker";
+    // displayName="FSV-2 Stryker";
     editorSubcategory = "ReserveAPC";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\woodland\stryker_mgs_body1_des_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\woodland\stryker_body2_des_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\woodland\stryker_mgs_des_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\woodland\stryker_body2_des_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\woodland\stryker_alfa_des_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\woodland\slat_armor_des_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\woodland\default_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
@@ -1842,7 +1847,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
     scopeCurator = 2;
-    displayName="LFSV Capral";
+    displayName="Capral LFSV";
     hiddenSelectionsTextures[]={"a3_aegis\soft_f_aegis\mrap_02\data\mrap_02_ext_01_rukhk_co.paa","a3_aegis\soft_f_aegis\mrap_02\data\mrap_02_ext_02_rukhk_co.paa","a3_aegis\soft_f_aegis\ugv_01\data\turret_rukhk_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -1867,7 +1872,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     side=1;
     scopeCurator = 2;
     editorSubcategory = "EdSubcat_AAs";
-    displayName="LAAV Capral";
+    displayName="Capral LAAV";
     hiddenSelectionsTextures[]={"a3_aegis\soft_f_aegis\mrap_02\data\mrap_02_ext_01_rukhk_co.paa","a3_aegis\soft_f_aegis\mrap_02\data\mrap_02_ext_02_rukhk_co.paa","a3_aegis\soft_f_aegis\ugv_01\data\turret_rukhk_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -1889,7 +1894,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
     scopeCurator = 2;
-    displayName="LATV Capral";
+    displayName="Capral LATV";
     hiddenSelectionsTextures[]={"a3_aegis\soft_f_aegis\mrap_02\data\mrap_02_ext_01_rukhk_co.paa","a3_aegis\soft_f_aegis\mrap_02\data\mrap_02_ext_02_rukhk_co.paa","a3_aegis\soft_f_aegis\ugv_01\data\turret_rukhk_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -1911,7 +1916,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
     scopeCurator = 2;
-    displayName="LRRV Capral";
+    displayName="Capral LRRV";
     hiddenSelectionsTextures[]={"a3_aegis\soft_f_aegis\mrap_02\data\mrap_02_ext_01_rukhk_co.paa","a3_aegis\soft_f_aegis\mrap_02\data\mrap_02_ext_02_rukhk_co.paa","a3_aegis\soft_f_aegis\ugv_01\data\turret_rukhk_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -1981,7 +1986,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="ALMV-3";
+    // displayName="ALMV-3";
     hiddenSelectionsTextures[]={"a3\soft_f_exp\lsv_01\data\nato_lsv_01_black_co.paa","a3\soft_f_exp\lsv_01\data\nato_lsv_02_black_co.paa","a3\soft_f_exp\lsv_01\data\nato_lsv_03_black_co.paa","a3\soft_f_exp\lsv_01\data\nato_lsv_adds_black_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -1999,7 +2004,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="ALMV-3 (Armed)";
+    // displayName="ALMV-3 (Armed)";
     hiddenSelectionsTextures[]={"a3\soft_f_exp\lsv_01\data\nato_lsv_01_black_co.paa","a3\soft_f_exp\lsv_01\data\nato_lsv_02_black_co.paa","a3\soft_f_exp\lsv_01\data\nato_lsv_03_black_co.paa","a3\soft_f_exp\lsv_01\data\nato_lsv_adds_black_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2017,7 +2022,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="ALMV-3 (Titan)";
+    // displayName="ALMV-3 (Titan)";
     hiddenSelectionsTextures[]={"a3_aegis\soft_f_aegis\lsv_01\data\nato_lsv_01_baf_co.paa","a3_aegis\soft_f_aegis\lsv_01\data\nato_lsv_02_baf_co.paa","a3_aegis\soft_f_aegis\lsv_01\data\nato_lsv_03_baf_co.paa","a3_aegis\soft_f_aegis\lsv_01\data\nato_lsv_adds_baf_co.paa","a3\weapons_f_exp\launchers\titan\data\launch_b_titan_tna_f_01_co.paa","a3\weapons_f_exp\launchers\titan\data\launch_b_titan_short_tna_f_02_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2035,7 +2040,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="HEMTT";
+    //displayName="HEMTT";
     hiddenSelectionsTextures[]={"a3\soft_f_exp\truck_01\data\truck_01_ext_01_olive_co.paa","a3\soft_f_exp\truck_01\data\truck_01_ext_02_olive_co.paa","a3\soft_f_exp\truck_01\data\truck_01_mprimer_olive_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2045,7 +2050,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="HEMTT Container";
+    //displayName="HEMTT Container";
     hiddenSelectionsTextures[]={"a3\soft_f_exp\truck_01\data\truck_01_ext_01_olive_co.paa","a3\soft_f_exp\truck_01\data\truck_01_ext_02_olive_co.paa","a3\soft_f_exp\truck_01\data\truck_01_ammo_olive_co.paa","a3\structures_f\data\metal\containers\containers_02_set_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2055,7 +2060,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="HEMTT Flatbed";
+    //displayName="HEMTT Flatbed";
     hiddenSelectionsTextures[]={"a3\soft_f_exp\truck_01\data\truck_01_ext_01_olive_co.paa","a3\soft_f_exp\truck_01\data\truck_01_ext_02_olive_co.paa","a3\soft_f_enoch\truck_01\data\truck_01_ammo_pacific_co.paa","a3\soft_f_enoch\truck_01\data\truck_01_cargo_pacific_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2075,7 +2080,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="HEMTT Transport";
+    //displayName="HEMTT Transport";
     hiddenSelectionsTextures[]={"a3\soft_f_exp\truck_01\data\truck_01_ext_01_olive_co.paa","a3\soft_f_exp\truck_01\data\truck_01_ext_02_olive_co.paa","a3\soft_f_exp\truck_01\data\truck_01_cargo_olive_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2085,7 +2090,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="HEMTT Transport (Covered)";
+    //displayName="HEMTT Transport (Covered)";
     hiddenSelectionsTextures[]={"a3\soft_f_exp\truck_01\data\truck_01_ext_01_olive_co.paa","a3\soft_f_exp\truck_01\data\truck_01_ext_02_olive_co.paa","a3\soft_f_exp\truck_01\data\truck_01_cargo_olive_co.paa","a3\soft_f_exp\truck_01\data\truck_01_cover_olive_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2095,7 +2100,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="L-MRAV";
+    //displayName="L-MRAV";
     editorSubcategory = "ReserveCar";
     hiddenSelectionsTextures[]={"a3\soft_f_exp\mrap_01\data\mrap_01_base_olive_co.paa","a3\soft_f_exp\mrap_01\data\mrap_01_adds_olive_co.paa","a3\data_f_exp\vehicles\turret_olive_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
@@ -2106,7 +2111,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="L-MRAV (RCWS HMG)";
+    //displayName="L-MRAV (RCWS HMG)";
     editorSubcategory = "ReserveCar";
     hiddenSelectionsTextures[]={"a3\soft_f_exp\mrap_01\data\mrap_01_base_olive_co.paa","a3\soft_f_exp\mrap_01\data\mrap_01_adds_olive_co.paa","a3\data_f_exp\vehicles\turret_olive_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
@@ -2117,7 +2122,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="L-MRAV (RCWS GMG)";
+    //displayName="L-MRAV (RCWS GMG)";
     editorSubcategory = "ReserveCar";
     hiddenSelectionsTextures[]={"a3\soft_f_exp\mrap_01\data\mrap_01_base_olive_co.paa","a3\soft_f_exp\mrap_01\data\mrap_01_adds_olive_co.paa","a3\data_f_exp\vehicles\turret_olive_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
@@ -2171,7 +2176,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="HTLV (Repair)";
+    displayName="Barracuda HLVS (Repair)";
     hiddenSelectionsTextures[]={"a3_aegis\soft_f_aegis\truck_03\data\truck_03_ext01_rukhk_co.paa","a3_aegis\soft_f_aegis\truck_03\data\truck_03_ext02_rukhk_co.paa","a3_aegis\soft_f_aegis\truck_03\data\truck_03_ammo_rukhk_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2181,7 +2186,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="HTLV (Fuel)";
+    displayName="Barracuda HLVS (Fuel)";
     hiddenSelectionsTextures[]={"a3_aegis\soft_f_aegis\truck_03\data\truck_03_ext01_rukhk_co.paa","a3_aegis\soft_f_aegis\truck_03\data\truck_03_ext02_rukhk_co.paa","a3_aegis\soft_f_aegis\truck_03\data\truck_03_fuel_rukhk_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2191,7 +2196,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="HTLV (Ammo)";
+    displayName="Barracuda HLVS (Ammo)";
     hiddenSelectionsTextures[]={"a3_aegis\soft_f_aegis\truck_03\data\truck_03_ext01_rukhk_co.paa","a3_aegis\soft_f_aegis\truck_03\data\truck_03_ext02_rukhk_co.paa","a3_aegis\soft_f_aegis\truck_03\data\truck_03_cargo_rukhk_co.paa","a3_aegis\soft_f_aegis\truck_03\data\containers_02_set_rukhk_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2201,7 +2206,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="C/V-97 Heron-A";
+    displayName="C/V-280 Heron-A";
     hiddenSelectionsTextures[]={"\FVL_2k35\Valor\data\Valor_0_CO_White.paa","",""};
     crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
@@ -2223,7 +2228,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="S/V-97 Vulture";
+    displayName="S/V-280 Vulture";
     hiddenSelectionsTextures[]={"\FVL_2k35\Valor\data\Valor_0_CO_White.paa","",""};
     crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
@@ -2245,7 +2250,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="C/V-97 Heron-B (Unarmed)";
+    displayName="C/V-280 Heron-B (Unarmed)";
     hiddenSelectionsTextures[]={"\FVL_2k35\Valor\data\Valor_0_CO_White.paa","",""};
     crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
@@ -2267,7 +2272,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="ISV-4MO";
+    //displayName="ISV-4MO";
     hiddenSelectionsTextures[]={"a3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_base_olive_co.paa","a3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_adds_olive_co.paa","a3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_tows_olive_co.paa","a3\armor_f\data\camonet_nato_green_co.paa","a3\armor_f\data\cage_olive_co.paa","lxws\vehicles_f_lxws\data\apc_wheeled_01\apc_wheeled_01_lxws_olive_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2313,7 +2318,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="TH-63 Pegasus";
+    displayName="TH-60 Pegasus";
     editorSubcategory = "ReserveHeli";
     hiddenSelectionsTextures[]={"cup\airvehicles\cup_airvehicles_uh60\data\uh60m_fuselage_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\uh60m_engine_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa"};
     crew="OAF_Core_Helicopter_Pilot";
@@ -2328,7 +2333,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="UH-85 Spectre Medevac";
+    displayName="HH-85 Spectre Medevac";
     hiddenSelectionsTextures[]={"a3_aegis\air_f_aegis\heli_transport_01\data\heli_transport_01_ext01_medevac_co.paa","a3\air_f_beta\heli_transport_01\data\heli_transport_01_ext02_co.paa"};
     crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
@@ -2342,7 +2347,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="LWCV-25";
+    displayName="LAV-25 (Command)";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody2_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lav_hq_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavalfa_ca.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2352,7 +2357,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="ISV-4 Medevac";
+    //displayName="ISV-4 Medevac";
     hiddenSelectionsTextures[]={"a3_aegis\armor_f_aegis\apc_wheeled_01\data\apc_wheeled_01_base_medevac_olive_co.paa","a3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_adds_olive_co.paa","a3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_tows_olive_co.paa","",""};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2362,7 +2367,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="ISV-4";
+    //displayName="ISV-4";
     hiddenSelectionsTextures[]={"a3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_base_olive_co.paa","a3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_adds_olive_co.paa","a3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_tows_olive_co.paa","a3\armor_f\data\camonet_nato_green_co.paa","a3\armor_f\data\cage_olive_co.paa","lxws\vehicles_f_lxws\data\apc_wheeled_01\apc_wheeled_01_lxws_olive_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2372,7 +2377,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="AEV-H Rhino";
+    //displayName="AEV-H Rhino";
     hiddenSelectionsTextures[]={"a3\armor_f_exp\apc_tracked_01\data\apc_tracked_01_body_crv_olive_co.paa","a3\armor_f_exp\apc_tracked_01\data\mbt_01_body_olive_co.paa","a3\data_f_exp\vehicles\turret_olive_co.paa","a3\armor_f_exp\apc_tracked_01\data\apc_tracked_01_crv_olive_co.paa","a3\armor_f\data\camonet_nato_green_co.paa"};
     crew="OAF_Core_Crewman";
     typicalCargo[]={"OAF_Core_Combat_Engineer"};
@@ -2386,7 +2391,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="AEV-L Mongoose";
+    displayName="Mongoose AEV";
     hiddenSelectionsTextures[]={"lxws\vehicles_1_f_lxws\apc_wheeled_02\data\apc_wheeled_02_ext_01_black_co.paa","lxws\vehicles_1_f_lxws\apc_wheeled_02\data\apc_wheeled_02_ext_02_black_co.paa","a3\armor_f\data\camonet_aaf_stripe_desert_co.paa","lxws\vehicles_f_lxws\data\apc_wheeled_01\cage_black_co.paa","lxws\vehicles_1_f_lxws\apc_wheeled_02\data\apc_wheeled_02_adds_02_black_co.paa"};
     crew="OAF_Core_Combat_Engineer";
     typicalCargo[]={"OAF_Core_Combat_Engineer"};
@@ -2404,8 +2409,9 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="IFSV-5";
-    editorSubcategory = "ReserveAPC";
+    displayName="MAAV";
+    //editorSubcategory = "ReserveAPC";
+    editorSubcategory = "EdSubcat_AAs";
     hiddenSelectionsTextures[]={"a3_atlas\armor_f_atlas\apc_wheeled_03\data\apc_wheeled_03_ext_olive_co.paa","a3_atlas\armor_f_atlas\apc_wheeled_03\data\apc_wheeled_03_ext2_olive_co.paa","a3_atlas\armor_f_atlas\apc_wheeled_03\data\rcws30_olive_co.paa","a3_atlas\armor_f_atlas\apc_wheeled_03\data\apc_wheeled_03_ext_alpha_olive_co.paa","a3\armor_f\data\camonet_nato_green_co.paa","a3\armor_f\data\cage_olive_co.paa"};
     crew="OAF_Core_Crewman";
     typicalCargo[]={"OAF_Core_Crewman"};
@@ -2421,9 +2427,10 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
 
   class OAF_Core_Rooikat: B_AFV_Wheeled_01_up_cannon_F
   {
+    scopeCurator=0;
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="FSV-6 Tayra";
+    //displayName="FSV-6 Tayra";
     hiddenSelectionsTextures[]={"a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext1_green_co.paa","a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext2_green_co.paa","a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_wheel_green_co.paa","a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext3_co.paa","a3\armor_f_tank\afv_wheeled_01\data\afv_commander_tow_co.paa","a3\armor_f\data\camonet_nato_green_co.paa","a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext3_co.paa"};
     crew="OAF_Core_Crewman";
     typicalCargo[]={"OAF_Core_Crewman"};
@@ -2440,7 +2447,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="AGV-R Scout";
+    //displayName="AGV-R Scout";
     hiddenSelectionsTextures[]={"a3\soft_f_enoch\ugv_01\data\ugv_01_ext_eaf_co.paa","a3\soft_f_enoch\ugv_01\data\ugv_01_int_eaf_co.paa","a3\soft_f_enoch\ugv_01\data\turret_eaf_co.paa"};
     crew="B_UAV_AI_F";
     typicalCargo[]={"B_UAV_AI_F"};
@@ -2458,7 +2465,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="AGV-EV Defender Medevac";
+    //displayName="AGV-EV Defender Medevac";
     hiddenSelectionsTextures[]={"a3_aegis\soft_f_aegis\ugv_01\data\ugv_01_ext_medevac_eaf_co.paa","a3\soft_f_enoch\ugv_01\data\ugv_01_int_eaf_co.paa","a3\soft_f_orange\ugv_01\data\turret_idap_co.paa"};
     crew="B_UAV_AI_F";
     typicalCargo[]={"B_UAV_AI_F"};
@@ -2486,7 +2493,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="MIM-45 SAM";
+    //displayName="MIM-45 SAM";
     hiddenSelectionsTextures[]={"a3\static_f_sams\sam_system_03\data\sam_system_03_mat_01_olive_co.paa","a3\static_f_sams\sam_system_03\data\sam_system_03_mat_02_olive_co.paa"};
     crew="B_UAV_AI_F";
     typicalCargo[]={"B_UAV_AI_F"};
@@ -2558,7 +2565,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="AL-6 Kiang";
+    displayName="AL-6 Pelican";
     hiddenSelectionsTextures[]={"a3\air_f_orange\uav_06\data\b_uav_06_co.paa",""};
     crew="B_UAV_AI_F";
     typicalCargo[]={"B_UAV_AI_F"};
@@ -2568,7 +2575,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="AL-6 Kiang Medical";
+    displayName="AL-6 Pelican Medical";
     hiddenSelectionsTextures[]={"a3\air_f_orange\uav_06\data\b_uav_06_medical_co.paa","a3\air_f_orange\uav_06\data\b_uav_06_medical_co.paa"};
     crew="B_UAV_AI_F";
     typicalCargo[]={"B_UAV_AI_F"};
@@ -2631,7 +2638,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="LWAPC-25A";
+    displayName="LAV-25A";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody2_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lav_hq_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavalfa_ca.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2659,7 +2666,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="A/V-97 Gyrfalcon";
+    displayName="A/V-280 Gyrfalcon";
     hiddenSelectionsTextures[]={"\FVL_2k35\Valor\data\Valor_0_CO_White.paa","",""};
     crew="OAF_Core_Helicopter_Pilot";
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
@@ -2716,7 +2723,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="SH-63 Shadowhawk";
+    displayName="SH-60 Shadowhawk";
     editorSubcategory = "ReserveHeli";
     hiddenSelectionsTextures[]={"cup\airvehicles\cup_airvehicles_uh60\data\uh60m_fuselage_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\uh60m_engine_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa"};
     crew="OAF_Core_Helicopter_Pilot";
@@ -2727,7 +2734,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="TH-63 Pegasus (FFV)";
+    displayName="TH-60 Pegasus (FFV)";
     editorSubcategory = "ReserveHeli";
     hiddenSelectionsTextures[]={"cup\airvehicles\cup_airvehicles_uh60\data\uh60m_fuselage_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\uh60m_engine_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa"};
     crew="OAF_Core_Helicopter_Pilot";
@@ -2738,7 +2745,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="SH-10 Shrike";
+    displayName="SH-635 Shrike";
     editorSubcategory = "ReserveHeli";
     hiddenSelectionsTextures[]={"hafm_ec635\data\outerhaul_co.paa","hafm_ec635\data\upperparts_co.paa","hafm_ec635\data\tail_co.paa","hafm_ec635\data\bawl_co.paa","hafm_ec635\data\sidedoors_co.paa","hafm_ec635\data\cargodoors_co.paa","",""};
     crew="OAF_Core_Helicopter_Pilot";
@@ -2747,6 +2754,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
 
   class OAF_Core_C_300_Cargo: Atlas_B_A_Plane_Transport_01_vehicle_F
   {
+    scopeCurator=0;
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
     displayName="T/C300 Alicorn";
@@ -2766,9 +2774,10 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
 
   class OAF_Core_Offroad_Comms: Aegis_B_E_Offroad_01_comms_F
   {
+    scopeCurator=0;
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="LTMV (Relay)";
+    //displayName="LTMV (Relay)";
     editorSubcategory = "ReserveCar";
     hiddenSelectionsTextures[]={"a3\soft_f_enoch\offroad_01\data\offroad_01_ext_grn_co.paa","a3\soft_f_enoch\offroad_01\data\offroad_01_ext_grn_co.paa","a3\soft_f_enoch\offroad_01\data\offroad_01_cover_grn_co.paa"};
     crew="OAF_Core_Motorized_Rifleman";
@@ -2787,7 +2796,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="AGV-FS Defender (HMG RCWS)";
+    //displayName="AGV-FS Defender (HMG RCWS)";
     hiddenSelectionsTextures[]={"a3\soft_f_enoch\ugv_01\data\ugv_01_ext_eaf_co.paa","a3\soft_f_enoch\ugv_01\data\ugv_01_int_eaf_co.paa","a3\soft_f_enoch\ugv_01\data\turret_eaf_co.paa"};
     crew="B_UAV_AI_F";
     typicalCargo[]={"B_UAV_AI_F"};
@@ -2835,7 +2844,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="IASV-6 Warden";
+    displayName="Warden IASV";
     hiddenSelectionsTextures[]={"qin_titus\data\skins\wdl2\karoserie1_wdl2.paa","qin_titus\data\skins\wdl2\karoserie2_wdl2.paa","qin_titus\data\skins\wdl2\karoserie3_wdl2.paa","qin_titus\data\skins\wdl2\arx20_wdl2.paa","qin_titus\data\skins\wdl2\interier1_wdl2.paa","qin_titus\data\skins\wdl2\interier2_wdl2.paa","qin_titus\data\camonet_wdl2_co.paa","qin_titus\data\gps\no_data.paa","#(argb,8,8,3)color(0.86,0.14,0.02,0,ca)","qin_titus\data\police_logo.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
@@ -2845,7 +2854,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
-    displayName="IASV-6 Warden (20 mm RCWS)";
+    displayName="Warden IASV (20 mm RCWS)";
     hiddenSelectionsTextures[]={"qin_titus\data\skins\wdl2\karoserie1_wdl2.paa","qin_titus\data\skins\wdl2\karoserie2_wdl2.paa","qin_titus\data\skins\wdl2\karoserie3_wdl2.paa","qin_titus\data\skins\wdl2\arx20_wdl2.paa","qin_titus\data\skins\wdl2\interier1_wdl2.paa","qin_titus\data\skins\wdl2\interier2_wdl2.paa","qin_titus\data\camonet_wdl2_co.paa","qin_titus\data\gps\no_data.paa","#(argb,8,8,3)color(0.86,0.14,0.02,0,ca)","qin_titus\data\police_logo.paa"};
     crew="OAF_Core_Motorized_Rifleman";
     typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
