@@ -1,8 +1,9 @@
+#include "BIS_AddonInfo.hpp"
 class cfgPatches
 {
   class OAF_Core_Oasean_Armed_Forces
   {
-    units[]={"OAF_Core_Crewman","OAF_Core_Autorifleman","OAF_Core_Pilot","OAF_Core_Helicopter_Pilot","OAF_Core_Helicopter_Crew","OAF_Core_Rifleman","OAF_Core_Rifleman_AT","OAF_Core_Section_Leader","OAF_Core_Motorized_Rifleman","OAF_Core_Paramedic","OAF_Core_Combat_Engineer","OAF_Core_Demo_Specialist","OAF_Core_Grenadier","OAF_Core_Shock_Trooper","OAF_Core_AS_Operator","OAF_Core_Machine_Gunner","OAF_Core_Marksman","OAF_Core_Sharpshooter","OAF_Core_Missile_Specialist","OAF_Core_AA_Trooper","OAF_Core_Ammo_Bearer","OAF_Core_CBRN_Specialist","OAF_Core_Military_Scientist","OAF_Core_AA","OAF_Core_MGS","OAF_Core_MRAP","OAF_Core_MRAP_LFSV","OAF_Core_MRAP_LAAV","OAF_Core_MRAP_LATV","OAF_Core_MRAP_LRRV","OAF_Core_LSV","OAF_Core_LSV_MG","OAF_Core_LSV_AT","OAF_Core_HEMTT","OAF_Core_HEMTT_Container","OAF_Core_HEMTT_Flatbed","OAF_Core_HEMTT_Medevac","OAF_Core_HEMTT_Transport","OAF_Core_HEMTT_Transport_Covered","OAF_Core_MRAP_N","OAF_Core_MRAP_N_HMG","OAF_Core_MRAP_N_GMG","OAF_Core_UH_80_Ghost_Hawk","OAF_Core_RAH_66","OAF_Core_F_35","OAF_Core_Typhoon_Repair","OAF_Core_Typhoon_Fuel","OAF_Core_Typhoon_Ammo","OAF_Core_UV_85_Transport_Armed","OAF_Core_UV_85_Armed","OAF_Core_UV_85_Transport_Unarmed","OAF_Core_AMV_Mortar","OAF_Core_NH90_Armed","OAF_Core_NH90","OAF_Core_Merlin","OAF_Core_Seahawk","OAF_Core_UH_80_Ghost_Hawk_Medevac","OAF_Core_LAV_C","OAF_Core_AMV_Medevac","OAF_Core_AMV","OAF_Core_AEV_Nemmera","OAF_Core_AEV_Marid","OAF_Core_Pandur","OAF_Core_Rooikat","OAF_Core_Stomper","OAF_Core_Stomper_Medevac","OAF_Core_MPQ_105_Radar","OAF_Core_MIM_45_SAM","OAF_Core_UCAV_Sentinel","OAF_Core_Mk244","OAF_Core_Mk230","OAF_Core_AP_5","OAF_Core_AL_6","OAF_Core_AL_6_Med","OAF_Core_Raven","OAF_Core_Chinook","OAF_Core_T_2OF4_Dragon_II","OAF_Core_LAV","OAF_Core_Cougar_MRAV","OAF_Core_UV_85_Armed_Heavy","OAF_Core_F_15EX","OAF_Core_F_15SE","OAF_Core_Knighthawk","OAF_Core_Seahawk_FFV","OAF_Core_EC_635","OAF_Core_C_300_Cargo","OAF_Core_Offroad_Comms","OAF_Core_Stomper_HMG","OAF_Core_F_23_Thermobaric","OAF_Core_F_23_Anti_Vehicle","OAF_Core_F_23_Air_Superiority","OAF_Core_PLACEHOLDER","OAF_Core_Titus_Transport","OAF_Core_Titus_Armed","APOLLO_Guard","APOLLO_Field_Tech","APOLLO_Demolitions","APOLLO_Van_Transport","APOLLO_Van_Cargo","APOLLO_Van_Services","OAF_Core_Raven_Heavy","OAF_Core_Raven_Heavy_AT", "OAF_Core_AP_5", "OAF_Core_AP_5_light","OAF_Core_LFSV_Turret", "OAF_Core_LAAV_Turret", "OAF_Core_LATV_Turret", "OAF_Core_LRRV_Turret"};
+    units[]={"OAF_Core_Crewman","OAF_Core_Autorifleman","OAF_Core_Pilot","OAF_Core_Helicopter_Pilot","OAF_Core_Helicopter_Crew","OAF_Core_Rifleman","OAF_Core_Rifleman_AT","OAF_Core_Section_Leader","OAF_Core_Motorized_Rifleman","OAF_Core_Paramedic","OAF_Core_Combat_Engineer","OAF_Core_Demo_Specialist","OAF_Core_Grenadier","OAF_Core_Shock_Trooper","OAF_Core_AS_Operator","OAF_Core_Machine_Gunner","OAF_Core_Marksman","OAF_Core_Sharpshooter","OAF_Core_Missile_Specialist","OAF_Core_AA_Trooper","OAF_Core_Ammo_Bearer","OAF_Core_CBRN_Specialist","OAF_Core_Military_Scientist","OAF_Core_AA","OAF_Core_MGS","OAF_Core_MRAP","OAF_Core_MRAP_LFSV","OAF_Core_MRAP_LAAV","OAF_Core_MRAP_LATV","OAF_Core_MRAP_LRRV","OAF_Core_LSV","OAF_Core_LSV_MG","OAF_Core_LSV_AT","OAF_Core_HEMTT","OAF_Core_HEMTT_Container","OAF_Core_HEMTT_Flatbed","OAF_Core_HEMTT_Medevac","OAF_Core_HEMTT_Transport","OAF_Core_HEMTT_Transport_Covered","OAF_Core_MRAP_N","OAF_Core_MRAP_N_HMG","OAF_Core_MRAP_N_GMG","OAF_Core_UH_80_Ghost_Hawk","OAF_Core_RAH_66","OAF_Core_F_35","OAF_Core_Typhoon_Repair","OAF_Core_Typhoon_Fuel","OAF_Core_Typhoon_Ammo","OAF_Core_UV_85_Transport_Armed","OAF_Core_UV_85_Armed","OAF_Core_UV_85_Transport_Unarmed","OAF_Core_AMV_Mortar","OAF_Core_NH90_Armed","OAF_Core_NH90","OAF_Core_Merlin","OAF_Core_Seahawk","OAF_Core_UH_80_Ghost_Hawk_Medevac","OAF_Core_LAV_C","OAF_Core_AMV_Medevac","OAF_Core_AMV","OAF_Core_AEV_Nemmera","OAF_Core_AEV_Marid","OAF_Core_Pandur","OAF_Core_Rooikat","OAF_Core_Stomper","OAF_Core_Stomper_Medevac","OAF_Core_MPQ_105_Radar","OAF_Core_MIM_45_SAM","OAF_Core_UCAV_Sentinel","OAF_Core_Mk244","OAF_Core_Mk230","OAF_Core_AP_5","OAF_Core_AL_6","OAF_Core_AL_6_Med","OAF_Core_Raven","OAF_Core_Chinook","OAF_Core_T_2OF4_Dragon_II","OAF_Core_LAV","OAF_Core_Cougar_MRAV","OAF_Core_UV_85_Armed_Heavy","OAF_Core_F_15EX","OAF_Core_F_15SE","OAF_Core_Knighthawk","OAF_Core_Seahawk_FFV","OAF_Core_EC_635","OAF_Core_C_300_Cargo","OAF_Core_Offroad_Comms","OAF_Core_Stomper_HMG","OAF_Core_F_23_Thermobaric","OAF_Core_F_23_Anti_Vehicle","OAF_Core_F_23_Air_Superiority","OAF_Core_PLACEHOLDER","OAF_Core_Titus_Transport","OAF_Core_Titus_Armed","APOLLO_Guard","APOLLO_Field_Tech","APOLLO_Demolitions","APOLLO_Van_Transport","APOLLO_Van_Cargo","APOLLO_Van_Services","OAF_Core_Raven_Heavy","OAF_Core_Raven_Heavy_AT", "OAF_Core_AP_5", "OAF_Core_AP_5_light","OAF_Core_LFSV_Turret", "OAF_Core_LAAV_Turret", "OAF_Core_LATV_Turret", "OAF_Core_LRRV_Turret","OAF_Core_Sharpshooter_Optic"};
     weapons[]={"OAF_Core_arifle_U9A3","OAF_Core_hgun_P5A1","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_smg_P7A7","OAF_Core_hgun_P5A1S","OAF_Core_arifle_U9A3S","OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","OAF_Core_CUP_arifle_SABR_GL","OAF_Core_sgun_S11","OAF_Core_MMG_01_black_F","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_arifle_SABR_LR","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","OAF_Core_launch_Titan_short_blk_F","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_CUP_arifle_SABR_C_1","OAF_Core_CUP_arifle_U9A3_ROS","OAF_Core_hgun_P5A1_RH_M6X","launch_MRAWS_black_F","OAF_Core_srifle_SR33_Optic", "APOLLO_arifle_ACR_M","APOLLO_CUP_arifle_G36C","APOLLO_CUP_arifle_XM8_Compact"};
     requiredVersion=0.1;
     requiredAddons[]={"ace_medical_treatment","ace_hearing","ace_captives","A3_Weapons_F_Enoch","A3_Weapons_F","A3_Weapons_F_Enoch_Items","A3_Aegis_Weapons_F_Aegis","CUP_Weapons_SCAR","A3_Aegis_Characters_F_Aegis_Vests","CUP_Creatures_Military_USArmy","ace_attach","CUP_Creatures_Military_Germany","USP_Gear_IHPS","A3_Characters_F","ace_huntir","A3_Drones_F_Weapons_F_Gamma_Items","ace_flashlights","A3_Aegis_Characters_F_Aegis","ace_logistics_uavbattery","ace_logistics_wirecutter","A3_Weapons_F_Items","ace_kestrel4500","ace_trenches","ace_explosives","ace_chemlights","Weapons_1_F_lxWS_Shotguns_AA40","dzn_MG_Tripod_Core","CuratorOnly_Characters_F_BLUFOR","A3_Weapons_F_Mark_LongRangeRifles_DMR_02","A3_Atlas_Characters_F_Atlas_Uniforms"};
@@ -140,7 +141,9 @@ class cfgWeapons
   class APOLLO_arifle_ACR_M: CUP_arifle_ACR_DMR_blk_556
   {
     displayName="ACR-M 5.56 mm";
-    descriptionShort="Adaptive Combat Rifle - 5.56x45mm caliber.<br>Utilized by APOLLO security personnel.";
+
+    descriptionShort="Adaptive Combat Rifle - 5.56x45mm caliber.<br />Utilized by APOLLO security personnel.";
+
     scope=1;
     class LinkedItems
     {
@@ -155,7 +158,7 @@ class cfgWeapons
   class APOLLO_CUP_arifle_G36C: CUP_arifle_G36C_VFG_Carry
   {
     displayName="G36C 5.56 mm";
-    descriptionShort="G36 Compact Carbine - 5.56x45mm caliber.<br>Utilized by APOLLO field maintenance personnel.";
+    descriptionShort="G36 Compact Carbine - 5.56x45mm caliber.<br />Utilized by APOLLO field maintenance personnel.";
     scope=1;
     class LinkedItems
     {
@@ -170,7 +173,7 @@ class cfgWeapons
   class APOLLO_CUP_arifle_XM8_Compact: CUP_arifle_XM8_Compact
   {
     displayName="M8C 5.56 mm";
-    descriptionShort="M8C Compact Carbine - 5.56x45mm caliber.<br>Utilized by APOLLO engineering personnel.";
+    descriptionShort="M8C Compact Carbine - 5.56x45mm caliber.<br />Utilized by APOLLO engineering personnel.";
     scope=1;
     class LinkedItems
     {
@@ -180,7 +183,7 @@ class cfgWeapons
   class OAF_Core_arifle_U9A3: CUP_arifle_Mk16_CQC_AFG_woodland
   {
     displayName="U9A3 PDC 5.56 mm";
-    descriptionShort="U9 Personal Defence Carbine - 5.56x45mm caliber.<br>Standard compact carbine of the Oasean Armed Forces. 2035-issue A3 model.";
+    descriptionShort="U9 Personal Defence Carbine - 5.56x45mm caliber.<br />Standard compact carbine of the Oasean Armed Forces. 2035-issue A3 model.";
     scope=1;
     class LinkedItems
     {
@@ -195,11 +198,35 @@ class cfgWeapons
   class OAF_Core_hgun_P5A1: RH_fn57
   {
     displayName="P5A1 5.7 mm";
-    descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br>Standard sidearm of the Oasean Armed Forces.";
+    descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br />Standard sidearm of the Oasean Armed Forces.";
     scope=1;
     class LinkedItems
     {
     };
+  };
+
+  class OAF_Core_hgun_P5A4X_base : RH_fn57{
+    class Single;
+  }
+  class OAF_Core_hgun_P5A4X: OAF_Core_hgun_P5A4X_base
+  {
+    displayName="P5A4X 5.7 mm";
+    descriptionShort="P5A4X Experimental PDW - 5.7x28mm caliber.<br />Automatic variant of the P5A1. Unintended for use without a suppressor.";
+    scope=2;
+    scopeCurator=2;
+    scopeArsenal = 2;
+    modes[] = {"Single","Auto"};
+
+    class Auto: Single {
+      displayName = "Auto";
+      autoFire = 1;
+      textureType = "fullAuto";
+    }
+    class LinkedItems
+    {
+    };
+
+    
   };
 
   // class OAF_Core_IAW_Base: CUP_arifle_Mk20_woodland {
@@ -214,8 +241,10 @@ class cfgWeapons
   class OAF_Core_CUP_arifle_SABR_IAW: OAF_Core_IAW_Base
   {
     displayName="SABR-IAW 7.62 mm";
-    descriptionShort="SABR Infantry Automatic Weapon - 7.62x51mm caliber.<br>Support variant of the Standard Advanced Battle Rifle featuring increased rate of fire and a heavier, swappable barrel. OAF-issue.";
+    descriptionShort="SABR Infantry Automatic Weapon - 7.62x51mm caliber.<br />Support variant of the Standard Advanced Battle Rifle featuring increased rate of fire and a heavier, swappable barrel. OAF-issue.";
     scope=2;
+    scopeCurator=2;
+    scopeArsenal = 2;
     modes[] = {"SCAR_H_Single","SCAR_H_FullAuto","SCAR_H_AiAuto","SCAR_H_AiAutoClose","SCAR_H_AiAutoFar"};
     class SCAR_H_AiAuto: SCAR_H_FullAuto {
       reloadTime = 0.0665;
@@ -291,10 +320,21 @@ class cfgWeapons
     
   };
 
+  class OAF_Core_CUP_arifle_SABR_IAW_clean: OAF_Core_CUP_arifle_SABR_IAW {
+    scope=2;
+    scopeCurator=2;
+    scopeArsenal = 2;
+    class LinkedItems
+    {
+    };
+  }
+
   class OAF_Core_smg_P7A7: CUP_smg_MP7
   {
     displayName="P7A7-SK 4.6mm";
+
     descriptionShort="P7 submachine gun - 4.6x30mm caliber.<br>Covert weapon included in emergency survival kits for downed pilots. OAF-issue.";
+
     scope=1;
     class LinkedItems
     {
@@ -319,7 +359,7 @@ class cfgWeapons
   class OAF_Core_hgun_P5A1S: RH_fn57
   {
     displayName="P5A1-S 5.7mm";
-    descriptionShort="P5A1 Suppressed pistol - 5.7x28mm caliber.<br>Signature-reduced variant of the standard OAF sidearm.";
+    descriptionShort="P5A1 Suppressed pistol - 5.7x28mm caliber.<br />Signature-reduced variant of the standard OAF sidearm.";
     scope=1;
     class LinkedItems
     {
@@ -334,7 +374,8 @@ class cfgWeapons
   class OAF_Core_arifle_U9A3S: CUP_arifle_Mk16_CQC_black
   {
     displayName="U9A3-S PDC 5.56 mm";
-    descriptionShort="U9 Suppressed Personal Defence Carbine - 5.56x45mm caliber.<br>Signature-reduced compact carbine for aircrews of the Oasean Armed Forces.";
+    descriptionShort="U9 Suppressed Personal Defence Carbine - 5.56x45mm caliber.<br />Suppressed compact carbine for aircrews of the Oasean Armed Forces.";
+
     scope=1;
     class LinkedItems
     {
@@ -365,7 +406,7 @@ class cfgWeapons
   class OAF_Core_arifle_SABR: OAF_Core_SABR_Base
   {
     displayName="SABR 7.62mm";
-    descriptionShort="Standard Advanced Battle Rifle - 7.62x51mm caliber.<br>Main combat rifle of the Oasean Armed Forces. 2030-issue.";
+    descriptionShort="Standard Advanced Battle Rifle - 7.62x51mm caliber.<br />Main combat rifle of the Oasean Armed Forces. 2030-issue.";
     scope=1;
     class LinkedItems
 		{
@@ -432,7 +473,7 @@ class cfgWeapons
   class OAF_Core_CUP_arifle_SABR_GL_SL: OAF_Core_GLC_Base
   {
     displayName="SABR-GL 7.62 mm";
-    descriptionShort="Standard Advanced Battle Rifle with Grenade Launcher - 7.62x51mm caliber.<br>Main combat rifle of the Oasean Armed Forces, equipped with grenade-launching module.";
+    descriptionShort="Standard Advanced Battle Rifle with Grenade Launcher - 7.62x51mm caliber.<br />Main combat rifle of the Oasean Armed Forces, equipped with grenade-launching module.";
     scope=1;
     class LinkedItems
     {
@@ -490,7 +531,7 @@ class cfgWeapons
   class OAF_Core_CUP_arifle_SABR_C: OAF_Core_SABRC_Base
   {
     displayName="SABR-C 7.62 mm";
-    descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br>Short-barelled version of the SABR for support troops. OAF 2030-issue.";
+    descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br />Short-barelled version of the SABR for support troops. OAF 2030-issue.";
     scope=1;
     class LinkedItems
     {
@@ -540,7 +581,7 @@ class cfgWeapons
   class OAF_Core_hgun_P5A1_g_RH_M6X: RH_fn57_g
   {
     displayName="P5A1 5.7 mm";
-    descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br>Standard sidearm of the Oasean Armed Forces.";
+    descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br />Standard sidearm of the Oasean Armed Forces.";
     scope=1;
     class LinkedItems
     {
@@ -559,7 +600,7 @@ class cfgWeapons
   class OAF_Core_CUP_arifle_SABR_GL: OAF_Core_SABRGL_Base
   {
     displayName="SABR-GL 7.62 mm";
-    descriptionShort="Standard Advanced Battle Rifle with Grenade Launcher - 7.62x51mm caliber.<br>Main combat rifle of the Oasean Armed Forces, equipped with grenade-launching module.";
+    descriptionShort="Standard Advanced Battle Rifle with Grenade Launcher - 7.62x51mm caliber.<br />Main combat rifle of the Oasean Armed Forces, equipped with grenade-launching module.";
     scope=1;
     class LinkedItems
     {
@@ -609,7 +650,7 @@ class cfgWeapons
   class OAF_Core_sgun_S11: sgun_aa40_lxWS
   {
     displayName="S11AB-S Breach 12g";
-    descriptionShort="S11 Advanced Breaching Shotgun - 12 gauge.<br>Automatic multipurpose shotgun utilized by breachers and shock troops. OAF-issue.";
+    descriptionShort="S11 Advanced Breaching Shotgun - 12 gauge.<br />Automatic multipurpose shotgun utilized by breachers and shock troops. OAF-issue.";
     scope=1;
     class LinkedItems
     {
@@ -667,8 +708,10 @@ class cfgWeapons
   class OAF_Core_MMG_01_black_F: OAF_Core_MMG_01_black_F_base
   {
     displayName="IMG-93 Gharial 9.3 mm";
-    descriptionShort='Infantry Machine Gun 93 "Gharial" - 9.3x64mm caliber.<br>Squad medium machine gun indigenously produced in Oasea. OAF-issue.';
-    scope=1;
+    descriptionShort='Infantry Machine Gun 93 "Gharial" - 9.3x64mm caliber.<br />Squad medium machine gun indigenously produced in Oasea. OAF-issue.';
+    scope=2;
+    scopeCurator=2;
+    scopeArsenal = 2;
     class LinkedItems
     {
       class LinkedItemsMuzzle
@@ -694,13 +737,13 @@ class cfgWeapons
     };
     modes[] = {"autoSlow","autoFast","semiAuto","close","closeSlow","short","shortSlow","medium","far_optic1","far_optic2"};
     class autoFast: manual {
-      reloadTime = 0.05;
+      reloadTime = 0.06;
       textureType = "fastAuto";
       flashSize = 0.25;
       showToPlayer = true;
     }
     class autoSlow: manual {
-      reloadTime = 0.1;
+      reloadTime = 0.12;
       textureType = "fullAuto";
       flashSize = 0.2;
       showToPlayer = true;
@@ -708,55 +751,55 @@ class cfgWeapons
     class semiAuto: manual {
       autofire = 0;
       burst = 1;
-      reloadTime = 0.1;
+      reloadTime = 0.06;
       textureType = "semi";
       flashSize = 0.2;
       showToPlayer = true;
     }
     class close: close {
-      reloadTime = 0.05;
+      reloadTime = 0.06;
       flashSize = 0.2;
       burst = 5;
       burstRangeMax = 15;
       aiBurstTerminable = 1;
     }
     class closeSlow: close {
-      reloadTime = 0.1;
+      reloadTime = 0.12;
       flashSize = 0.2;
       burst = 5;
       burstRangeMax = 15;
       aiBurstTerminable = 1;
     }
     class short: short {
-      reloadTime = 0.05;
+      reloadTime = 0.06;
       flashSize = 0.2;
       burst = 3;
       burstRangeMax = 7;
       aiBurstTerminable = 1;
     }
     class shortSlow: short {
-      reloadTime = 0.1;
+      reloadTime = 0.12;
       flashSize = 0.2;
       burst = 3;
       burstRangeMax = 7;
       aiBurstTerminable = 1;
     }
     class medium: medium {
-      reloadTime = 0.1;
+      reloadTime = 0.12;
       flashSize = 0.2;
       burst = 3;
       burstRangeMax = 7;
       aiBurstTerminable = 1;
     }
     class far_optic1: far_optic1 {
-      reloadTime = 0.1;
+      reloadTime = 0.12;
       flashSize = 0.2;
       burst = 1;
       burstRangeMax = 5;
       aiBurstTerminable = 1;
     }
     class far_optic2: far_optic2 {
-      reloadTime = 0.1;
+      reloadTime = 0.12;
       flashSize = 0.2;
       burst = 1;
       burstRangeMax = 5;
@@ -764,6 +807,15 @@ class cfgWeapons
     }
 
   };
+
+  class OAF_Core_MMG_01_black_F_Clean: OAF_Core_MMG_01_black_F {
+    scope=2;
+    scopeCurator=2;
+    scopeArsenal = 2;
+    class LinkedItems
+    {
+    };
+  }
 class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry	
   {
 	  class WeaponSlotsInfo;		
@@ -771,7 +823,7 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
   class OAF_Core_dzn_MG_Tripod_Universal_Carry: OAF_Core_Tripod_Base
   {
     displayName="MG Tripod (IMG-93)";
-    descriptionShort="Tripod for the IMG-93 'Gharial'<br>Used for setting up stable firing platforms or sentry positions and allows crew-serving of the weapon.";
+    descriptionShort="Tripod for the IMG-93 'Gharial'<br />Used for setting up stable firing platforms or sentry positions and allows crew-serving of the weapon.";
     scope=1;
     class WeaponSlotsInfo{
       mass=40;
@@ -781,7 +833,7 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
   class OAF_Core_arifle_SABR_LR: CUP_arifle_Mk20_woodland
   {
     displayName="SABR-LR 7.62 mm";
-    descriptionShort="SABR Long Range - 7.62x51mm caliber.<br>Marksman variant of the Standard Advanced Battle Rifle. OAF-issue.";
+    descriptionShort="SABR Long Range - 7.62x51mm caliber.<br />Marksman variant of the Standard Advanced Battle Rifle. OAF-issue.";
     scope=1;
     class LinkedItems
     {
@@ -803,12 +855,24 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
 
     };
   };
-
-  class OAF_Core_srifle_SR33: srifle_DMR_02_F
+  class OAF_Core_srifle_SR33_base: srifle_DMR_02_F {
+    class Single;
+    class single_close_optics1;
+    class single_far_optics1;
+    class single_medium_optics1;
+  }
+  class OAF_Core_srifle_SR33: OAF_Core_srifle_SR33_base
   {
     displayName="SR-33 .338";
-    descriptionShort="SR-33 Precision Rifle - 8.6x70mm caliber.<br>High-accuracy sharpshooter's rifle, primarily used in a defensive role.";
+    descriptionShort="SR-33 Precision Rifle - 8.6x70mm caliber.<br />High-accuracy sharpshooter's rifle, primarily used in a defensive role.";
     scope=1;
+    modes[] = {"Single","single_close_optics1","single_medium_optics1","single_far_optics1","Auto"};
+    class Auto: Single{
+      displayName = "Auto";
+      autoFire = 1;
+      textureType = "fullAuto";
+      reloadTime = 0.12;
+    }
     class LinkedItems
     {
       class LinkedItemsMuzzle
@@ -834,10 +898,18 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
     };
   };
 
-  class OAF_Core_srifle_SR33_Optic: srifle_DMR_02_F
+  class OAF_Core_srifle_SR33_clean: OAF_Core_srifle_SR33 {
+    scope=2;
+    scopeCurator=2;
+    scopeArsenal = 2;
+    class LinkedItems
+    {}
+    };
+
+  class OAF_Core_srifle_SR33_Optic: OAF_Core_srifle_SR33
   {
     displayName="SR-33 .338";
-    descriptionShort="SR-33 Precision Rifle - 8.6x70mm caliber.<br>High-accuracy sharpshooter's rifle, primarily used in a defensive role.";
+    descriptionShort="SR-33 Precision Rifle - 8.6x70mm caliber.<br />High-accuracy sharpshooter's rifle, primarily used in a defensive role.";
     scope=1;
     class LinkedItems
     {
@@ -867,7 +939,7 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
   class OAF_Core_hgun_P5A1_RH_X2: RH_fn57
   {
     displayName="P5A1 5.7 mm";
-    descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br>Standard sidearm of the Oasean Armed Forces.";
+    descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br />Standard sidearm of the Oasean Armed Forces.";
     scope=1;
     class LinkedItems
     {
@@ -913,7 +985,7 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
   class OAF_Core_CUP_arifle_SABR_C_1: OAF_Core_SABRC1_Base
   {
     displayName="SABR-C 7.62 mm";
-    descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br>Short-barelled version of the SABR for support troops. OAF-issue.";
+    descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br />Short-barelled version of the SABR for support troops. OAF-issue.";
     scope=1;
     class LinkedItems
     {
@@ -989,7 +1061,7 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
   class OAF_Core_hgun_P5A1_RH_M6X: RH_fn57
   {
     displayName="P5A1 5.7 mm";
-    descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br>Standard sidearm of the Oasean Armed Forces.";
+    descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br />Standard sidearm of the Oasean Armed Forces.";
     scope=1;
     class LinkedItems
     {
@@ -1618,6 +1690,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
+    scope=2;
+    scopeCurator=2;
     displayName="Sharpshooter (Optic)";
     uniformClass="USP_G3F_G3C_KP_OR_MCT";
     weapons[]={"Laserdesignator_04","OAF_Core_srifle_SR33_Optic","OAF_Core_hgun_P5A1_RH_X2","Put","Throw"};
@@ -2182,7 +2256,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     typicalCargo[]={"OAF_Core_Helicopter_Crew"};
     class EventHandlers
 	{
-		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\HeliCrew\man_turrets.sqf';";
+		
 	};
   class TextureSources{
       class Default {
@@ -3678,6 +3752,76 @@ class cfgGroups
             side=1;
             vehicle="OAF_Core_Raven";
             rank="CORPORAL";
+            position[]={0,-0,0};
+          };
+        };
+        class OAF_Core_B_RifleSquadFalconet
+        {
+          name="Rifle Squad (Air Sentry)";
+          faction="OAF_Core_Oasean_Armed_Forces";
+          side=1;
+          
+          class Unit0
+          {
+            side=1;
+            vehicle="OAF_Core_Section_Leader";
+            rank="SERGEANT";
+            position[]={0,-15,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="OAF_Core_Ammo_Bearer";
+            rank="PRIVATE";
+            position[]={0,-120,0};
+          };
+          class Unit2
+          {
+            side=1;
+            vehicle="OAF_Core_AS_Operator";
+            rank="CORPORAL";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=1;
+            vehicle="OAF_Core_Grenadier";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+          class Unit4
+          {
+            side=1;
+            vehicle="OAF_Core_Rifleman_AT";
+            rank="PRIVATE";
+            position[]={0,-60,0};
+          };
+          class Unit5
+          {
+            side=1;
+            vehicle="OAF_Core_Marksman";
+            rank="PRIVATE";
+            position[]={0,-75,0};
+          };
+          class Unit6
+          {
+            side=1;
+            vehicle="OAF_Core_Paramedic";
+            rank="PRIVATE";
+            position[]={0,-90,0};
+          };
+          class Unit7
+          {
+            side=1;
+            vehicle="OAF_Core_Autorifleman";
+            rank="PRIVATE";
+            position[]={0,-105,0};
+          };
+          class Unit8
+          {
+            side=1;
+            vehicle="OAF_Core_AP_5";
+            rank="PRIVATE";
             position[]={0,-0,0};
           };
         };
