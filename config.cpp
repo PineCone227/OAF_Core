@@ -4,7 +4,7 @@ class cfgPatches
   class OAF_Core_Oasean_Armed_Forces
   {
     units[]={"OAF_Core_Crewman","OAF_Core_Autorifleman","OAF_Core_Pilot","OAF_Core_Helicopter_Pilot","OAF_Core_Helicopter_Crew","OAF_Core_Rifleman","OAF_Core_Rifleman_AT","OAF_Core_Section_Leader","OAF_Core_Motorized_Rifleman","OAF_Core_Paramedic","OAF_Core_Combat_Engineer","OAF_Core_Demo_Specialist","OAF_Core_Grenadier","OAF_Core_Shock_Trooper","OAF_Core_AS_Operator","OAF_Core_Machine_Gunner","OAF_Core_Marksman","OAF_Core_Sharpshooter","OAF_Core_Missile_Specialist","OAF_Core_AA_Trooper","OAF_Core_Ammo_Bearer","OAF_Core_CBRN_Specialist","OAF_Core_Military_Scientist","OAF_Core_AA","OAF_Core_MGS","OAF_Core_MRAP","OAF_Core_MRAP_LFSV","OAF_Core_MRAP_LAAV","OAF_Core_MRAP_LATV","OAF_Core_MRAP_LRRV","OAF_Core_LSV","OAF_Core_LSV_MG","OAF_Core_LSV_AT","OAF_Core_HEMTT","OAF_Core_HEMTT_Container","OAF_Core_HEMTT_Flatbed","OAF_Core_HEMTT_Medevac","OAF_Core_HEMTT_Transport","OAF_Core_HEMTT_Transport_Covered","OAF_Core_MRAP_N","OAF_Core_MRAP_N_HMG","OAF_Core_MRAP_N_GMG","OAF_Core_UH_80_Ghost_Hawk","OAF_Core_RAH_66","OAF_Core_F_35","OAF_Core_Typhoon_Repair","OAF_Core_Typhoon_Fuel","OAF_Core_Typhoon_Ammo","OAF_Core_UV_85_Transport_Armed","OAF_Core_UV_85_Armed","OAF_Core_UV_85_Transport_Unarmed","OAF_Core_AMV_Mortar","OAF_Core_NH90_Armed","OAF_Core_NH90","OAF_Core_Merlin","OAF_Core_Seahawk","OAF_Core_UH_80_Ghost_Hawk_Medevac","OAF_Core_LAV_C","OAF_Core_AMV_Medevac","OAF_Core_AMV","OAF_Core_AEV_Nemmera","OAF_Core_AEV_Marid","OAF_Core_Pandur","OAF_Core_Rooikat","OAF_Core_Stomper","OAF_Core_Stomper_Medevac","OAF_Core_MPQ_105_Radar","OAF_Core_MIM_45_SAM","OAF_Core_UCAV_Sentinel","OAF_Core_Mk244","OAF_Core_Mk230","OAF_Core_AP_5","OAF_Core_AL_6","OAF_Core_AL_6_Med","OAF_Core_Raven","OAF_Core_Chinook","OAF_Core_T_2OF4_Dragon_II","OAF_Core_LAV","OAF_Core_Cougar_MRAV","OAF_Core_UV_85_Armed_Heavy","OAF_Core_F_15EX","OAF_Core_F_15SE","OAF_Core_Knighthawk","OAF_Core_Seahawk_FFV","OAF_Core_EC_635","OAF_Core_C_300_Cargo","OAF_Core_Offroad_Comms","OAF_Core_Stomper_HMG","OAF_Core_F_23_Thermobaric","OAF_Core_F_23_Anti_Vehicle","OAF_Core_F_23_Air_Superiority","OAF_Core_PLACEHOLDER","OAF_Core_Titus_Transport","OAF_Core_Titus_Armed","APOLLO_Guard","APOLLO_Field_Tech","APOLLO_Demolitions","APOLLO_Van_Transport","APOLLO_Van_Cargo","APOLLO_Van_Services","OAF_Core_Raven_Heavy","OAF_Core_Raven_Heavy_AT", "OAF_Core_AP_5", "OAF_Core_AP_5_light","OAF_Core_LFSV_Turret", "OAF_Core_LAAV_Turret", "OAF_Core_LATV_Turret", "OAF_Core_LRRV_Turret","OAF_Core_Sharpshooter_Optic"};
-    weapons[]={"OAF_Core_arifle_U9A3","OAF_Core_hgun_P5A1","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_smg_P7A7","OAF_Core_hgun_P5A1S","OAF_Core_arifle_U9A3S","OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","OAF_Core_CUP_arifle_SABR_GL","OAF_Core_sgun_S11","OAF_Core_MMG_01_black_F","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_arifle_SABR_LR","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","OAF_Core_launch_Titan_short_blk_F","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_CUP_arifle_SABR_C_1","OAF_Core_CUP_arifle_U9A3_ROS","OAF_Core_hgun_P5A1_RH_M6X","launch_MRAWS_black_F","OAF_Core_srifle_SR33_Optic", "APOLLO_arifle_ACR_M","APOLLO_CUP_arifle_G36C","APOLLO_CUP_arifle_XM8_Compact"};
+    weapons[]={"OAF_Core_arifle_U9A3","OAF_Core_hgun_P5A1","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_smg_P7A7","OAF_Core_hgun_P5A1S","OAF_Core_arifle_U9A3S","OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","OAF_Core_CUP_arifle_SABR_GL","OAF_Core_sgun_S11","OAF_Core_MMG_01_black_F","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_arifle_SABR_LR","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","OAF_Core_launch_Titan_short_blk_F","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_CUP_arifle_SABR_C_1","OAF_Core_CUP_arifle_U9A3_ROS","OAF_Core_hgun_P5A1_RH_M6X","launch_MRAWS_black_F","OAF_Core_srifle_SR33_Optic", "APOLLO_arifle_ACR_M","APOLLO_CUP_arifle_G36C","APOLLO_CUP_arifle_XM8_Compact","OAF_Core_CUP_srifle_M107","OAF_Core_CUP_arifle_Mk17_CQC_Black"};
     requiredVersion=0.1;
     requiredAddons[]={"ace_medical_treatment","ace_hearing","ace_captives","A3_Weapons_F_Enoch","A3_Weapons_F","A3_Weapons_F_Enoch_Items","A3_Aegis_Weapons_F_Aegis","CUP_Weapons_SCAR","A3_Aegis_Characters_F_Aegis_Vests","CUP_Creatures_Military_USArmy","ace_attach","CUP_Creatures_Military_Germany","USP_Gear_IHPS","A3_Characters_F","ace_huntir","A3_Drones_F_Weapons_F_Gamma_Items","ace_flashlights","A3_Aegis_Characters_F_Aegis","ace_logistics_uavbattery","ace_logistics_wirecutter","A3_Weapons_F_Items","ace_kestrel4500","ace_trenches","ace_explosives","ace_chemlights","Weapons_1_F_lxWS_Shotguns_AA40","dzn_MG_Tripod_Core","CuratorOnly_Characters_F_BLUFOR","A3_Weapons_F_Mark_LongRangeRifles_DMR_02","A3_Atlas_Characters_F_Atlas_Uniforms"};
   };
@@ -107,12 +107,12 @@ class cfgWeapons
   class CUP_arifle_Mk16_CQC_AFG_woodland;
   class RH_fn57;
   class CUP_arifle_Mk20_woodland;
-  class OAF_CUP_smg_MP7_CUP_muzzle_snds_MP7CUP_acc_LLM_blackSkeetIR_TWS_pip;
-  class OAF_RH_fn57_RH_sfn57;
+  //class OAF_CUP_smg_MP7_CUP_muzzle_snds_MP7CUP_acc_LLM_blackSkeetIR_TWS_pip;
+  //class OAF_RH_fn57_RH_sfn57;
   class CUP_arifle_Mk16_CQC_black;
-  class OAF_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS;
-  class OAF_launch_MRAWS_black_F_CUP_acc_LLM_black;
-  class OAF_RH_fn57;
+  //class OAF_CUP_arifle_Mk17_STD_woodland_CUP_acc_LLM_odAegis_optic_ROS;
+  //class OAF_launch_MRAWS_black_F_CUP_acc_LLM_black;
+  //class OAF_RH_fn57;
   class CUP_arifle_Mk17_STD_EGLM_woodland;
   class CUP_arifle_Mk17_STD_woodland;
   class CUP_arifle_Mk17_CQC_AFG_woodland;
@@ -129,6 +129,9 @@ class cfgWeapons
   class CUP_arifle_ACR_DMR_blk_556;
   class CUP_arifle_G36C_VFG_Carry;
   class CUP_arifle_XM8_Compact;
+  class CUP_srifle_M107_Pristine;
+  class CUP_arifle_Mk17_CQC_Black;
+  
   //Crazy? 
   //I was crazy once.
   //I tried to write CfgWeapons.
@@ -137,6 +140,53 @@ class cfgWeapons
   //Makes me crazy.
   
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  class OAF_Core_CUP_srifle_M107: CUP_srifle_M107_Pristine
+  {
+    displayName="M107 (Dark Grey)";
+    scope=1;
+    class LinkedItems
+    {
+      class LinkedItemsMuzzle
+      {
+        slot="MuzzleSlot";
+        item="CUP_muzzle_mfsup_Suppressor_M107_Black";
+      };
+      class LinkedItemOptic
+			{
+				slot="CowsSlot";
+				item="NForce_Atcr_RMR_Top_SkeetIR_Down";
+			};
+
+    };
+  };
+
+  class OAF_Core_CUP_arifle_Mk17_CQC_Black: CUP_arifle_Mk17_CQC_Black
+  {
+    displayName="SABR-C 7.62 mm (OFN)";
+    descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br />Short-barelled version of the SABR. Oasean Federal Navy issue.";
+    scope=1;
+    class LinkedItems
+    {
+      class LinkedItemsMuzzle
+      {
+        slot="MuzzleSlot";
+        item="CUP_muzzle_snds_socom762rc";
+      };
+      class LinkedItemOptic
+			{
+				slot="CUP_PicatinnyTopMountSCAR";
+				item="CUP_optic_AC11704_Black";
+			};
+			class LinkedItemSide
+			{
+				slot="CUP_PicatinnySideMountSCAR";
+				item="CUP_acc_LLM_od";
+			};
+
+
+    };
+  };
 
   class APOLLO_arifle_ACR_M: CUP_arifle_ACR_DMR_blk_556
   {
@@ -519,7 +569,7 @@ class cfgWeapons
       minRange = 0;
       minRangeProbab = 2;
       showToPlayer=false;
-      burst = 3;
+      burst = 5;
       burstRangeMax = 15;
 			aiBurstTerminable = 1;
     }
@@ -1039,8 +1089,8 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
 
   class OAF_Core_CUP_arifle_U9A3_ROS: CUP_arifle_Mk16_CQC_AFG_black
   {
-    displayName="U9A3 PDC 5.56 mm";
-    descriptionShort="U9 Personal Defence Carbine - 5.56x45mm caliber.";
+    displayName="U9A3 PDC 5.56 mm (RT)";
+    descriptionShort="U9 Personal Defence Carbine - 5.56x45mm caliber. Commercial model.";
     scope=1;
     class LinkedItems
     {
@@ -1209,6 +1259,11 @@ class cfgVehicles
   class B_UAV_AI_F;
   class QIN_Titus_WDL;
   class QIN_Titus_arx20_WDL;
+  class B_A_ghillie_tna_F;
+  class B_A_ghillie_spotter_tna_F;
+  class Marine_B_USMC_Boat_Transport_02_F;
+  class B_A_Boat_Armed_01_hmg_F;
+  class sab_mp_migaloo;
   class Air;
   class Plane;
 
@@ -1702,6 +1757,57 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag"};
     linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
     respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    backpack="";
+  };
+
+  class OAF_Core_sniper: B_A_ghillie_tna_F
+  {
+    faction="OAF_Core_Oasean_Armed_Forces";
+    side=1;
+    displayName="Sniper";
+    uniformClass="U_B_T_FullGhillie_tna_F";
+    weapons[]={"Laserdesignator_04","OAF_Core_CUP_srifle_M107","OAF_Core_hgun_P5A4X","Put","Throw"};
+    respawnWeapons[]={"Laserdesignator_04","OAF_Core_CUP_srifle_M107","OAF_Core_hgun_P5A4X","Put","Throw"};
+    items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item"};
+    respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item"};
+    magazines[]={"CUP_HandGrenade_M67","ACE_Chemlight_HiBlue","CUP_10Rnd_127x99_M107","RH_20Rnd_57x28_FN","MiniGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_API_Mag","CUP_10Rnd_127x99_M107","RH_20Rnd_57x28_FN"};
+    respawnMagazines[]={"CUP_HandGrenade_M67","ACE_Chemlight_HiBlue","CUP_10Rnd_127x99_M107","RH_20Rnd_57x28_FN","MiniGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_API_Mag","CUP_10Rnd_127x99_M107","RH_20Rnd_57x28_FN"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    backpack="OAF_Core_sniper_pack";
+  };
+
+  class OAF_Core_spotter: B_A_ghillie_spotter_tna_F
+  {
+    faction="OAF_Core_Oasean_Armed_Forces";
+    side=1;
+    displayName="Spotter";
+    uniformClass="U_B_T_FullGhillie_tna_F";
+    weapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_Mk17_CQC_Black","Put","Throw"};
+    respawnWeapons[]={"Laserdesignator_04","OAF_Core_CUP_arifle_Mk17_CQC_Black","Put","Throw"};
+    items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item"};
+    respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item"};
+    magazines[]={"CUP_HandGrenade_M67","ACE_Chemlight_HiBlue","CUP_20Rnd_762x51_B_SCAR_bkl","MiniGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_AMAX_Mag","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107"};
+    respawnMagazines[]={"CUP_HandGrenade_M67","ACE_Chemlight_HiBlue","CUP_20Rnd_762x51_B_SCAR_bkl","MiniGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_AMAX_Mag","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    backpack="OAF_Core_spotter_pack";
+  };
+
+  class OAF_Core_navy_crew: B_A_crew_F
+  {
+    faction="OAF_Core_Oasean_Armed_Forces";
+    side=1;
+    displayName="Navy Crewman";
+    uniformClass="USP_G3C_CU_OR_NAV";
+    weapons[]={"Binocular","OAF_Core_CUP_arifle_Mk17_CQC_Black","OAF_Core_hgun_P5A1","Put","Throw"};
+    respawnWeapons[]={"Binocular","OAF_Core_CUP_arifle_Mk17_CQC_Black","OAF_Core_hgun_P5A1","Put","Throw"};
+    items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage"};
+    respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage"};
+    magazines[]={"CUP_20Rnd_762x51_B_SCAR_wdl","RH_20Rnd_57x28_FN","CUP_HandGrenade_M67","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR"};
+    respawnMagazines[]={"CUP_20Rnd_762x51_B_SCAR_wdl","RH_20Rnd_57x28_FN","CUP_HandGrenade_M67","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","TiGoggles_RF","Binocular","Atlas_H_HelmetCCH_grn_F","Atlas_V_OCarrierRig_blk_F","G_Combat_Goggles_blk_F","TiGoggles_RF"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","TiGoggles_RF","Binocular","Atlas_H_HelmetCCH_grn_F","Atlas_V_OCarrierRig_blk_F","G_Combat_Goggles_blk_F","TiGoggles_RF"};
     backpack="";
   };
 
@@ -2973,6 +3079,42 @@ class APOLLO_Guard: B_ION_soldier_AR_lxWS
     textureList[] = { "Default", 1 };
   };
 
+  class OAF_Core_patrol_boat: sab_mp_migaloo
+  {
+    faction="OAF_Core_Oasean_Armed_Forces";
+    side=1;
+    scope=2;
+    scopeCurator=2;
+    displayName="Patrol Boat";
+    hiddenSelectionsTextures[]={};
+    crew="OAF_Core_navy_crew";
+    typicalCargo[]={"OAF_Core_navy_crew"};
+  };
+
+  class OAF_Core_speedboat: B_A_Boat_Armed_01_hmg_F
+  {
+    faction="OAF_Core_Oasean_Armed_Forces";
+    side=1;
+    scope=2;
+    scopeCurator=2;
+    displayName="Speedboat (HMG)";
+    hiddenSelectionsTextures[]={"a3\boat_f\boat_armed_01\data\boat_armed_01_ext_co.paa","a3\boat_f\boat_armed_01\data\boat_armed_01_int_co.paa","a3\boat_f\boat_armed_01\data\boat_armed_01_crows_blufor_co.paa"};
+    crew="OAF_Core_navy_crew";
+    typicalCargo[]={"OAF_Core_navy_crew"};
+  };
+
+  class OAF_Core_rhib: Marine_B_USMC_Boat_Transport_02_F
+  {
+    faction="OAF_Core_Oasean_Armed_Forces";
+    side=1;
+    scope=2;
+    scopeCurator=2;
+    displayName="RHIB";
+    hiddenSelectionsTextures[]={"a3\boat_f_exp\boat_transport_02\data\boat_transport_02_exterior_co.paa","a3\boat_f_exp\boat_transport_02\data\boat_transport_02_interior_2_co.paa"};
+    crew="OAF_Core_navy_crew";
+    typicalCargo[]={"OAF_Core_navy_crew"};
+  };
+
 
   class APOLLO_Field_Tech_pack: B_CivilianBackpack_01_Everyday_Black_F
   {
@@ -3254,6 +3396,33 @@ class APOLLO_Guard: B_ION_soldier_AR_lxWS
     class TransportWeapons{};
   };
 
+  class OAF_Core_sniper_pack: OAF_Core_Rifleman_pack
+  {
+    scope=1;
+    class TransportMagazines
+    {
+     class _xx_ACE_10Rnd_127x99_API_Mag {count=3;magazine="ACE_10Rnd_127x99_API_Mag";};
+     class _xx_CUP_10Rnd_127x99_M107 {count=1;magazine="CUP_10Rnd_127x99_M107";};
+     class _xx_RH_20Rnd_57x28_FN {count=1;magazine="RH_20Rnd_57x28_FN";};
+    };
+    class TransportItems{};
+    class TransportWeapons{};
+  };
+
+
+  class OAF_Core_spotter_pack: OAF_Core_Rifleman_pack
+  {
+    scope=1;
+    class TransportMagazines
+    {
+     class _xx_ACE_10Rnd_127x99_API_Mag {count=1;magazine="ACE_10Rnd_127x99_API_Mag";};
+     class _xx_ACE_10Rnd_127x99_AMAX_Mag {count=1;magazine="ACE_10Rnd_127x99_AMAX_Mag";};
+     class _xx_CUP_10Rnd_127x99_M107 {count=3;magazine="CUP_10Rnd_127x99_M107";};
+    };
+    class TransportItems{};
+    class TransportWeapons{};
+  };
+
 
   class OAF_Core_Ammo_Bearer_pack: B_Carryall_green_F
   {
@@ -3317,7 +3486,146 @@ class cfgGroups
       class Infantry
       {
         name="Infantry";
-
+        class OAF_Core_B_RifleSquadUCAV
+        {
+          name="Rifle Squad (UCAV)";
+          faction="OAF_Core_Oasean_Armed_Forces";
+          side=1;
+          
+          class Unit0
+          {
+            side=1;
+            vehicle="OAF_Core_Section_Leader";
+            rank="SERGEANT";
+            position[]={0,-15,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="OAF_Core_Ammo_Bearer";
+            rank="PRIVATE";
+            position[]={0,-120,0};
+          };
+          class Unit2
+          {
+            side=1;
+            vehicle="OAF_Core_AS_Operator";
+            rank="CORPORAL";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=1;
+            vehicle="OAF_Core_Grenadier";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+          class Unit4
+          {
+            side=1;
+            vehicle="OAF_Core_Rifleman_AT";
+            rank="PRIVATE";
+            position[]={0,-60,0};
+          };
+          class Unit5
+          {
+            side=1;
+            vehicle="OAF_Core_Marksman";
+            rank="PRIVATE";
+            position[]={0,-75,0};
+          };
+          class Unit6
+          {
+            side=1;
+            vehicle="OAF_Core_Paramedic";
+            rank="PRIVATE";
+            position[]={0,-90,0};
+          };
+          class Unit7
+          {
+            side=1;
+            vehicle="OAF_Core_Autorifleman";
+            rank="PRIVATE";
+            position[]={0,-105,0};
+          };
+          class Unit8
+          {
+            side=1;
+            vehicle="OAF_Core_Raven";
+            rank="CORPORAL";
+            position[]={0,-0,0};
+          };
+        };
+        class OAF_Core_B_RifleSquadFalconet
+        {
+          name="Rifle Squad (Air Sentry)";
+          faction="OAF_Core_Oasean_Armed_Forces";
+          side=1;
+          
+          class Unit0
+          {
+            side=1;
+            vehicle="OAF_Core_Section_Leader";
+            rank="SERGEANT";
+            position[]={0,-15,0};
+          };
+          class Unit1
+          {
+            side=1;
+            vehicle="OAF_Core_Ammo_Bearer";
+            rank="PRIVATE";
+            position[]={0,-120,0};
+          };
+          class Unit2
+          {
+            side=1;
+            vehicle="OAF_Core_AS_Operator";
+            rank="CORPORAL";
+            position[]={0,-30,0};
+          };
+          class Unit3
+          {
+            side=1;
+            vehicle="OAF_Core_Grenadier";
+            rank="PRIVATE";
+            position[]={0,-45,0};
+          };
+          class Unit4
+          {
+            side=1;
+            vehicle="OAF_Core_Rifleman_AT";
+            rank="PRIVATE";
+            position[]={0,-60,0};
+          };
+          class Unit5
+          {
+            side=1;
+            vehicle="OAF_Core_Marksman";
+            rank="PRIVATE";
+            position[]={0,-75,0};
+          };
+          class Unit6
+          {
+            side=1;
+            vehicle="OAF_Core_Paramedic";
+            rank="PRIVATE";
+            position[]={0,-90,0};
+          };
+          class Unit7
+          {
+            side=1;
+            vehicle="OAF_Core_Autorifleman";
+            rank="PRIVATE";
+            position[]={0,-105,0};
+          };
+          class Unit8
+          {
+            side=1;
+            vehicle="OAF_Core_AP_5";
+            rank="PRIVATE";
+            position[]={0,-0,0};
+          };
+        };
         class OAF_Core_B_RifleSquad
         {
           name="Rifle Squad";
@@ -3685,146 +3993,7 @@ class cfgGroups
       {
         name="Motorized";
 
-        class OAF_Core_B_RifleSquadUCAV
-        {
-          name="Rifle Squad (UCAV)";
-          faction="OAF_Core_Oasean_Armed_Forces";
-          side=1;
-          
-          class Unit0
-          {
-            side=1;
-            vehicle="OAF_Core_Section_Leader";
-            rank="SERGEANT";
-            position[]={0,-15,0};
-          };
-          class Unit1
-          {
-            side=1;
-            vehicle="OAF_Core_Ammo_Bearer";
-            rank="PRIVATE";
-            position[]={0,-120,0};
-          };
-          class Unit2
-          {
-            side=1;
-            vehicle="OAF_Core_AS_Operator";
-            rank="CORPORAL";
-            position[]={0,-30,0};
-          };
-          class Unit3
-          {
-            side=1;
-            vehicle="OAF_Core_Grenadier";
-            rank="PRIVATE";
-            position[]={0,-45,0};
-          };
-          class Unit4
-          {
-            side=1;
-            vehicle="OAF_Core_Rifleman_AT";
-            rank="PRIVATE";
-            position[]={0,-60,0};
-          };
-          class Unit5
-          {
-            side=1;
-            vehicle="OAF_Core_Marksman";
-            rank="PRIVATE";
-            position[]={0,-75,0};
-          };
-          class Unit6
-          {
-            side=1;
-            vehicle="OAF_Core_Paramedic";
-            rank="PRIVATE";
-            position[]={0,-90,0};
-          };
-          class Unit7
-          {
-            side=1;
-            vehicle="OAF_Core_Autorifleman";
-            rank="PRIVATE";
-            position[]={0,-105,0};
-          };
-          class Unit8
-          {
-            side=1;
-            vehicle="OAF_Core_Raven";
-            rank="CORPORAL";
-            position[]={0,-0,0};
-          };
-        };
-        class OAF_Core_B_RifleSquadFalconet
-        {
-          name="Rifle Squad (Air Sentry)";
-          faction="OAF_Core_Oasean_Armed_Forces";
-          side=1;
-          
-          class Unit0
-          {
-            side=1;
-            vehicle="OAF_Core_Section_Leader";
-            rank="SERGEANT";
-            position[]={0,-15,0};
-          };
-          class Unit1
-          {
-            side=1;
-            vehicle="OAF_Core_Ammo_Bearer";
-            rank="PRIVATE";
-            position[]={0,-120,0};
-          };
-          class Unit2
-          {
-            side=1;
-            vehicle="OAF_Core_AS_Operator";
-            rank="CORPORAL";
-            position[]={0,-30,0};
-          };
-          class Unit3
-          {
-            side=1;
-            vehicle="OAF_Core_Grenadier";
-            rank="PRIVATE";
-            position[]={0,-45,0};
-          };
-          class Unit4
-          {
-            side=1;
-            vehicle="OAF_Core_Rifleman_AT";
-            rank="PRIVATE";
-            position[]={0,-60,0};
-          };
-          class Unit5
-          {
-            side=1;
-            vehicle="OAF_Core_Marksman";
-            rank="PRIVATE";
-            position[]={0,-75,0};
-          };
-          class Unit6
-          {
-            side=1;
-            vehicle="OAF_Core_Paramedic";
-            rank="PRIVATE";
-            position[]={0,-90,0};
-          };
-          class Unit7
-          {
-            side=1;
-            vehicle="OAF_Core_Autorifleman";
-            rank="PRIVATE";
-            position[]={0,-105,0};
-          };
-          class Unit8
-          {
-            side=1;
-            vehicle="OAF_Core_AP_5";
-            rank="PRIVATE";
-            position[]={0,-0,0};
-          };
-        };
+        
         class OAF_Core_B_MotorizedRifleSquad
         {
           name="Motorized Rifle Squad";
