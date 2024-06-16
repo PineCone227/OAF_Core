@@ -1264,6 +1264,7 @@ class cfgVehicles
   class Marine_B_USMC_Boat_Transport_02_F;
   class B_A_Boat_Armed_01_hmg_F;
   class sab_mp_migaloo;
+  class B_UNA_APC_Wheeled_02_hmg_lxWS;
   class Air;
   class Plane;
 
@@ -1343,8 +1344,9 @@ class OAF_Core_Raven_Heavy_base: B_UAV_03_dynamicLoadout_F
 	receiveRemoteTargets = true;
 	reportRemoteTargets = true;
 	reportOwnPosition = true;
-  armor = 190;
-  armorEngine = 2;
+  armor = 100;
+  armorStructural = 4;
+  armorEngine = 10;
 	class EventHandlers
 	{
 		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\StormRaven\stormraven_serverside.sqf';";
@@ -1423,8 +1425,9 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
 	receiveRemoteTargets = true;
 	reportRemoteTargets = true;
 	reportOwnPosition = true;
-  armor = 190;
-  armorEngine = 2;
+  armor = 100;
+  armorStructural = 4;
+  armorEngine = 10;
 	class EventHandlers
 	{
 		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\StormRaven\stormraven_AT_serverside.sqf';";
@@ -2048,8 +2051,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     scopeCurator = 0;
     displayName="LFSV Turret";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody2_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lav_hq_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavalfa_ca.paa"};
-    crew="OAF_Core_Motorized_Rifleman";
-    typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
+    crew = "B_UAV_AI_F";
+	  typicalCargo[] = {"B_UAV_AI_F"};
   };
 
   class OAF_Core_LAAV_Turret: I_LT_01_AA_F
@@ -2060,8 +2063,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     scopeCurator = 0;
     displayName="LAAV Turret";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody2_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lav_hq_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavalfa_ca.paa"};
-    crew="OAF_Core_Motorized_Rifleman";
-    typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
+    crew = "B_UAV_AI_F";
+	  typicalCargo[] = {"B_UAV_AI_F"};
   };
 
   class OAF_Core_LRRV_Turret: I_LT_01_scout_F
@@ -2072,8 +2075,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     scopeCurator = 0;
     displayName="LRRV Turret";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody2_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lav_hq_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavalfa_ca.paa"};
-    crew="OAF_Core_Motorized_Rifleman";
-    typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
+    crew = "B_UAV_AI_F";
+	  typicalCargo[] = {"B_UAV_AI_F"};
   };
 
   class OAF_Core_LATV_Turret: I_LT_01_AT_F
@@ -2084,8 +2087,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     scopeCurator = 0;
     displayName="LATV Turret";
     hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody2_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lav_hq_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavalfa_ca.paa"};
-    crew="OAF_Core_Motorized_Rifleman";
-    typicalCargo[]={"OAF_Core_Motorized_Rifleman"};
+    crew = "B_UAV_AI_F";
+	  typicalCargo[] = {"B_UAV_AI_F"};
   };
 
   class OAF_Core_LSV: B_LSV_01_light_F
@@ -2493,7 +2496,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
         };
   };
 
-  class OAF_Core_AEV_Marid: Atlas_O_W_APC_Wheeled_02_unarmed_lxWS
+  class OAF_Core_AEV_Marid: B_UNA_APC_Wheeled_02_hmg_lxWS
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;

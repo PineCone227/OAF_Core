@@ -4,6 +4,8 @@
 //if the devs couldn't be bothered, then so can't I
 _heli = _this select 0;
 OAF_fnc_ManTurrets = {
+if (!simulationEnabled _heli) exitWith {};
+if (!local _heli) exitWith {};
 _relpos = _heli getRelPos [5, 90]; 
 _pilot = assignedDriver _heli;
 _gunner1 = _heli turretUnit [1];

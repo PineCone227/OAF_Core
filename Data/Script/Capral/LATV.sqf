@@ -1,7 +1,8 @@
 params ["_MRAP"];
 if (!local _MRAP) exitWith {};
+if (!simulationEnabled _MRAP) exitWith {};
 _relpos = _MRAP getRelPos [5, 90];  
-_turret = "I_LT_01_AT_F" createVehicle _relpos; 
+_turret = "OAF_Core_LATV_Turret" createVehicle _relpos; 
 _turret attachTo [_MRAP, [0.301758,-2.22168,0.53165]]; 
 _turret addMagazineTurret ["60Rnd_20mm_HE_shells", [0]];
 _turret addMagazineTurret ["60Rnd_20mm_AP_shells", [0]];
