@@ -49,7 +49,7 @@ track = "Land_TankTracks_01_short_F" createVehicle _relpos; // Create object. im
 _relPosTrack = _MBT selectionPosition "otocvez"; // find position of turret's rotation memory point
 _relPosTrack = [-1.75635,-1.32813,-0.481319] vectorDiff _relPosTrack; //get offset between desired "hull coordinate" and turret pos
 track attachTo [_MBT,_relPosTrack ,"otocvez", true]; //TL turret // attach object to turret's rotation using modified coords
-track setVectorDirAndUp [vectorDir _MBT, [1,0,0]]; // rotate object 90 deg to the right
+track setVectorDirAndUp [vectorDir _MBT, [1,0,0]]; // rotate object 90 deg to the right // -1 for left
 //
 track = "Land_TankTracks_01_short_F" createVehicle _relPosTrack;
 _relPosTrack = _MBT selectionPosition "otocvez"; 

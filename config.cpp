@@ -3,8 +3,8 @@ class cfgPatches
 {
   class OAF_Core_Oasean_Armed_Forces
   {
-    units[]={"OAF_Core_Crewman","OAF_Core_Autorifleman","OAF_Core_Pilot","OAF_Core_Helicopter_Pilot","OAF_Core_Helicopter_Crew","OAF_Core_Rifleman","OAF_Core_Rifleman_AT","OAF_Core_Section_Leader","OAF_Core_Motorized_Rifleman","OAF_Core_Paramedic","OAF_Core_Combat_Engineer","OAF_Core_Demo_Specialist","OAF_Core_Grenadier","OAF_Core_Shock_Trooper","OAF_Core_AS_Operator","OAF_Core_Machine_Gunner","OAF_Core_Marksman","OAF_Core_Sharpshooter","OAF_Core_Missile_Specialist","OAF_Core_AA_Trooper","OAF_Core_Ammo_Bearer","OAF_Core_CBRN_Specialist","OAF_Core_Military_Scientist","OAF_Core_AA","OAF_Core_MGS","OAF_Core_MRAP","OAF_Core_MRAP_LFSV","OAF_Core_MRAP_LAAV","OAF_Core_MRAP_LATV","OAF_Core_MRAP_LRRV","OAF_Core_LSV","OAF_Core_LSV_MG","OAF_Core_LSV_AT","OAF_Core_HEMTT","OAF_Core_HEMTT_Container","OAF_Core_HEMTT_Flatbed","OAF_Core_HEMTT_Medevac","OAF_Core_HEMTT_Transport","OAF_Core_HEMTT_Transport_Covered","OAF_Core_MRAP_N","OAF_Core_MRAP_N_HMG","OAF_Core_MRAP_N_GMG","OAF_Core_UH_80_Ghost_Hawk","OAF_Core_RAH_66","OAF_Core_F_35","OAF_Core_Typhoon_Repair","OAF_Core_Typhoon_Fuel","OAF_Core_Typhoon_Ammo","OAF_Core_UV_85_Transport_Armed","OAF_Core_UV_85_Armed","OAF_Core_UV_85_Transport_Unarmed","OAF_Core_AMV_Mortar","OAF_Core_NH90_Armed","OAF_Core_NH90","OAF_Core_Merlin","OAF_Core_Seahawk","OAF_Core_UH_80_Ghost_Hawk_Medevac","OAF_Core_LAV_C","OAF_Core_AMV_Medevac","OAF_Core_AMV","OAF_Core_AEV_Nemmera","OAF_Core_AEV_Marid","OAF_Core_Pandur","OAF_Core_Rooikat","OAF_Core_Stomper","OAF_Core_Stomper_Medevac","OAF_Core_MPQ_105_Radar","OAF_Core_MIM_45_SAM","OAF_Core_UCAV_Sentinel","OAF_Core_Mk244","OAF_Core_Mk230","OAF_Core_AP_5","OAF_Core_AL_6","OAF_Core_AL_6_Med","OAF_Core_Raven","OAF_Core_Chinook","OAF_Core_T_2OF4_Dragon_II","OAF_Core_LAV","OAF_Core_Cougar_MRAV","OAF_Core_UV_85_Armed_Heavy","OAF_Core_F_15EX","OAF_Core_F_15SE","OAF_Core_Knighthawk","OAF_Core_Seahawk_FFV","OAF_Core_EC_635","OAF_Core_C_300_Cargo","OAF_Core_Offroad_Comms","OAF_Core_Stomper_HMG","OAF_Core_F_23_Thermobaric","OAF_Core_F_23_Anti_Vehicle","OAF_Core_F_23_Air_Superiority","OAF_Core_PLACEHOLDER","OAF_Core_Titus_Transport","OAF_Core_Titus_Armed","APOLLO_Guard","APOLLO_Field_Tech","APOLLO_Demolitions","APOLLO_Van_Transport","APOLLO_Van_Cargo","APOLLO_Van_Services","OAF_Core_Raven_Heavy","OAF_Core_Raven_Heavy_AT", "OAF_Core_AP_5", "OAF_Core_AP_5_light","OAF_Core_LFSV_Turret", "OAF_Core_LAAV_Turret", "OAF_Core_LATV_Turret", "OAF_Core_LRRV_Turret","OAF_Core_Sharpshooter_Optic"};
-    weapons[]={"OAF_Core_arifle_U9A3","OAF_Core_hgun_P5A1","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_smg_P7A7","OAF_Core_hgun_P5A1S","OAF_Core_arifle_U9A3S","OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","OAF_Core_CUP_arifle_SABR_GL","OAF_Core_sgun_S11","OAF_Core_MMG_01_black_F","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_arifle_SABR_LR","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","OAF_Core_launch_Titan_short_blk_F","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_CUP_arifle_SABR_C_1","OAF_Core_CUP_arifle_U9A3_ROS","OAF_Core_hgun_P5A1_RH_M6X","launch_MRAWS_black_F","OAF_Core_srifle_SR33_Optic", "APOLLO_arifle_ACR_M","APOLLO_CUP_arifle_G36C","APOLLO_CUP_arifle_XM8_Compact","OAF_Core_CUP_srifle_M107","OAF_Core_CUP_arifle_Mk17_CQC_Black"};
+    units[]={"OAF_Core_Crewman","OAF_Core_Autorifleman","OAF_Core_Pilot","OAF_Core_Helicopter_Pilot","OAF_Core_Helicopter_Crew","OAF_Core_Rifleman","OAF_Core_Rifleman_AT","OAF_Core_Section_Leader","OAF_Core_Motorized_Rifleman","OAF_Core_Paramedic","OAF_Core_Combat_Engineer","OAF_Core_Demo_Specialist","OAF_Core_Grenadier","OAF_Core_Shock_Trooper","OAF_Core_AS_Operator","OAF_Core_Machine_Gunner","OAF_Core_Marksman","OAF_Core_Sharpshooter","OAF_Core_Missile_Specialist","OAF_Core_AA_Trooper","OAF_Core_Ammo_Bearer","OAF_Core_CBRN_Specialist","OAF_Core_Military_Scientist","OAF_Core_AA","OAF_Core_MGS","OAF_Core_MRAP","OAF_Core_MRAP_LFSV","OAF_Core_MRAP_LAAV","OAF_Core_MRAP_LATV","OAF_Core_MRAP_LRRV","OAF_Core_LSV","OAF_Core_LSV_MG","OAF_Core_LSV_AT","OAF_Core_HEMTT","OAF_Core_HEMTT_Container","OAF_Core_HEMTT_Flatbed","OAF_Core_HEMTT_Medevac","OAF_Core_HEMTT_Transport","OAF_Core_HEMTT_Transport_Covered","OAF_Core_MRAP_N","OAF_Core_MRAP_N_HMG","OAF_Core_MRAP_N_GMG","OAF_Core_UH_80_Ghost_Hawk","OAF_Core_RAH_66","OAF_Core_F_35","OAF_Core_Typhoon_Repair","OAF_Core_Typhoon_Fuel","OAF_Core_Typhoon_Ammo","OAF_Core_UV_85_Transport_Armed","OAF_Core_UV_85_Armed","OAF_Core_UV_85_Transport_Unarmed","OAF_Core_AMV_Mortar","OAF_Core_NH90_Armed","OAF_Core_NH90","OAF_Core_Merlin","OAF_Core_Seahawk","OAF_Core_UH_80_Ghost_Hawk_Medevac","OAF_Core_LAV_C","OAF_Core_AMV_Medevac","OAF_Core_AMV","OAF_Core_AEV_Nemmera","OAF_Core_AEV_Marid","OAF_Core_Pandur","OAF_Core_Rooikat","OAF_Core_Stomper","OAF_Core_Stomper_Medevac","OAF_Core_MPQ_105_Radar","OAF_Core_MIM_45_SAM","OAF_Core_UCAV_Sentinel","OAF_Core_Mk244","OAF_Core_Mk230","OAF_Core_AP_5","OAF_Core_AL_6","OAF_Core_AL_6_Med","OAF_Core_Raven","OAF_Core_Chinook","OAF_Core_T_2OF4_Dragon_II","OAF_Core_LAV","OAF_Core_Cougar_MRAV","OAF_Core_UV_85_Armed_Heavy","OAF_Core_F_15EX","OAF_Core_F_15SE","OAF_Core_Knighthawk","OAF_Core_Seahawk_FFV","OAF_Core_EC_635","OAF_Core_C_300_Cargo","OAF_Core_Offroad_Comms","OAF_Core_Stomper_HMG","OAF_Core_F_23_Thermobaric","OAF_Core_F_23_Anti_Vehicle","OAF_Core_F_23_Air_Superiority","OAF_Core_PLACEHOLDER","OAF_Core_Titus_Transport","OAF_Core_Titus_Armed","APOLLO_Guard","APOLLO_Field_Tech","APOLLO_Demolitions","APOLLO_Van_Transport","APOLLO_Van_Cargo","APOLLO_Van_Services","OAF_Core_Raven_Heavy","OAF_Core_Raven_Heavy_AT", "OAF_Core_AP_5", "OAF_Core_AP_5_light","OAF_Core_LFSV_Turret", "OAF_Core_LAAV_Turret", "OAF_Core_LATV_Turret", "OAF_Core_LRRV_Turret","OAF_Core_Sharpshooter_Optic","OAF_Core_Dragon_Turret","OAF_Core_T_2OF3","OAF_Core_T_2OF","OAF_Core_speedboat","OAF_Core_patrol_boat","OAF_Core_rhib"};
+    weapons[]={"OAF_Core_arifle_U9A3","OAF_Core_hgun_P5A1","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_smg_P7A7","OAF_Core_hgun_P5A1S","OAF_Core_arifle_U9A3S","OAF_Core_arifle_SABR","OAF_Core_launch_MRAWS","OAF_Core_CUP_arifle_SABR_GL_SL","OAF_Core_CUP_arifle_SABR_C","OAF_Core_hgun_P5A1_g_RH_M6X","OAF_Core_CUP_arifle_SABR_GL","OAF_Core_sgun_S11","OAF_Core_MMG_01_black_F","OAF_Core_dzn_MG_Tripod_Universal_Carry","OAF_Core_arifle_SABR_LR","OAF_Core_srifle_SR33","OAF_Core_hgun_P5A1_RH_X2","OAF_Core_launch_Titan_short_blk_F","OAF_Core_launch_Titan_blk_F_CUP_acc_LLM_black","OAF_Core_CUP_arifle_SABR_C_1","OAF_Core_CUP_arifle_U9A3_ROS","OAF_Core_hgun_P5A1_RH_M6X","launch_MRAWS_black_F","OAF_Core_srifle_SR33_Optic", "APOLLO_arifle_ACR_M","APOLLO_CUP_arifle_G36C","APOLLO_CUP_arifle_XM8_Compact","OAF_Core_CUP_srifle_M107","OAF_Core_CUP_arifle_Mk17_CQC_Black", "OAF_Core_NVG_NF_VA_base","OAF_Core_NVG_NF_VA_blk","OAF_Core_NVG_NF_VA_grn","OAF_Core_NVG_NF_VA_tan","OAF_Core_NVG_NF_VA_broken","OAF_Core_NVG_NF_VA_damaged"};
     requiredVersion=0.1;
     requiredAddons[]={"ace_medical_treatment","ace_hearing","ace_captives","A3_Weapons_F_Enoch","A3_Weapons_F","A3_Weapons_F_Enoch_Items","A3_Aegis_Weapons_F_Aegis","CUP_Weapons_SCAR","A3_Aegis_Characters_F_Aegis_Vests","CUP_Creatures_Military_USArmy","ace_attach","CUP_Creatures_Military_Germany","USP_Gear_IHPS","A3_Characters_F","ace_huntir","A3_Drones_F_Weapons_F_Gamma_Items","ace_flashlights","A3_Aegis_Characters_F_Aegis","ace_logistics_uavbattery","ace_logistics_wirecutter","A3_Weapons_F_Items","ace_kestrel4500","ace_trenches","ace_explosives","ace_chemlights","Weapons_1_F_lxWS_Shotguns_AA40","dzn_MG_Tripod_Core","CuratorOnly_Characters_F_BLUFOR","A3_Weapons_F_Mark_LongRangeRifles_DMR_02","A3_Atlas_Characters_F_Atlas_Uniforms"};
   };
@@ -131,6 +131,10 @@ class cfgWeapons
   class CUP_arifle_XM8_Compact;
   class CUP_srifle_M107_Pristine;
   class CUP_arifle_Mk17_CQC_Black;
+  class Aegis_nvg_IVAS_01_base;
+  class Aegis_NVG_IVAS_01_blk_F;
+  class Aegis_NVG_IVAS_01_grn_F;
+  class Aegis_NVG_IVAS_01_tan_F;
   
   //Crazy? 
   //I was crazy once.
@@ -141,6 +145,48 @@ class cfgWeapons
   
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+  //items: 
+  class OAF_Core_NVG_NF_VA_base: Aegis_nvg_IVAS_01_base 
+  {
+  displayName="NF-VA";
+  descriptionShort="NightFighting / Vision Augumentation AR system";
+  visionMode[] = {"Normal","NVG","TI"};
+  };
+  class OAF_Core_NVG_NF_VA_blk: Aegis_NVG_IVAS_01_blk_F
+  {
+    displayName="NF-VA (Black)";
+    descriptionShort="NightFighting / Vision Augumentation AR system<br />Black colored.";
+  };
+  class OAF_Core_NVG_NF_VA_grn: Aegis_NVG_IVAS_01_grn_F
+  {
+    displayName="NF-VA (Olive Drab)";
+    descriptionShort="NightFighting / Vision Augumentation AR system<br />Olive colored.";
+  };
+  class OAF_Core_NVG_NF_VA_tan: Aegis_NVG_IVAS_01_tan_F
+  {
+    displayName="NF-VA (Desert)";
+    descriptionShort="NightFighting / Vision Augumentation AR system<br />Desert tan colored.";
+  };
+
+  class OAF_Core_NVG_NF_VA_broken: OAF_Core_NVG_NF_VA_base
+  {
+    scope 2;
+    scopeArsenal 2;
+    displayName="NF-VA (Inoperative)";
+    descriptionShort="NightFighting / Vision Augumentation AR system<br />Nonfunctional.";
+    visionMode[] = {"Normal"};
+  };
+
+  class OAF_Core_NVG_NF_VA_damaged: OAF_Core_NVG_NF_VA_base
+  {
+    scope 2;
+    scopeArsenal 2;
+    displayName="NF-VA (Damaged)";
+    descriptionShort="NightFighting / Vision Augumentation AR system<br />The Infra-Red tracker is out of commission.";
+    visionMode[] = {"Normal"};
+  };
+  
+  //weapons 
   class OAF_Core_CUP_srifle_M107: CUP_srifle_M107_Pristine
   {
     displayName="M107 (Dark Grey)";
@@ -171,7 +217,7 @@ class cfgWeapons
       class LinkedItemsMuzzle
       {
         slot="MuzzleSlot";
-        item="CUP_muzzle_snds_socom762rc";
+        //item="CUP_muzzle_snds_socom762rc";
       };
       class LinkedItemOptic
 			{
@@ -1447,8 +1493,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_personalAidKit","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_EarPlugs","ACE_CableTie","O_NVGoggles_grn_F","ACE_personalAidKit","ACE_epinephrine","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_fieldDressing","ACE_morphine","ACE_splint","ACE_splint","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet"};
     magazines[]={"RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive"};
     respawnMagazines[]={"RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive","CUP_30Rnd_556x45_EMAG_Olive"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Binocular","CUP_H_SPH4_grey","V_CarrierRigKBT_01_light_Coyote_F","G_Balaclava_light_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Binocular","CUP_H_SPH4_grey","V_CarrierRigKBT_01_light_Coyote_F","G_Balaclava_light_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Binocular","CUP_H_SPH4_grey","V_CarrierRigKBT_01_light_Coyote_F","G_Balaclava_light_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Binocular","CUP_H_SPH4_grey","V_CarrierRigKBT_01_light_Coyote_F","G_Balaclava_light_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="";
     showNVGCommander = 1;
     showNVGDriver = 1;
@@ -1467,8 +1513,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Rangefinder","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Rangefinder","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Rangefinder","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Rangefinder","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_Autorifleman_pack";
   };
 
@@ -1501,8 +1547,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250"};
     magazines[]={"RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","ACE_Chemlight_HiBlue","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_HiGreen","ACE_Chemlight_HiRed","ACE_Chemlight_HiRed","ACE_HandFlare_Red","HandGrenade","HandGrenade","MiniGrenade","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag"};
     respawnMagazines[]={"RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","ACE_Chemlight_HiBlue","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_HiGreen","ACE_Chemlight_HiRed","ACE_Chemlight_HiRed","ACE_HandFlare_Red","HandGrenade","HandGrenade","MiniGrenade","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","H_CrewHelmetHeli_B","V_HarnessOSpec_blk","USP_SUUNTO_BLK2","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","H_CrewHelmetHeli_B","V_HarnessOSpec_blk","USP_SUUNTO_BLK2","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","H_CrewHelmetHeli_B","V_HarnessOSpec_blk","USP_SUUNTO_BLK2","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","H_CrewHelmetHeli_B","V_HarnessOSpec_blk","USP_SUUNTO_BLK2","OAF_Core_NVG_NF_VA_blk"};
     backpack="";
   };
 
@@ -1518,8 +1564,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_epinephrine","ACE_morphine","ACE_morphine","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250"};
     magazines[]={"RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","ACE_Chemlight_HiBlue","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_HiGreen","ACE_Chemlight_HiRed","ACE_Chemlight_HiRed","ACE_HandFlare_Red","HandGrenade","HandGrenade","MiniGrenade","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag"};
     respawnMagazines[]={"RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","ACE_Chemlight_HiBlue","ACE_Chemlight_HiBlue","ACE_Chemlight_HiGreen","ACE_Chemlight_HiGreen","ACE_Chemlight_HiRed","ACE_Chemlight_HiRed","ACE_HandFlare_Red","HandGrenade","HandGrenade","MiniGrenade","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag","CUP_30Rnd_556x45_Emag"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","H_CrewHelmetHeli_B","V_HarnessOSpec_blk","USP_SUUNTO_BLK2","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","H_CrewHelmetHeli_B","V_HarnessOSpec_blk","USP_SUUNTO_BLK2","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","H_CrewHelmetHeli_B","V_HarnessOSpec_blk","USP_SUUNTO_BLK2","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","H_CrewHelmetHeli_B","V_HarnessOSpec_blk","USP_SUUNTO_BLK2","OAF_Core_NVG_NF_VA_blk"};
     backpack="";
   };
 
@@ -1535,8 +1581,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_EarPlugs"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR"};
     respawnMagazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_OD","G_Balaclava_light_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_OD","G_Balaclava_light_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_OD","G_Balaclava_light_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_OD","G_Balaclava_light_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_Rifleman_pack";
   };
 
@@ -1552,8 +1598,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_EarPlugs"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","MRAWS_HEAT_F","MRAWS_HEAT_F","MRAWS_HEAT_F","MRAWS_HEAT_F","MRAWS_HE_F"};
     respawnMagazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","MRAWS_HEAT_F","MRAWS_HEAT_F","MRAWS_HEAT_F","MRAWS_HEAT_F","MRAWS_HE_F"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_Rifleman_AT_pack";
   };
 
@@ -1569,8 +1615,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_HuntIR_monitor","ACE_HuntIR_monitor"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_1Rnd_HEDP_M203","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","ACE_HuntIR_M203","ACE_HuntIR_M203","ACE_HuntIR_M203","ACE_HuntIR_M203"};
     respawnMagazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_1Rnd_HEDP_M203","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","ACE_HuntIR_M203","ACE_HuntIR_M203","ACE_HuntIR_M203","ACE_HuntIR_M203"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","Aegis_NVG_IVAS_01_grn_F","Laserdesignator_04","USP_IHPS_COV_CT3_GRY","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_grn_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","Aegis_NVG_IVAS_01_grn_F","Laserdesignator_04","USP_IHPS_COV_CT3_GRY","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_grn_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","OAF_Core_NVG_NF_VA_grn","Laserdesignator_04","USP_IHPS_COV_CT3_GRY","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_grn"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","OAF_Core_NVG_NF_VA_grn","Laserdesignator_04","USP_IHPS_COV_CT3_GRY","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_grn"};
     backpack="OAF_Core_Section_Leader_pack";
   };
 
@@ -1586,8 +1632,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR"};
     respawnMagazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_Motorized_Rifleman_pack";
   };
 
@@ -1603,8 +1649,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_salineIV_250","ACE_salineIV_250","ACE_salineIV_500","ACE_salineIV","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_surgicalKit","ACE_splint","ACE_splint","ACE_splint","ACE_splint","ACE_personalAidKit","ACE_plasmaIV_250","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_Flashlight_XL50","ACE_IR_Strobe_Item","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_EarPlugs","ACE_bodyBag_white","ACE_bodyBag_white","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","ACE_M84","SmokeShell","SmokeShell","SmokeShell"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","ACE_M84","SmokeShell","SmokeShell","SmokeShell"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_CT3_TAN","CUP_V_B_Armatus_BB_OD","CUP_G_Scarf_Face_Blk","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_CT3_TAN","CUP_V_B_Armatus_BB_OD","CUP_G_Scarf_Face_Blk","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_CT3_TAN","CUP_V_B_Armatus_BB_OD","CUP_G_Scarf_Face_Blk","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_CT3_TAN","CUP_V_B_Armatus_BB_OD","CUP_G_Scarf_Face_Blk","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_Paramedic_pack";
   };
 
@@ -1620,8 +1666,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","DemoCharge_Remote_Mag","SLAMDirectionalMine_Wire_Mag"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","Aegis_NVG_IVAS_01_grn_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_grn_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","Aegis_NVG_IVAS_01_grn_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_grn_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","OAF_Core_NVG_NF_VA_grn","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_grn"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","OAF_Core_NVG_NF_VA_grn","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_grn"};
     backpack="OAF_Core_Combat_Engineer_pack";
   };
 
@@ -1637,8 +1683,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_DefusalKit","ACE_EarPlugs","MineDetector"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","SatchelCharge_Remote_Mag","DemoCharge_Remote_Mag","DemoCharge_Remote_Mag","DemoCharge_Remote_Mag","APERSBoundingMine_Range_Mag","APERSBoundingMine_Range_Mag","SLAMDirectionalMine_Wire_Mag","APERSTripMine_Wire_Mag","ClaymoreDirectionalMine_Remote_Mag"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","SatchelCharge_Remote_Mag","DemoCharge_Remote_Mag","DemoCharge_Remote_Mag","DemoCharge_Remote_Mag","APERSBoundingMine_Range_Mag","APERSBoundingMine_Range_Mag","SLAMDirectionalMine_Wire_Mag","APERSTripMine_Wire_Mag","ClaymoreDirectionalMine_Remote_Mag"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","Aegis_NVG_IVAS_01_grn_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_grn_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","Aegis_NVG_IVAS_01_grn_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_grn_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","OAF_Core_NVG_NF_VA_grn","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_grn"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","OAF_Core_NVG_NF_VA_grn","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_grn"};
     backpack="OAF_Core_Demo_Specialist_pack";
   };
 
@@ -1654,8 +1700,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","HandGrenade","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","ACE_HuntIR_M203","ACE_HuntIR_M203","ACE_40mm_Flare_ir","ACE_40mm_Flare_white","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","HandGrenade","HandGrenade"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","HandGrenade","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","ACE_HuntIR_M203","ACE_HuntIR_M203","ACE_40mm_Flare_ir","ACE_40mm_Flare_white","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","HandGrenade","HandGrenade"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_Grenadier_pack";
   };
 
@@ -1671,8 +1717,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item"};
     magazines[]={"CUP_HandGrenade_M67","ACE_Chemlight_HiBlue","20Rnd_12Gauge_AA40_HE_lxWS","20Rnd_12Gauge_AA40_HE_lxWS","20Rnd_12Gauge_AA40_HE_lxWS","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","8Rnd_12Gauge_AA40_Smoke_lxWS","20Rnd_12Gauge_AA40_HE_lxWS","20Rnd_12Gauge_AA40_HE_lxWS","8Rnd_12Gauge_AA40_Slug_lxWS"};
     respawnMagazines[]={"CUP_HandGrenade_M67","ACE_Chemlight_HiBlue","20Rnd_12Gauge_AA40_HE_lxWS","20Rnd_12Gauge_AA40_HE_lxWS","20Rnd_12Gauge_AA40_HE_lxWS","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","8Rnd_12Gauge_AA40_Smoke_lxWS","20Rnd_12Gauge_AA40_HE_lxWS","20Rnd_12Gauge_AA40_HE_lxWS","8Rnd_12Gauge_AA40_Slug_lxWS"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_Shock_Trooper_pack";
   };
 
@@ -1688,8 +1734,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_HuntIR_monitor","ACE_UAVBattery","ACE_UAVBattery"};
     magazines[]={"CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","Laserbatteries"};
     respawnMagazines[]={"CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","Laserbatteries"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","OAF_Core_NVG_NF_VA_blk","Laserdesignator_04","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","B_UavTerminal","OAF_Core_NVG_NF_VA_blk","Laserdesignator_04","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_AS_Operator_pack";
   };
 
@@ -1705,8 +1751,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red","150Rnd_93x64_Mag_Red"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Rangefinder","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Rangefinder","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Rangefinder","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Rangefinder","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_Machine_Gunner_pack";
   };
 
@@ -1722,8 +1768,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_TE1_White_Tracer_762x51_SCAR_bkl","CUP_30Rnd_762x51_1_B_SCAR"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_762x51_B_SCAR_bkl","CUP_20Rnd_TE1_White_Tracer_762x51_SCAR_bkl","CUP_30Rnd_762x51_1_B_SCAR"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Laserdesignator_04","USP_IHPS_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Laserdesignator_04","USP_IHPS_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="";
   };
 
@@ -1739,8 +1785,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="";
   };
 
@@ -1758,8 +1804,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","HandGrenade","HandGrenade","SmokeShell","SmokeShell","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag","ACE_10Rnd_338_API526_Mag"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="";
   };
 
@@ -1775,8 +1821,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item"};
     magazines[]={"CUP_HandGrenade_M67","ACE_Chemlight_HiBlue","CUP_10Rnd_127x99_M107","RH_20Rnd_57x28_FN","MiniGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_API_Mag","CUP_10Rnd_127x99_M107","RH_20Rnd_57x28_FN"};
     respawnMagazines[]={"CUP_HandGrenade_M67","ACE_Chemlight_HiBlue","CUP_10Rnd_127x99_M107","RH_20Rnd_57x28_FN","MiniGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_API_Mag","CUP_10Rnd_127x99_M107","RH_20Rnd_57x28_FN"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_sniper_pack";
   };
 
@@ -1792,8 +1838,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item"};
     magazines[]={"CUP_HandGrenade_M67","ACE_Chemlight_HiBlue","CUP_20Rnd_762x51_B_SCAR_bkl","MiniGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_AMAX_Mag","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107"};
     respawnMagazines[]={"CUP_HandGrenade_M67","ACE_Chemlight_HiBlue","CUP_20Rnd_762x51_B_SCAR_bkl","MiniGrenade","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","ACE_10Rnd_127x99_API_Mag","ACE_10Rnd_127x99_AMAX_Mag","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Laserdesignator_04","USP_IHPS_COV_CT3","CUP_V_B_Armatus_BB_OD","G_Balaclava_TI_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_spotter_pack";
   };
 
@@ -1826,8 +1872,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","Titan_AT","Titan_AT","Titan_AT"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","Titan_AT","Titan_AT","Titan_AT"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_Missile_Specialist_pack";
   };
 
@@ -1843,8 +1889,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","Titan_AA","Titan_AA","Titan_AA"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","Titan_AA","Titan_AA","Titan_AA"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_CT3_GRN","CUP_V_B_Armatus_BB_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_AA_Trooper_pack";
   };
 
@@ -1860,8 +1906,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","MiniGrenade","ACE_Chemlight_HiBlue","150Rnd_93x64_Mag_Red","MRAWS_HEAT55_F","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_20Rnd_762x51_B_SCAR_bkl","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell"};
     respawnMagazines[]={"CUP_HandGrenade_M67","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","MiniGrenade","ACE_Chemlight_HiBlue","150Rnd_93x64_Mag_Red","MRAWS_HEAT55_F","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","CUP_20Rnd_762x51_B_SCAR_bkl","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell","1Rnd_HEDP_Grenade_shell"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_blk_F","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_OD","G_Balaclava_light_G_blk_F","Aegis_NVG_IVAS_01_blk_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","USP_IHPS_COV_CT3_GRN","CUP_V_B_Armatus_OD","G_Balaclava_light_G_blk_F","OAF_Core_NVG_NF_VA_blk"};
     backpack="OAF_Core_Ammo_Bearer_pack";
   };
 
@@ -1877,8 +1923,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
     magazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","Chemlight_blue","ACE_Chemlight_IR","B_IR_Grenade"};
     respawnMagazines[]={"MiniGrenade","ACE_Chemlight_HiBlue","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_762x51_2_B_SCAR","CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","RH_20Rnd_57x28_FN","Chemlight_blue","ACE_Chemlight_IR","B_IR_Grenade"};
-    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_grn_F","Camera_lxWS","USP_IHPS_CT3_TAN","CUP_V_B_Armatus_BB_OD","G_AirPurifyingRespirator_01_nofilter_F","Aegis_NVG_IVAS_01_grn_F"};
-    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","Aegis_NVG_IVAS_01_grn_F","Camera_lxWS","USP_IHPS_CT3_TAN","CUP_V_B_Armatus_BB_OD","G_AirPurifyingRespirator_01_nofilter_F","Aegis_NVG_IVAS_01_grn_F"};
+    linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_grn","Camera_lxWS","USP_IHPS_CT3_TAN","CUP_V_B_Armatus_BB_OD","G_AirPurifyingRespirator_01_nofilter_F","OAF_Core_NVG_NF_VA_grn"};
+    respawnLinkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_grn","Camera_lxWS","USP_IHPS_CT3_TAN","CUP_V_B_Armatus_BB_OD","G_AirPurifyingRespirator_01_nofilter_F","OAF_Core_NVG_NF_VA_grn"};
     backpack="OAF_Core_CBRN_Specialist_pack";
   };
 
@@ -2741,17 +2787,52 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
+    displayName="2OF4 Dragon II";
+    hiddenSelectionsTextures[]={"armaretex_leopard\data\olv_mbt_03_ext01_co.paa","armaretex_leopard\data\olv_mbt_03_ext02_co.paa","armaretex_leopard\data\olv_mbt_03_rcws_co.paa","a3\armor_f\data\camonet_green_co.paa"};
+    crew="OAF_Core_Crewman";
+    typicalCargo[]={"OAF_Core_Crewman"};
+    enginePower = 1800;
+    armor = 900;
+    ///class EventHandlers
+      ///{
+        ///init = "[_this select 0,['Blu_Olive',1], ['HideTurret',1,'HideHull',1,'showCamonetHull',0,'showCamonetTurret',0]] call BIS_fnc_initVehicle;";
+      ///};
+    class EventHandlers
+	{
+		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\MBT\2OF4.sqf';";
+	};
+
+  class OAF_Core_T_2OF3: Leopard_Olive
+  {
+    faction="OAF_Core_Oasean_Armed_Forces";
+    side=1;
     displayName="Leopard 2OF3";
     hiddenSelectionsTextures[]={"armaretex_leopard\data\olv_mbt_03_ext01_co.paa","armaretex_leopard\data\olv_mbt_03_ext02_co.paa","armaretex_leopard\data\olv_mbt_03_rcws_co.paa","a3\armor_f\data\camonet_green_co.paa"};
     crew="OAF_Core_Crewman";
     typicalCargo[]={"OAF_Core_Crewman"};
     enginePower = 1500;
     armor = 900;
+    ///class EventHandlers
+      ///{
+        ///init = "[_this select 0,['Blu_Olive',1], ['HideTurret',1,'HideHull',1,'showCamonetHull',0,'showCamonetTurret',0]] call BIS_fnc_initVehicle;";
+      ///};
     class EventHandlers
-      {
-        init = "[_this select 0,['Blu_Olive',1], ['HideTurret',1,'HideHull',1,'showCamonetHull',0,'showCamonetTurret',0]] call BIS_fnc_initVehicle;";
-      };
+	{
+		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\MBT\2OF3.sqf';";
+	};
     
+    class OAF_Core_T_2OF: Leopard_Olive
+  {
+    faction="OAF_Core_Oasean_Armed_Forces";
+    side=1;
+    displayName="Leopard 2OF";
+    hiddenSelectionsTextures[]={"armaretex_leopard\data\olv_mbt_03_ext01_co.paa","armaretex_leopard\data\olv_mbt_03_ext02_co.paa","armaretex_leopard\data\olv_mbt_03_rcws_co.paa","a3\armor_f\data\camonet_green_co.paa"};
+    crew="OAF_Core_Crewman";
+    typicalCargo[]={"OAF_Core_Crewman"};
+    ///class EventHandlers
+      ///{
+        ///init = "[_this select 0,['Blu_Olive',1], ['HideTurret',1,'HideHull',1,'showCamonetHull',0,'showCamonetTurret',0]] call BIS_fnc_initVehicle;";
+      ///};
 
   };
 
