@@ -2055,6 +2055,18 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
 	  typicalCargo[] = {"B_UAV_AI_F"};
   };
 
+  class OAF_Core_Dragon_Turret: I_LT_01_cannon_F
+  {
+    faction="OAF_Core_Oasean_Armed_Forces";
+    side=1;
+    scope = 1;
+    scopeCurator = 0;
+    displayName="Dragon II Turret";
+    hiddenSelectionsTextures[]={"cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody2_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lav_hq_green_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavalfa_ca.paa"};
+    crew = "B_UAV_AI_F";
+	  typicalCargo[] = {"B_UAV_AI_F"};
+  };
+
   class OAF_Core_LAAV_Turret: I_LT_01_AA_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
