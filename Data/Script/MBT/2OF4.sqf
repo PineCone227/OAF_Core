@@ -59,41 +59,41 @@ track setVectorDirAndUp [vectorDir _MBT, [-1,0,0]];
 //L hull tracks:
 track = "Land_TankTracks_01_short_F" createVehicle _relPosTrack; 
 _relPosTrack = [-2.16309,1.24365,-1.78032];
-track attachTo [target,_relPosTrack]; 
-track setVectorDirAndUp [vectorDir target, [1,0,0]];
+track attachTo [_MBT,_relPosTrack]; 
+track setVectorDirAndUp [vectorDir _MBT, [1,0,0]];
 //
 track = "Land_TankTracks_01_short_F" createVehicle _relPosTrack; 
 _relPosTrack = [-2.16309,0.171875,-1.78032];
-track attachTo [target,_relPosTrack]; 
-track setVectorDirAndUp [vectorDir target, [1,0,0]];
+track attachTo [_MBT,_relPosTrack]; 
+track setVectorDirAndUp [vectorDir _MBT, [1,0,0]];
 //
 track = "Land_TankTracks_01_short_F" createVehicle _relPosTrack; 
 _relPosTrack = [-2.16309,-0.881348,-1.78032];
-track attachTo [target,_relPosTrack]; 
-track setVectorDirAndUp [vectorDir target, [1,0,0]];
+track attachTo [_MBT,_relPosTrack]; 
+track setVectorDirAndUp [vectorDir _MBT, [1,0,0]];
 //
 track = "Land_TankTracks_01_short_F" createVehicle _relPosTrack; 
 _relPosTrack = [-2.16309,-1.95313,-1.78032];
-track attachTo [target,_relPosTrack]; 
-track setVectorDirAndUp [vectorDir target, [1,0,0]];
+track attachTo [_MBT,_relPosTrack]; 
+track setVectorDirAndUp [vectorDir _MBT, [1,0,0]];
 //R hull tracks:
 track = "Land_TankTracks_01_short_F" createVehicle _relPosTrack; 
 _relPosTrack = [2.20996,1.22705,-1.77232];
-track attachTo [target,_relPosTrack]; 
-track setVectorDirAndUp [vectorDir target, [-1,0,0]];
+track attachTo [_MBT,_relPosTrack]; 
+track setVectorDirAndUp [vectorDir _MBT, [-1,0,0]];
 //
 track = "Land_TankTracks_01_short_F" createVehicle _relPosTrack; 
 _relPosTrack = [2.20996,0.154785,-1.77232];
-track attachTo [target,_relPosTrack]; 
-track setVectorDirAndUp [vectorDir target, [-1,0,0]];
+track attachTo [_MBT,_relPosTrack]; 
+track setVectorDirAndUp [vectorDir _MBT, [-1,0,0]];
 //
 track = "Land_TankTracks_01_short_F" createVehicle _relPosTrack; 
 _relPosTrack = [2.20996,-0.897949,-1.77232];
-track attachTo [target,_relPosTrack]; 
-track setVectorDirAndUp [vectorDir target, [-1,0,0]];
+track attachTo [_MBT,_relPosTrack]; 
+track setVectorDirAndUp [vectorDir _MBT, [-1,0,0]];
 //
 track = "Land_TankTracks_01_short_F" createVehicle _relPosTrack; 
 _relPosTrack = [2.20996,-1.97021,-1.77232];
-track attachTo [target,_relPosTrack]; 
-track setVectorDirAndUp [vectorDir target, [-1,0,0]];
+track attachTo [_MBT,_relPosTrack]; 
+track setVectorDirAndUp [vectorDir _MBT, [-1,0,0]];
 //

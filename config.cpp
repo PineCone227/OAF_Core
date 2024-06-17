@@ -155,35 +155,35 @@ class cfgWeapons
   class OAF_Core_NVG_NF_VA_blk: Aegis_NVG_IVAS_01_blk_F
   {
     displayName="NF-VA (Black)";
-    descriptionShort="NightFighting / Vision Augumentation AR system<br />Black colored.";
+    descriptionShort="Night Fighting / Vision Augumentation AR system<br />Black colored.";
   };
   class OAF_Core_NVG_NF_VA_grn: Aegis_NVG_IVAS_01_grn_F
   {
     displayName="NF-VA (Olive Drab)";
-    descriptionShort="NightFighting / Vision Augumentation AR system<br />Olive colored.";
+    descriptionShort="Night Fighting / Vision Augumentation AR system<br />Olive colored.";
   };
   class OAF_Core_NVG_NF_VA_tan: Aegis_NVG_IVAS_01_tan_F
   {
     displayName="NF-VA (Desert)";
-    descriptionShort="NightFighting / Vision Augumentation AR system<br />Desert tan colored.";
+    descriptionShort="Night Fighting / Vision Augumentation AR system<br />Desert tan colored.";
   };
 
-  class OAF_Core_NVG_NF_VA_broken: OAF_Core_NVG_NF_VA_base
+  class OAF_Core_NVG_NF_VA_broken: OAF_Core_NVG_NF_VA_blk
   {
-    scope 2;
-    scopeArsenal 2;
+    scope=2;
+    scopeArsenal=2;
     displayName="NF-VA (Inoperative)";
-    descriptionShort="NightFighting / Vision Augumentation AR system<br />Nonfunctional.";
+    descriptionShort="Night Fighting / Vision Augumentation AR system<br />Nonfunctional.";
     visionMode[] = {"Normal"};
   };
 
-  class OAF_Core_NVG_NF_VA_damaged: OAF_Core_NVG_NF_VA_base
+  class OAF_Core_NVG_NF_VA_damaged: OAF_Core_NVG_NF_VA_blk
   {
-    scope 2;
-    scopeArsenal 2;
+    scope=2;
+    scopeArsenal=2;
     displayName="NF-VA (Damaged)";
-    descriptionShort="NightFighting / Vision Augumentation AR system<br />The Infra-Red tracker is out of commission.";
-    visionMode[] = {"Normal"};
+    descriptionShort="Night Fighting / Vision Augumentation AR system<br />The Infra-Red tracker is out of commission.";
+    visionMode[] = {"Normal","NVG"};
   };
   
   //weapons 
@@ -237,9 +237,7 @@ class cfgWeapons
   class APOLLO_arifle_ACR_M: CUP_arifle_ACR_DMR_blk_556
   {
     displayName="ACR-M 5.56 mm";
-
     descriptionShort="Adaptive Combat Rifle - 5.56x45mm caliber.<br />Utilized by APOLLO security personnel.";
-
     scope=1;
     class LinkedItems
     {
@@ -2801,6 +2799,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
 	{
 		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\MBT\2OF4.sqf';";
 	};
+  };
 
   class OAF_Core_T_2OF3: Leopard_Olive
   {
@@ -2820,6 +2819,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
 	{
 		init = "_this execvm '\OAF2\Addons\OAF_Core\Data\Script\MBT\2OF3.sqf';";
 	};
+  };
     
     class OAF_Core_T_2OF: Leopard_Olive
   {
@@ -4532,5 +4532,6 @@ class cfgGroups
         };
       };
     };
-  };
 };
+};
+
