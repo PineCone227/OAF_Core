@@ -333,7 +333,8 @@ class cfgWeapons
 
   class OAF_Core_IAW_Base : CUP_arifle_Mk20_woodland	
   {
-	  class SCAR_H_FullAuto;					
+	  class SCAR_H_FullAuto;
+    class SCAR_H_Single;					
   };
 
   class OAF_Core_CUP_arifle_SABR_IAW: OAF_Core_IAW_Base
