@@ -30,7 +30,7 @@ _MBT removeWeaponTurret ["ACE_LMG_coax_MAG58_mem3",[0]];
 _MBT removeMagazinesTurret ["200Rnd_762x51_Belt_Yellow",[0]];  
 _MBT removeMagazinesTurret ["200Rnd_127x99_mag_Tracer_Yellow",[0,0]];  
 _MBT removeWeaponTurret ["HMG_127_APC",[0,0]];  
-_MBT addWeaponTurret ["CUP_Vhmg_M3P_veh",[0,0]];  
+_MBT addWeaponTurret ["OAF_Core_M3P",[0,0]];  
 _MBT addMagazineTurret ["CUP_250Rnd_TE1_Red_Tracer_127x99_M",[0,0]];  
 _MBT addMagazineTurret ["CUP_250Rnd_TE1_Red_Tracer_127x99_M",[0,0]];  
 _MBT addMagazineTurret ["CUP_250Rnd_TE1_Red_Tracer_127x99_M",[0,0]];  

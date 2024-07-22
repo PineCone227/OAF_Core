@@ -104,6 +104,7 @@ class CfgRemoteExec
 
 class cfgWeapons
 {
+  class CUP_Vhmg_M3P_veh;
   class CUP_arifle_Mk16_CQC_AFG_woodland;
   class RH_fn57;
   class CUP_arifle_Mk20_woodland;
@@ -1331,13 +1332,14 @@ class cfgVehicles
   class B_A_Boat_Armed_01_hmg_F;
   class sab_mp_migaloo;
   class B_ION_APC_Wheeled_02_hmg_lxWS;
-  class Air;
-  class Plane;
+  // class Air;
+  // class Plane;
+  class Flag_BI_F;
 
-  class Plane_Base_F : Plane
-  {
-    class Components;
-  };
+  // class Plane_Base_F : Plane
+  // {
+  //   class Components;
+  // };
 class B_UAV_03_dynamicLoadout_F;
 class OAF_Core_Raven_Heavy_base: B_UAV_03_dynamicLoadout_F
 {
