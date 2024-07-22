@@ -1213,6 +1213,7 @@ class cfgVehicles
   class I_LT_01_scout_F;
   class I_LT_01_AT_F;
   class WNZ_MG_Sentry_B;
+  class WNZ_Shotgun_Sentry_B;
   class B_ION_soldier_AR_lxWS;
   class B_ION_shot_lxWS;
   class B_CivilianBackpack_01_Everyday_Black_F;
