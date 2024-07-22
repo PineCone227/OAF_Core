@@ -1329,7 +1329,7 @@ class cfgVehicles
   class Marine_B_USMC_Boat_Transport_02_F;
   class B_A_Boat_Armed_01_hmg_F;
   class sab_mp_migaloo;
-  class B_UNA_APC_Wheeled_02_hmg_lxWS;
+  class B_ION_APC_Wheeled_02_hmg_lxWS;
   class Air;
   class Plane;
 
