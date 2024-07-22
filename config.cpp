@@ -185,6 +185,8 @@ class cfgWeapons
     descriptionShort="Night Fighting / Vision Augumentation AR system<br />The Infra-Red tracker is out of commission.";
     visionMode[] = {"Normal","NVG"};
   };
+
+  //gear:
   
   //weapons 
   class OAF_Core_CUP_srifle_M107: CUP_srifle_M107_Pristine
@@ -211,7 +213,7 @@ class cfgWeapons
   {
     displayName="SABR-C 7.62 mm (OFN)";
     descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br />Short-barelled version of the SABR. Oasean Federal Navy issue.";
-    scope=1;
+    scope=2;
     class LinkedItems
     {
       class LinkedItemsMuzzle
@@ -278,7 +280,8 @@ class cfgWeapons
   {
     displayName="U9A3 PDC 5.56 mm";
     descriptionShort="U9 Personal Defence Carbine - 5.56x45mm caliber.<br />Standard compact carbine of the Oasean Armed Forces. 2035-issue A3 model.";
-    scope=1;
+    scope=2;
+    scopeArsenal=2;
     class LinkedItems
     {
       class LinkedItemSide
@@ -293,7 +296,8 @@ class cfgWeapons
   {
     displayName="P5A1 5.7 mm";
     descriptionShort="P5A1 Pistol - 5.7x28mm caliber.<br />Standard sidearm of the Oasean Armed Forces.";
-    scope=1;
+    scope=2;
+    scopeArsenal=2;
     class LinkedItems
     {
     };
@@ -510,7 +514,8 @@ class cfgWeapons
   {
     displayName="SABR 7.62mm";
     descriptionShort="Standard Advanced Battle Rifle - 7.62x51mm caliber.<br />Main combat rifle of the Oasean Armed Forces. 2030-issue.";
-    scope=1;
+    scope=2;
+    scopeArsenal=2;
     class LinkedItems
 		{
 			class LinkedItemOptic
@@ -577,7 +582,8 @@ class cfgWeapons
   {
     displayName="SABR-GL 7.62 mm";
     descriptionShort="Standard Advanced Battle Rifle with Grenade Launcher - 7.62x51mm caliber.<br />Main combat rifle of the Oasean Armed Forces, equipped with grenade-launching module.";
-    scope=1;
+    scope=2;
+    scopeArsenal=2;
     class LinkedItems
     {
       class LinkedItemsMuzzle
@@ -635,7 +641,8 @@ class cfgWeapons
   {
     displayName="SABR-C 7.62 mm";
     descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br />Short-barelled version of the SABR for support troops. OAF 2030-issue.";
-    scope=1;
+    scope=2;
+    scopeArsenal=2;
     class LinkedItems
     {
       class LinkedItemOptic
@@ -704,7 +711,8 @@ class cfgWeapons
   {
     displayName="SABR-GL 7.62 mm";
     descriptionShort="Standard Advanced Battle Rifle with Grenade Launcher - 7.62x51mm caliber.<br />Main combat rifle of the Oasean Armed Forces, equipped with grenade-launching module.";
-    scope=1;
+    scope=2;
+    scopeArsenal=2;
     class LinkedItems
     {
       class LinkedItemOptic
@@ -752,9 +760,10 @@ class cfgWeapons
 
   class OAF_Core_sgun_S11: sgun_aa40_lxWS
   {
-    displayName="S11AB-S Breach 12g";
+    displayName="S11AB-S 12g";
     descriptionShort="S11 Advanced Breaching Shotgun - 12 gauge.<br />Automatic multipurpose shotgun utilized by breachers and shock troops. OAF-issue.";
-    scope=1;
+    scope=2;
+    scopeArsenal=2;
     class LinkedItems
     {
       class LinkedItemsMuzzle
@@ -937,7 +946,8 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
   {
     displayName="SABR-LR 7.62 mm";
     descriptionShort="SABR Long Range - 7.62x51mm caliber.<br />Marksman variant of the Standard Advanced Battle Rifle. OAF-issue.";
-    scope=1;
+    scope=2;
+    scopeArsenal=2;
     class LinkedItems
     {
       class LinkedItemOptic
@@ -968,7 +978,8 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
   {
     displayName="SR-33 .338";
     descriptionShort="SR-33 Precision Rifle - 8.6x70mm caliber.<br />High-accuracy sharpshooter's rifle, primarily used in a defensive role.";
-    scope=1;
+    scope=2;
+    scopeArsenal=2;
     modes[] = {"Single","single_close_optics1","single_medium_optics1","single_far_optics1","Auto"};
     class Auto: Single{
       displayName = "Auto";
@@ -1919,6 +1930,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
+    scope=2;
+    scopeCurator=2;
     displayName="Navy Crewman";
     uniformClass="USP_G3C_CU_OR_NAV";
     weapons[]={"Binocular","OAF_Core_CUP_arifle_Mk17_CQC_Black","OAF_Core_hgun_P5A1","Put","Throw"};
@@ -2656,7 +2669,7 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
         };
   };
 
-  class OAF_Core_AEV_Marid: B_UNA_APC_Wheeled_02_hmg_lxWS
+  class OAF_Core_AEV_Marid: B_ION_APC_Wheeled_02_hmg_lxWS
   {
     faction="OAF_Core_Oasean_Armed_Forces";
     side=1;
@@ -3347,17 +3360,17 @@ class APOLLO_Guard: B_ION_soldier_AR_lxWS
     side=1;
     scope=2;
     scopeCurator=2;
-    displayName="Flag [OAF] (Placeholder)";
+    displayName="Flag [OAF]";
     
     class EventHandlers
 	{
-		init = "(_this select 0) setFlagTexture '\A3\Data_F\Flags\Flag_bis_CO.paa'";
+		init = "(_this select 0) setFlagTexture '\Textures\Oasea.paa'";
 	};
   };
 
   class OAF_Core_M3P: CUP_Vhmg_M3P_veh
   {
-
+    ballisticsComputer = 16;	
   };
 
 
@@ -4684,3 +4697,22 @@ class cfgGroups
 };
 };
 
+class CfgUnitInsignia
+{
+	class OAF_Core_Insignia_OAFnobackground
+	{
+		displayName = "Oasean Armed Forces (Low-Vis)";						
+		author = "PineCone227";											
+		texture = "\Textures\insignia_small_transparent.paa";		
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";	
+		textureVehicle = "";										
+	};
+  class OAF_Core_Insignia_OAF
+	{
+		displayName = "Oasean Armed Forces";						
+		author = "PineCone227";											
+		texture = "\Textures\insignia_small.paa";		
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";	
+		textureVehicle = "";										
+	};
+};
