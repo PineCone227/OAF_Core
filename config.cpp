@@ -171,7 +171,7 @@ class cfgWeapons
   class OAF_Core_Trooper_Uniform : USP_G3F_G3C_KP_OR_MCT
   {
     displayName="Combat Uniform [OAF]";
-    descriptionShort="Improved protection";
+    descriptionShort="Enhanced protection";
     scope=2;
     scopeArsenal=2;
     class ItemInfo
@@ -189,7 +189,7 @@ class cfgWeapons
     scope=2;
     scopeArsenal=2;
     displayName="Combat Uniform [OAF] (Section Leader)";
-    descriptionShort="Improved protection";
+    descriptionShort="Enhanced protection";
     class ItemInfo
 		{
       containerClass = "Supply50";
@@ -1523,141 +1523,295 @@ class cfgVehicles
   class OAF_Core_Soldier_F: USP_G3F_G3C_KP_OR_MCT
   {
     uniformClass="USP_G3F_G3C_KP_OR_MCT"; 
-    class HitPoints : HitPoints {
-    //    class HitAbdomen : HitAbdomen
-    //    {
-    //     armor = 4;
-    //     passThrough = 0.7;
-    //    };
-    // //   class HitArms : HitArms
-    // //   {
-    // //     armor = 3;
-    // //     passThrough = 0.9;
-    // //     explosionShielding = 0.7;
-    // //   };
-    //   class HitChest : HitChest
-    //   {
-    //     armor = 4;
-    //     passThrough = 0.7;
-    //   };
-    //   class HitDiaphragm : HitDiaphragm
-    //   {
-    //     armor = 4;
-    //     passThrough = 0.7;
-    //     };
-    //   class HitHands : HitHands
-    //   {
-    //     armor = 4;
-    //     passThrough = 0.9;
-    //     explosionShielding = 0.7;
-    //   };
-    //   class HitLegs : HitLegs
-    //   {
-    //     armor = 3;
-    //     passThrough = 0.9;
-    //     explosionShielding = 0.7;
-    //   };
-      // class HitNeck : HitNeck
-      // {
-      //   armor = 4;
-      //   passThrough = 0.8;
-      //   explosionShielding = 0.9;};
-      // class HitPelvis : HitPelvis
-      // {
-      //   armor = 7;
-      //   passThrough = 0.7;};
-		
-    // class HitLeftLeg: HitLegs {
-    //   armor = 3;
-    //     passThrough = 0.8;
-    //     explosionShielding = 0.7;
-    // };
-    // class HitLeftArm: HitHands {
-    //   armor = 3;
-    //     passThrough = 0.8;
-    //     explosionShielding = 0.7;
-    // };
-    // class HitRightArm: HitLeftArm {
-    //   armor = 3;
-    //     passThrough = 0.8;
-    //     explosionShielding = 0.7;
-    // };
-    // class HitRightLeg: HitLeftLeg {
-    //   armor = 3;
-    //     passThrough = 0.8;
-    //     explosionShielding = 0.7;
-    // };
-    };
+    class HitPoints: HitPoints
+		{
+			class HitFace
+			{
+				armor=1;
+				material=-1;
+				name="face_hub";
+				passThrough=0.8;
+				radius=0.08;
+				explosionShielding=0.1;
+				minimalHit=0.01;
+			};
+			class HitNeck: HitFace
+			{
+				armor=4;
+				material=-1;
+				name="neck";
+				passThrough=0.8;
+				radius=0.1;
+				explosionShielding=0.8;
+				minimalHit=0.01;
+			};
+			class HitHead: HitNeck
+			{
+				armor=1;
+				material=-1;
+				name="head";
+				passThrough=0.8;
+				radius=0.2;
+				explosionShielding=0.5;
+				minimalHit=0.01;
+				depends="HitFace max HitNeck";
+			};
+			class HitPelvis: HitHead
+			{
+				armor=6;
+				material=-1;
+				name="pelvis";
+				passThrough=0.7;
+				radius=0.24;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.01;
+				depends="0";
+			};
+			class HitAbdomen: HitPelvis
+			{
+				armor=4;
+				material=-1;
+				name="spine1";
+				passThrough=0.7;
+				radius=0.16;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.01;
+			};
+			class HitDiaphragm: HitAbdomen
+			{
+				armor=4;
+				material=-1;
+				name="spine2";
+				passThrough=0.7;
+				radius=0.18;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.01;
+			};
+			class HitChest: HitDiaphragm
+			{
+				armor=4;
+				material=-1;
+				name="spine3";
+				passThrough=0.7;
+				radius=0.18;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.01;
+			};
+			class HitBody: HitChest
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.01;
+				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
+			};
+			class HitArms: HitBody
+			{
+				armor=3;
+				material=-1;
+				name="arms";
+				passThrough=0.90;
+				radius=0.1;
+				explosionShielding=0.7;
+				visual="injury_hands";
+				minimalHit=0.01;
+				depends="0";
+			};
+			class HitHands: HitArms
+			{
+				armor=4;
+				material=-1;
+				name="hands";
+				passThrough=0.90;
+				radius=0.1;
+				explosionShielding=0.3;
+				visual="injury_hands";
+				minimalHit=0.01;
+				depends="HitArms";
+			};
+			class HitLegs: HitHands
+			{
+				armor=6;
+				material=-1;
+				name="legs";
+				passThrough=0.90;
+				radius=0.14;
+				explosionShielding=0.7;
+				visual="injury_legs";
+				minimalHit=0.01;
+				depends="0";
+			};
+			class Incapacitated: HitLegs
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1;
+				visual="";
+				minimalHit=0;
+				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 2";
+			};
+		};
+		armor=2;
+		armorStructural=4;
+		explosionShielding=0.4;
   };
   class OAF_Core_Leader_F: USP_PCU_G3C_KP_OR_MCT
   {
     uniformClass="USP_PCU_G3C_KP_OR_MCT"; 
     
-    class HitPoints : HitPoints {
-    //   class HitAbdomen : HitAbdomen
-    //   {
-    //     armor = 4;
-    //     passThrough = 0.7;
-    //   };
-    //   class HitArms : HitArms
-    //   {
-    //     armor = 3;
-    //     passThrough = 0.9;
-    //     explosionShielding = 0.7;
-    //   };
-    //   class HitChest : HitChest
-    //   {
-    //     armor = 4;
-    //     passThrough = 0.7;
-    //   };
-    //   class HitDiaphragm : HitDiaphragm
-    //   {
-    //     armor = 4;
-    //     passThrough = 0.7;
-    //     };
-    //   class HitHands : HitHands
-    //   {
-    //     armor = 4;
-    //     passThrough = 0.9;
-    //     explosionShielding = 0.7;
-    //   };
-    //   class HitLegs : HitLegs
-    //   {
-    //     armor = 3;
-    //     passThrough = 0.9;
-    //     explosionShielding = 0.7;
-    //   };
-    //   class HitNeck : HitNeck
-    //   {
-    //     armor = 4;
-    //     passThrough = 0.5;
-    //     explosionShielding = 0.5;};
-    //   class HitPelvis : HitPelvis
-    //   {
-    //     armor = 7;
-    //     passThrough = 0.7;};
-		
-    // class HitLeftLeg: HitLegs {
-    //   armor = 3;
-    //     passThrough = 0.8;
-    //     explosionShielding = 0.7;
-    // };
-    // class HitLeftArm: HitHands {
-    //   armor = 3;
-    //     passThrough = 0.8;
-    //     explosionShielding = 0.7;
-    // };
-    // class HitRightArm: HitLeftArm {
-    //   armor = 3;
-    //     passThrough = 0.8;
-    //     explosionShielding = 0.7;
-    // };
-    // class HitRightLeg: HitLeftLeg {
-    //   armor = 3;
-    //     passThrough = 0.8;
-    //     explosionShielding = 0.7;
-    // };
-    };
+    class HitPoints: HitPoints
+		{
+			class HitFace
+			{
+				armor=1;
+				material=-1;
+				name="face_hub";
+				passThrough=0.8;
+				radius=0.08;
+				explosionShielding=0.1;
+				minimalHit=0.01;
+			};
+			class HitNeck: HitFace
+			{
+				armor=4;
+				material=-1;
+				name="neck";
+				passThrough=0.5;
+				radius=0.1;
+				explosionShielding=0.5;
+				minimalHit=0.01;
+			};
+			class HitHead: HitNeck
+			{
+				armor=1;
+				material=-1;
+				name="head";
+				passThrough=0.8;
+				radius=0.2;
+				explosionShielding=0.5;
+				minimalHit=0.01;
+				depends="HitFace max HitNeck";
+			};
+			class HitPelvis: HitHead
+			{
+				armor=6;
+				material=-1;
+				name="pelvis";
+				passThrough=0.7;
+				radius=0.24;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.01;
+				depends="0";
+			};
+			class HitAbdomen: HitPelvis
+			{
+				armor=4;
+				material=-1;
+				name="spine1";
+				passThrough=0.7;
+				radius=0.16;
+				explosionShielding=1;
+				visual="injury_body";
+				minimalHit=0.01;
+			};
+			class HitDiaphragm: HitAbdomen
+			{
+				armor=4;
+				material=-1;
+				name="spine2";
+				passThrough=0.7;
+				radius=0.18;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.01;
+			};
+			class HitChest: HitDiaphragm
+			{
+				armor=4;
+				material=-1;
+				name="spine3";
+				passThrough=0.7;
+				radius=0.18;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.01;
+			};
+			class HitBody: HitChest
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1.5;
+				visual="injury_body";
+				minimalHit=0.01;
+				depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
+			};
+			class HitArms: HitBody
+			{
+				armor=3;
+				material=-1;
+				name="arms";
+				passThrough=0.90;
+				radius=0.1;
+				explosionShielding=0.7;
+				visual="injury_hands";
+				minimalHit=0.01;
+				depends="0";
+			};
+			class HitHands: HitArms
+			{
+				armor=4;
+				material=-1;
+				name="hands";
+				passThrough=0.90;
+				radius=0.1;
+				explosionShielding=0.3;
+				visual="injury_hands";
+				minimalHit=0.01;
+				depends="HitArms";
+			};
+			class HitLegs: HitHands
+			{
+				armor=6;
+				material=-1;
+				name="legs";
+				passThrough=0.90;
+				radius=0.14;
+				explosionShielding=0.7;
+				visual="injury_legs";
+				minimalHit=0.01;
+				depends="0";
+			};
+			class Incapacitated: HitLegs
+			{
+				armor=1000;
+				material=-1;
+				name="body";
+				passThrough=1;
+				radius=0;
+				explosionShielding=1;
+				visual="";
+				minimalHit=0;
+				depends="(((Total - 0.25) max 0) + ((HitHead - 0.25) max 0) + ((HitBody - 0.25) max 0)) * 2";
+			};
+		};
+		armor=2;
+		armorStructural=4;
+		explosionShielding=0.4;
   };
 class B_UAV_03_dynamicLoadout_F;
 class OAF_Core_Raven_Heavy_base: B_UAV_03_dynamicLoadout_F
