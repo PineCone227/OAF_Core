@@ -54,6 +54,82 @@ class CfgEditorSubcategories
 	};
 };
 
+class CfgAmmo {
+  class CUP_B_762x51_noTracer;
+  class CUP_B_762x51_Tracer_white;
+  class OAF_Core_B_762x51_APFSDS : CUP_B_762x51_noTracer {
+    ACE_bulletMass=4.5;
+    ACE_caliber=5;
+    ACE_muzzleVelocities[] = {1345,1400,1410,1430,1450};
+    cost = 1.5;
+    hit = 10.5;
+    sideAirFriction = 0.2;
+    whistleOnFire = 1;
+    airFriction = -0.00010714;
+    typicalSpeed = 1400;
+  }
+  class OAF_Core_B_762x51_APFSDS_T : CUP_B_762x51_Tracer_white {
+    ACE_bulletMass=4.4;
+    ACE_caliber=5;
+    ACE_muzzleVelocities[] = {1350,1400,1415,1435,1455};
+    cost = 1.5;
+    hit = 10.4;
+    sideAirFriction = 0.2;
+    whistleOnFire = 1;
+    airFriction = -0.00010714;
+    typicalSpeed = 1400;
+  }
+}
+
+class CfgMagazines{
+  class CUP_50Rnd_762x51_B_SCAR;
+  class CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR;
+  class CUP_50Rnd_TE1_White_Tracer_762x51_SCAR;
+  class CUP_30Rnd_762x51_2_B_SCAR;
+  class CUP_20Rnd_762x51_B_SCAR;
+  class CUP_20Rnd_762x51_B_SCAR_bkl;
+
+  class OAF_Core_50rnd_762x51_B_SCAR : CUP_50Rnd_762x51_B_SCAR{
+    descriptionShort = "Caliber: 7.62x51mm NATO SS208<br/>Rounds: 50<br/>Used in: SABR-IAW";
+    displayName = "7.62mm APF 50rnd Mag";
+    displayNameShort = "APF";
+    initSpeed = 1455;
+    mass = 32;
+    ammo = "OAF_Core_B_762x51_APFSDS";
+  }
+  class OAF_Core_30Rnd_762x51_2_B_SCAR : CUP_30Rnd_762x51_2_B_SCAR{
+    descriptionShort = "Caliber: 7.62x51mm NATO SS208<br/>Rounds: 30<br/>Used in: SABR";
+    displayName = "7.62mm APF 30rnd Mag";
+    displayNameShort = "APF";
+    initSpeed = 1400;
+    mass = 16;
+    ammo = "OAF_Core_B_762x51_APFSDS";
+  }
+  class OAF_Core_50Rnd_TE1_White_Tracer_762x51_SCAR : CUP_50Rnd_TE1_White_Tracer_762x51_SCAR{
+    descriptionShort = "Caliber: 7.62x51mm NATO SS209<br/>Rounds: 50<br/>Used in: SABR-IAW";
+    displayName = "7.62mm APF 50rnd (White Tracer) Mag";
+    displayNameShort = "APF-T";
+    initSpeed = 1455;
+    mass = 32;
+    ammo = "OAF_Core_B_762x51_APFSDS_T";
+  }
+  class OAF_Core_30Rnd_TE1_White_Tracer_762x51_2_SCAR : CUP_30Rnd_TE1_White_Tracer_762x51_2_SCAR{
+    descriptionShort = "Caliber: 7.62x51mm NATO SS209<br/>Rounds: 30<br/>Used in: SABR";
+    displayName = "7.62mm APF 30rnd (White Tracer) Mag";
+    displayNameShort = "APF-T";
+    initSpeed = 1400;
+    mass = 16;
+    ammo = "OAF_Core_B_762x51_APFSDS_T";
+  }
+  class OAF_Core_20Rnd_762x51_B_SCAR : CUP_20Rnd_762x51_B_SCAR_bkl{
+    descriptionShort = "Caliber: 7.62x51mm NATO SS209<br/>Rounds: 20<br/>Used in: SABR-LR";
+    displayName = "7.62mm APF 20rnd Mag";
+    initSpeed = 1455;
+    mass = 10;
+    ammo = "OAF_Core_B_762x51_APFSDS";
+  }
+}
+
 class CfgFunctions
 {
 	// class OAF_Core
@@ -164,13 +240,13 @@ class cfgWeapons
   // };
 
   class OAF_Core_PlateCarrier : CUP_V_B_Armatus_BB_OD{
-    displayName="Infantry Platecarrier [OAF]"
+    displayName="Standard Carrier Vest [OAF]"
     scope = 2;
     scopeArsenal = 2;
   };
   class OAF_Core_Trooper_Uniform : USP_G3F_G3C_KP_OR_MCT
   {
-    displayName="Combat Uniform [OAF]";
+    displayName="Reinforced Combat Uniform [OAF]";
     descriptionShort="Enhanced protection";
     scope=2;
     scopeArsenal=2;
@@ -188,7 +264,7 @@ class cfgWeapons
   {
     scope=2;
     scopeArsenal=2;
-    displayName="Combat Uniform [OAF] (Section Leader)";
+    displayName="Reinforced Combat Uniform [OAF] (Section Leader)";
     descriptionShort="Enhanced protection";
     class ItemInfo
 		{
@@ -273,6 +349,7 @@ class cfgWeapons
     displayName="SABR-C 7.62 mm (OFN)";
     descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br />Short-barelled version of the SABR. Oasean Federal Navy issue.";
     scope=2;
+    scopeArsenal=2;
     class LinkedItems
     {
       class LinkedItemsMuzzle
@@ -292,6 +369,18 @@ class cfgWeapons
 			};
 
 
+    };
+  };
+
+  class OAF_Core_CUP_arifle_Mk17_CQC_Black_clean: CUP_arifle_Mk17_CQC_Black
+  {
+    displayName="SABR-C 7.62 mm (OFN)";
+    descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br />Short-barelled version of the SABR. Oasean Federal Navy issue.";
+    scope=2;
+    scopeArsenal=2;
+    class LinkedItems
+    {
+     
     };
   };
 
@@ -351,6 +440,18 @@ class cfgWeapons
     };
   };
 
+  class OAF_Core_arifle_U9A3_clean: CUP_arifle_Mk16_CQC_AFG_woodland
+  {
+    displayName="U9A3 PDC 5.56 mm";
+    descriptionShort="U9 Personal Defence Carbine - 5.56x45mm caliber.<br />Standard compact carbine of the Oasean Armed Forces. 2035-issue A3 model.";
+    scope=2;
+    scopeArsenal=2;
+    class LinkedItems
+    {
+     
+    };
+  };
+
   class OAF_Core_hgun_P5A1: RH_fn57
   {
     displayName="P5A1 5.7 mm";
@@ -368,7 +469,7 @@ class cfgWeapons
   class OAF_Core_hgun_P5A4X: OAF_Core_hgun_P5A4X_base
   {
     displayName="P5A4X 5.7 mm";
-    descriptionShort="P5A4X Experimental PDW - 5.7x28mm caliber.<br />Automatic variant of the P5A1. Unintended for use without a suppressor.";
+    descriptionShort="P5A4X Experimental PDW - 5.7x28mm caliber.<br />Automatic variant of the P5A1. Not intended for use without a suppressor.";
     scope=2;
     scopeCurator=2;
     scopeArsenal = 2;
@@ -523,6 +624,19 @@ class cfgWeapons
     };
   };
 
+  class OAF_Core_smg_P7A7_clean: CUP_smg_MP7
+  {
+    displayName="P7A7-SK 4.6mm";
+
+    descriptionShort="P7 submachine gun - 4.6x30mm caliber.<br>Covert weapon included in emergency survival kits for downed pilots. OAF-issue.";
+
+    scope=1;
+    class LinkedItems
+    {
+      
+    };
+  };
+
   class OAF_Core_hgun_P5A1S: RH_fn57
   {
     displayName="P5A1-S 5.7mm";
@@ -568,7 +682,8 @@ class cfgWeapons
 
   class OAF_Core_SABR_Base : CUP_arifle_Mk17_STD_woodland	
   {
-	  class SCAR_H_FullAuto;					
+	  class SCAR_H_FullAuto;
+    magazines[] += {"OAF_Core_30Rnd_762x51_2_B_SCAR","OAF_Core_30Rnd_TE1_White_Tracer_762x51_2_SCAR","OAF_Core_50rnd_762x51_B_SCAR","OAF_Core_50Rnd_TE1_White_Tracer_762x51_SCAR","OAF_Core_20Rnd_762x51_B_SCAR"};      
   };
   class OAF_Core_arifle_SABR: OAF_Core_SABR_Base
   {
@@ -620,6 +735,47 @@ class cfgWeapons
     }
 	};
 
+  class OAF_Core_arifle_SABR_clean: OAF_Core_SABR_Base
+  {
+    displayName="SABR 7.62mm";
+    descriptionShort="Standard Advanced Battle Rifle - 7.62x51mm caliber.<br />Main combat rifle of the Oasean Armed Forces. 2030-issue.";
+    scope=2;
+    scopeArsenal=2;
+    class LinkedItems
+		{
+		
+		};
+    modes[] = {"SCAR_H_Single","SCAR_H_FullAuto","SCAR_H_AiAuto","SCAR_H_AiAutoPanic"};
+    class SCAR_H_AiAuto: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighclose";
+      maxRange = 600;
+      maxRangeProbab = 0.04;
+      midRange = 300;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 0.5;
+      showToPlayer=false;
+      burst = 1;
+      burstRangeMax = 4;
+			aiBurstTerminable = 1;
+    }
+    class SCAR_H_AiAutoPanic: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighveryclose";
+      maxRange = 30;
+      maxRangeProbab = 0.04;
+      midRange = 15;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 2;
+      showToPlayer=false;
+      burst = 3;
+      burstRangeMax = 15;
+			aiBurstTerminable = 1;
+    }
+	};
+
   class OAF_Core_launch_MRAWS: launch_MRAWS_black_F
   {
     displayName="MRAWS Mk5 84 mm";
@@ -636,7 +792,8 @@ class cfgWeapons
   };
   class OAF_Core_GLC_Base : CUP_arifle_Mk17_STD_EGLM_woodland	
   {
-	  class SCAR_H_FullAuto;					
+	  class SCAR_H_FullAuto;		
+    magazines[] += {"OAF_Core_30Rnd_762x51_2_B_SCAR","OAF_Core_30Rnd_TE1_White_Tracer_762x51_2_SCAR","OAF_Core_20Rnd_762x51_B_SCAR"};      			
   };
   class OAF_Core_CUP_arifle_SABR_GL_SL: OAF_Core_GLC_Base
   {
@@ -693,9 +850,50 @@ class cfgWeapons
 			aiBurstTerminable = 1;
     }
   };
+  class OAF_Core_CUP_arifle_SABR_GL_SL_clean: OAF_Core_GLC_Base
+  {
+    displayName="SABR-GL 7.62 mm";
+    descriptionShort="Standard Advanced Battle Rifle with Grenade Launcher - 7.62x51mm caliber.<br />Main combat rifle of the Oasean Armed Forces, equipped with grenade-launching module.";
+    scope=2;
+    scopeArsenal=2;
+    class LinkedItems
+    {
+
+    };
+    modes[] = {"SCAR_H_Single","SCAR_H_FullAuto","SCAR_H_AiAuto","SCAR_H_AiAutoPanic"};
+    class SCAR_H_AiAuto: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighclose";
+      maxRange = 600;
+      maxRangeProbab = 0.04;
+      midRange = 300;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 0.5;
+      showToPlayer=false;
+      burst = 1;
+      burstRangeMax = 4;
+			aiBurstTerminable = 1;
+    }
+    class SCAR_H_AiAutoPanic: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighveryclose";
+      maxRange = 30;
+      maxRangeProbab = 0.04;
+      midRange = 15;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 2;
+      showToPlayer=false;
+      burst = 5;
+      burstRangeMax = 15;
+			aiBurstTerminable = 1;
+    }
+  };
   class OAF_Core_SABRC_Base : CUP_arifle_Mk17_CQC_AFG_woodland	
   {
 	  class SCAR_H_FullAuto;					
+    magazines[] += {"OAF_Core_30Rnd_762x51_2_B_SCAR","OAF_Core_30Rnd_TE1_White_Tracer_762x51_2_SCAR","OAF_Core_50rnd_762x51_B_SCAR","OAF_Core_50Rnd_TE1_White_Tracer_762x51_SCAR","OAF_Core_20Rnd_762x51_B_SCAR"};      
   };
   class OAF_Core_CUP_arifle_SABR_C: OAF_Core_SABRC_Base
   {
@@ -747,6 +945,46 @@ class cfgWeapons
 			aiBurstTerminable = 1;
     }
   };
+  class OAF_Core_CUP_arifle_SABR_C_clean: OAF_Core_SABRC_Base
+  {
+    displayName="SABR-C 7.62 mm";
+    descriptionShort="Standard Advanced Battle Rifle, Compact - 7.62x51mm caliber.<br />Short-barelled version of the SABR for support troops. OAF 2030-issue.";
+    scope=2;
+    scopeArsenal=2;
+    class LinkedItems
+    {
+      
+    };
+    modes[] = {"SCAR_H_Single","SCAR_H_FullAuto","SCAR_H_AiAuto","SCAR_H_AiAutoPanic"};
+    class SCAR_H_AiAuto: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighclose";
+      maxRange = 600;
+      maxRangeProbab = 0.04;
+      midRange = 300;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 0.5;
+      showToPlayer=false;
+      burst = 1;
+      burstRangeMax = 4;
+			aiBurstTerminable = 1;
+    }
+    class SCAR_H_AiAutoPanic: SCAR_H_FullAuto {
+      aiRateOfFireDistance = 500;
+      displayName = "AIhighveryclose";
+      maxRange = 30;
+      maxRangeProbab = 0.04;
+      midRange = 15;
+      midRangeProbab = 0.8;
+      minRange = 0;
+      minRangeProbab = 2;
+      showToPlayer=false;
+      burst = 3;
+      burstRangeMax = 15;
+			aiBurstTerminable = 1;
+    }
+  };
 
   class OAF_Core_hgun_P5A1_g_RH_M6X: RH_fn57_g
   {
@@ -765,7 +1003,8 @@ class cfgWeapons
 
   class OAF_Core_SABRGL_Base : CUP_arifle_Mk17_STD_EGLM_woodland	
   {
-	  class SCAR_H_FullAuto;					
+	  class SCAR_H_FullAuto;	
+    magazines[] += {"OAF_Core_30Rnd_762x51_2_B_SCAR","OAF_Core_30Rnd_TE1_White_Tracer_762x51_2_SCAR","OAF_Core_20Rnd_762x51_B_SCAR"};      				
   };
   class OAF_Core_CUP_arifle_SABR_GL: OAF_Core_SABRGL_Base
   {
@@ -841,6 +1080,18 @@ class cfgWeapons
         slot="PointerSlot";
         item="Aegis_acc_pointer_DM";
       };
+
+    };
+  };
+  class OAF_Core_sgun_S11_clean: sgun_aa40_lxWS
+  {
+    displayName="S11AB-S 12g";
+    descriptionShort="S11 Advanced Breaching Shotgun - 12 gauge.<br />Automatic multipurpose shotgun utilized by breachers and shock troops. OAF-issue.";
+    scope=2;
+    scopeArsenal=2;
+    class LinkedItems
+    {
+      
 
     };
   };
@@ -1008,6 +1259,7 @@ class OAF_Core_Tripod_Base : dzn_MG_Tripod_Universal_Carry
     descriptionShort="SABR Long Range - 7.62x51mm caliber.<br />Marksman variant of the Standard Advanced Battle Rifle. OAF-issue.";
     scope=2;
     scopeArsenal=2;
+    magazines[] += {"OAF_Core_30Rnd_762x51_2_B_SCAR","OAF_Core_30Rnd_TE1_White_Tracer_762x51_2_SCAR","OAF_Core_50rnd_762x51_B_SCAR","OAF_Core_50Rnd_TE1_White_Tracer_762x51_SCAR","OAF_Core_20Rnd_762x51_B_SCAR"};    
     class LinkedItems
     {
       class LinkedItemOptic
@@ -2050,8 +2302,8 @@ class OAF_Core_Raven_Heavy_AT_base: B_UAV_03_dynamicLoadout_F
     uniformClass="OAF_Core_Trooper_Uniform";
     weapons[]={"Rangefinder","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_hgun_P5A1","Put","Throw"};
     respawnWeapons[]={"Rangefinder","OAF_Core_CUP_arifle_SABR_IAW","OAF_Core_hgun_P5A1","Put","Throw"};
-    items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
-    respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs"};
+    items[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_SpareBarrel","ACE_SpareBarrel"};
+    respawnItems[]={"ACE_tourniquet","ACE_tourniquet","ACE_salineIV_250","ACE_epinephrine","ACE_EarPlugs","ACE_morphine","ACE_personalAidKit","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_IR_Strobe_Item","ACE_EarPlugs","ACE_SpareBarrel","ACE_SpareBarrel"};
     magazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR"};
     respawnMagazines[]={"CUP_HandGrenade_M67","MiniGrenade","ACE_Chemlight_HiBlue","RH_20Rnd_57x28_FN","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","HandGrenade","HandGrenade","SmokeShell","SmokeShell","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR","CUP_50Rnd_762x51_B_SCAR"};
     linkedItems[]={"ItemMap","ItemCompass","ChemicalDetector_01_watch_F","ItemRadio","ItemGPS","OAF_Core_NVG_NF_VA_blk","Rangefinder","USP_IHPS_COV_CT3_GRN","OAF_Core_PlateCarrier","G_Balaclava_light_blk_F","OAF_Core_NVG_NF_VA_blk"};
@@ -5183,4 +5435,24 @@ class CfgUnitInsignia
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";	
 		textureVehicle = "";										
 	};
+};
+
+class CfgMarkers {
+    class Flag;
+    class OaseaMarker : Flag {
+        name = "Oasea";
+        icon = "\OAF2\Addons\OAF_Core\Textures\Oasea.paa";
+        color[] = {0, 0, 0, 1}; 
+        size = 32; // Size of the marker
+        shadow = false; // Enable shadow
+        scope = 2; // Available in editor and Zeus
+    };
+    class OAFMarker : Flag {
+        name = "OAF";
+        icon = "\OAF2\Addons\OAF_Core\Textures\insignia_small_alt.paa";
+        color[] = {0, 0, 0, 1}; 
+        size = 32; // Size of the marker
+        shadow = false; // Enable shadow
+        scope = 2; // Available in editor and Zeus
+    };
 };
